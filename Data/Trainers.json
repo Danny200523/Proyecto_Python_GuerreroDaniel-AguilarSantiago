@@ -1,3 +1,11 @@
 {
-    "Trainers":[]
+    "Trainers":[
+        {"Nombre":"Pedro",
+        "HorarioA": true ,
+        "HorarioB": true,
+        "HorarioC": true,
+        "HorarioD": true,
+        "Cursos":[]
+        
+    }]
 }

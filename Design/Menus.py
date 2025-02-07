@@ -1,2 +1,22 @@
-def MenuCordinadora():
-    print("Bienvenida")
+def MenuPrincipal():
+    print('''
+==============================
+===Bienvenido a Campuslands===
+==============================
+========¿Quien eres?==========
+==============================
+=     (1). Camper            =
+=     (2). Trainer           =
+=     (3). Cordinadora       =
+==============================
+          ''')
+    
+def MMenuCamper():
+    print('''
+==============================
+=     ¿Estas Inscrito?       =
+==============================
+=          (1).SI            =
+=          (2).NO            =
+==============================
+          ''')
