@@ -1,0 +1,47 @@
+{
+    "Rutas":{
+        "Java":{
+        "Intro":[],
+        "Python":[],
+        "Html/css":[],
+        "Scrum":[],
+        "Git": [],
+        "Javascript":[],
+        "IntroBack":[],
+        "IntroBBDD":[],
+        "MySQL": [],
+        "Java":[],
+        "PostgreSQL":[],
+        "SpringBoot":[]
+        },
+
+        "NodeJS":{
+        "Intro":[],
+        "Python":[],
+        "Html/css":[],
+        "Scrum":[],
+        "Git": [],
+        "Javascript1":[],
+        "IntroBack":[],
+        "IntroBBDD":[],
+        "MongoDB": [],
+        "Javascript2":[],
+        "MySQL":[],
+        "Express":[]
+        },
+
+        "NetCore":{
+        "Intro":[],
+        "Python":[],
+        "Html/css":[],
+        "Scrum":[],
+        "Git": [],
+        "Javascript":[],
+        "IntroBack":[],
+        "IntroBBDD":[],
+        "MySQL": [],
+        "C##":[],
+        "PostgreSQL":[],
+        ".NetCore":[]
+    }
+}}
