@@ -1,34 +1,36 @@
 import json
 def abrirJSON():
     dicFinal={}
-    with open('../Data/campers.json',"r") as openFile:
+    with open('/home/camper/Documentos/DanielGuerrero/Proyecto_Python_GuerreroDaniel-AguilarSantiago/Data/campers.json',"r") as openFile:
         dicFinal=json.load(openFile)
     return dicFinal
 
 def guardarJSON(dic):
-    with open("../Data/campers.json",'w') as outFile:
+    with open("/home/camper/Documentos/DanielGuerrero/Proyecto_Python_GuerreroDaniel-AguilarSantiago/Data/campers.json",'w') as outFile:
         json.dump(dic,outFile)
 
 def abrirJSO():
     dicFinal={}
-    with open('../Data/Rutas.json',"r") as openFile:
+    with open('/home/camper/Documentos/DanielGuerrero/Proyecto_Python_GuerreroDaniel-AguilarSantiago/Data/Rutas.json',"r") as openFile:
         dicFinal=json.load(openFile)
     return dicFinal
 
 def guardarJSO(dic):
-    with open("../Data/Rutas.json",'w') as outFile:
+    with open("/home/camper/Documentos/DanielGuerrero/Proyecto_Python_GuerreroDaniel-AguilarSantiago/Data/Rutas.json",'w') as outFile:
         json.dump(dic,outFile)
 
 def abrirJS():
     dicFinal={}
-    with open('../Data/HorariosCursos.json',"r") as openFile:
+    with open('/home/camper/Documentos/DanielGuerrero/Proyecto_Python_GuerreroDaniel-AguilarSantiago/Data/HorariosCursos.json',"r") as openFile:
         dicFinal=json.load(openFile)
     return dicFinal
 
 def guardarJS(dic):
-    with open("../Data/HorariosCursos.json",'w') as outFile:
+    with open("/home/camper/Documentos/DanielGuerrero/Proyecto_Python_GuerreroDaniel-AguilarSantiago/Data/HorariosCursos.json",'w') as outFile:
         json.dump(dic,outFile)
-
+camp={}
+rut={}
+Hor={}
 camp=abrirJSON()
 rut=abrirJSO()
 Hor=abrirJS()
@@ -65,7 +67,7 @@ def Aggcamper():
     guardarJSON(camp)
 
 def Incripcion():
-    print("Igrese su documento de identidad")
+    print("Ingrese su documento de identidad")
     id=int(input(": "))
     print("Ingrese sus nombres (de tener dos ingresar los dos)")
     name=input(": ")
@@ -268,20 +270,218 @@ def agregarnuevaruta():
         guardarJSO(rut)
 
 def asignargrupo():
-    for i in range(camp["Campers"]):
+    for i in range(len(camp["Campers"])):
         if camp["Campers"][i]["Estado"]["Aprobado"]:
-            if Hor["Horarios"]["HorarioA"]["P1"] < 33:
+            if len(Hor["Horarios"]["HorarioA"]["P1"]) < 33:
                 Hor["Horarios"]["HorarioA"]["P1"].append({camp["Campers"][i]["ID"],
                                                           camp["Campers"][i]["nombre"],
-                                                          camp["Campers"][i]["Apellido"],
+                                                          camp["Campers"][i]["apellido"],
                                                           Hor["Horarios"]["HorarioA"]["P1"]["NotaProyecto"],
                                                           Hor["Horarios"]["HorarioA"]["P1"]["NotaFiltro"],
-                                                          Hor["Horarios"]["HorarioA"]["P1"]["NotaTrabajos"]
+                                                          Hor["Horarios"]["HorarioA"]["P1"]["NotaTrabajos"],
+                                                          Hor["Horarios"]["HorarioA"]["P1"]["NotaFinal"]
                                                           })
-
                 camp["Campers"][i]["Estado"]["Aprobado"]=False
                 camp["Campers"][i]["Estado"]["Cursando"]=True
+                guardarJS(Hor)
+                guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioB"]["P2"]) < 33:
+                Hor["Horarios"]["HorarioB"]["P2"].append({camp["Campers"][i]["ID"],
+                                                          camp["Campers"][i]["nombre"],
+                                                          camp["Campers"][i]["apellido"],
+                                                          Hor["Horarios"]["HorarioB"]["P2"]["NotaProyecto"],
+                                                          Hor["Horarios"]["HorarioB"]["P2"]["NotaFiltro"],
+                                                          Hor["Horarios"]["HorarioB"]["P2"]["NotaTrabajos"],
+                                                          Hor["Horarios"]["HorarioB"]["P2"]["NotaFinal"]
+                                                          })
+                camp["Campers"][i]["Estado"]["Aprobado"]=False
+                camp["Campers"][i]["Estado"]["Cursando"]=True
+                guardarJS(Hor)
+                guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioC"]["P3"]) < 33:
+                Hor["Horarios"]["HorarioC"]["P3"].append({camp["Campers"][i]["ID"],
+                                                          camp["Campers"][i]["nombre"],
+                                                          camp["Campers"][i]["apellido"],
+                                                          Hor["Horarios"]["HorarioC"]["P3"]["NotaProyecto"],
+                                                          Hor["Horarios"]["HorarioC"]["P3"]["NotaFiltro"],
+                                                          Hor["Horarios"]["HorarioC"]["P3"]["NotaTrabajos"],
+                                                          Hor["Horarios"]["HorarioC"]["P3"]["NotaFinal"]
+                                                          })
+                camp["Campers"][i]["Estado"]["Aprobado"]=False
+                camp["Campers"][i]["Estado"]["Cursando"]=True
+                guardarJS(Hor)
+                guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioD"]["P4"]) < 33:
+                Hor["Horarios"]["HorarioD"]["P4"].append({camp["Campers"][i]["ID"],
+                                                          camp["Campers"][i]["nombre"],
+                                                          camp["Campers"][i]["apellido"],
+                                                          Hor["Horarios"]["HorarioD"]["P4"]["NotaProyecto"],
+                                                          Hor["Horarios"]["HorarioD"]["P4"]["NotaFiltro"],
+                                                          Hor["Horarios"]["HorarioD"]["P4"]["NotaTrabajos"],
+                                                          Hor["Horarios"]["HorarioD"]["P4"]["NotaFinal"]
+                                                          })
+                camp["Campers"][i]["Estado"]["Aprobado"]=False
+                camp["Campers"][i]["Estado"]["Cursando"]=True
+                guardarJS(Hor)
+                guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioA"]["M1"]) < 33:
+                Hor["Horarios"]["HorarioA"]["M1"].append({camp["Campers"][i]["ID"],
+                                                          camp["Campers"][i]["nombre"],
+                                                          camp["Campers"][i]["apellido"],
+                                                          Hor["Horarios"]["HorarioA"]["M1"]["NotaProyecto"],
+                                                          Hor["Horarios"]["HorarioA"]["M1"]["NotaFiltro"],
+                                                          Hor["Horarios"]["HorarioA"]["M1"]["NotaTrabajos"],
+                                                          Hor["Horarios"]["HorarioA"]["M1"]["NotaFinal"]
+                                                          })
+                camp["Campers"][i]["Estado"]["Aprobado"]=False
+                camp["Campers"][i]["Estado"]["Cursando"]=True
+                guardarJS(Hor)
+                guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioB"]["M2"]) < 33:
+            Hor["Horarios"]["HorarioAB"]["M2"].append({camp["Campers"][i]["ID"],
+                                                        camp["Campers"][i]["nombre"],
+                                                        camp["Campers"][i]["apellido"],
+                                                        Hor["Horarios"]["HorarioB"]["M2"]["NotaProyecto"],
+                                                        Hor["Horarios"]["HorarioB"]["M2"]["NotaFiltro"],
+                                                        Hor["Horarios"]["HorarioB"]["M2"]["NotaTrabajos"],
+                                                        Hor["Horarios"]["HorarioB"]["M2"]["NotaFinal"]
+                                                        })
+            camp["Campers"][i]["Estado"]["Aprobado"]=False
+            camp["Campers"][i]["Estado"]["Cursando"]=True
+            guardarJS(Hor)
+            guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioC"]["M3"]) < 33:
+            Hor["Horarios"]["HorarioAC"]["M3"].append({camp["Campers"][i]["ID"],
+                                                        camp["Campers"][i]["nombre"],
+                                                        camp["Campers"][i]["apellido"],
+                                                        Hor["Horarios"]["HorarioC"]["M3"]["NotaProyecto"],
+                                                        Hor["Horarios"]["HorarioC"]["M3"]["NotaFiltro"],
+                                                        Hor["Horarios"]["HorarioC"]["M3"]["NotaTrabajos"],
+                                                        Hor["Horarios"]["HorarioC"]["M3"]["NotaFinal"]
+                                                        })
+            camp["Campers"][i]["Estado"]["Aprobado"]=False
+            camp["Campers"][i]["Estado"]["Cursando"]=True
+            guardarJS(Hor)
+            guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioD"]["M4"]) < 33:
+            Hor["Horarios"]["HorarioAD"]["M4"].append({camp["Campers"][i]["ID"],
+                                                        camp["Campers"][i]["nombre"],
+                                                        camp["Campers"][i]["apellido"],
+                                                        Hor["Horarios"]["HorarioD"]["M4"]["NotaProyecto"],
+                                                        Hor["Horarios"]["HorarioD"]["M4"]["NotaFiltro"],
+                                                        Hor["Horarios"]["HorarioD"]["M4"]["NotaTrabajos"],
+                                                        Hor["Horarios"]["HorarioD"]["M4"]["NotaFinal"]
+                                                        })
+            camp["Campers"][i]["Estado"]["Aprobado"]=False
+            camp["Campers"][i]["Estado"]["Cursando"]=True
+            guardarJS(Hor)
+            guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioA"]["J1"]) < 33:
+            Hor["Horarios"]["HorarioAA"]["J1"].append({camp["Campers"][i]["ID"],
+                                                        camp["Campers"][i]["nombre"],
+                                                        camp["Campers"][i]["apellido"],
+                                                        Hor["Horarios"]["HorarioA"]["J1"]["NotaProyecto"],
+                                                        Hor["Horarios"]["HorarioA"]["J1"]["NotaFiltro"],
+                                                        Hor["Horarios"]["HorarioA"]["J1"]["NotaTrabajos"],
+                                                        Hor["Horarios"]["HorarioA"]["J1"]["NotaFinal"]
+                                                        })
+            camp["Campers"][i]["Estado"]["Aprobado"]=False
+            camp["Campers"][i]["Estado"]["Cursando"]=True
+            guardarJS(Hor)
+            guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioB"]["J2"]) < 33:
+            Hor["Horarios"]["HorarioB"]["J2"].append({camp["Campers"][i]["ID"],
+                                                        camp["Campers"][i]["nombre"],
+                                                        camp["Campers"][i]["apellido"],
+                                                        Hor["Horarios"]["HorarioB"]["J2"]["NotaProyecto"],
+                                                        Hor["Horarios"]["HorarioB"]["J2"]["NotaFiltro"],
+                                                        Hor["Horarios"]["HorarioB"]["J2"]["NotaTrabajos"],
+                                                        Hor["Horarios"]["HorarioB"]["J2"]["NotaFinal"]
+                                                        })
+            camp["Campers"][i]["Estado"]["Aprobado"]=False
+            camp["Campers"][i]["Estado"]["Cursando"]=True
+            guardarJS(Hor)
+            guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioC"]["J3"]) < 33:
+            Hor["Horarios"]["HorarioC"]["J3"].append({camp["Campers"][i]["ID"],
+                                                        camp["Campers"][i]["nombre"],
+                                                        camp["Campers"][i]["apellido"],
+                                                        Hor["Horarios"]["HorarioC"]["J3"]["NotaProyecto"],
+                                                        Hor["Horarios"]["HorarioC"]["J3"]["NotaFiltro"],
+                                                        Hor["Horarios"]["HorarioC"]["J3"]["NotaTrabajos"],
+                                                        Hor["Horarios"]["HorarioC"]["J3"]["NotaFinal"]
+                                                        })
+            camp["Campers"][i]["Estado"]["Aprobado"]=False
+            camp["Campers"][i]["Estado"]["Cursando"]=True
+            guardarJS(Hor)
+            guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioD"]["J4"]) < 33:
+            Hor["Horarios"]["HorarioD"]["J4"].append({camp["Campers"][i]["ID"],
+                                                        camp["Campers"][i]["nombre"],
+                                                        camp["Campers"][i]["apellido"],
+                                                        Hor["Horarios"]["HorarioD"]["J4"]["NotaProyecto"],
+                                                        Hor["Horarios"]["HorarioD"]["J4"]["NotaFiltro"],
+                                                        Hor["Horarios"]["HorarioD"]["J4"]["NotaTrabajos"],
+                                                        Hor["Horarios"]["HorarioD"]["J4"]["NotaFinal"]
+                                                        })
+            camp["Campers"][i]["Estado"]["Aprobado"]=False
+            camp["Campers"][i]["Estado"]["Cursando"]=True
+            guardarJS(Hor)
+            guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioA"]["JC1"]) < 33:
+            Hor["Horarios"]["HorarioA"]["JC1"].append({camp["Campers"][i]["ID"],
+                                                        camp["Campers"][i]["nombre"],
+                                                        camp["Campers"][i]["apellido"],
+                                                        Hor["Horarios"]["HorarioA"]["JC1"]["NotaProyecto"],
+                                                        Hor["Horarios"]["HorarioA"]["JC1"]["NotaFiltro"],
+                                                        Hor["Horarios"]["HorarioA"]["JC1"]["NotaTrabajos"],
+                                                        Hor["Horarios"]["HorarioA"]["JC1"]["NotaFinal"]
+                                                        })
+            camp["Campers"][i]["Estado"]["Aprobado"]=False
+            camp["Campers"][i]["Estado"]["Cursando"]=True
+            guardarJS(Hor)
+            guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioB"]["JC2"]) < 33:
+            Hor["Horarios"]["HorarioB"]["JC2"].append({camp["Campers"][i]["ID"],
+                                                        camp["Campers"][i]["nombre"],
+                                                        camp["Campers"][i]["apellido"],
+                                                        Hor["Horarios"]["HorarioB"]["JC2"]["NotaProyecto"],
+                                                        Hor["Horarios"]["HorarioB"]["JC2"]["NotaFiltro"],
+                                                        Hor["Horarios"]["HorarioB"]["JC2"]["NotaTrabajos"],
+                                                        Hor["Horarios"]["HorarioB"]["JC2"]["NotaFinal"]
+                                                        })
+            camp["Campers"][i]["Estado"]["Aprobado"]=False
+            camp["Campers"][i]["Estado"]["Cursando"]=True
+            guardarJS(Hor)
+            guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioC"]["C1"]) < 33:
+            Hor["Horarios"]["HorarioC"]["C1"].append({camp["Campers"][i]["ID"],
+                                                        camp["Campers"][i]["nombre"],
+                                                        camp["Campers"][i]["apellido"],
+                                                        Hor["Horarios"]["HorarioC"]["C1"]["NotaProyecto"],
+                                                        Hor["Horarios"]["HorarioC"]["C1"]["NotaFiltro"],
+                                                        Hor["Horarios"]["HorarioC"]["C1"]["NotaTrabajos"],
+                                                        Hor["Horarios"]["HorarioC"]["C1"]["NotaFinal"]
+                                                        })
+            camp["Campers"][i]["Estado"]["Aprobado"]=False
+            camp["Campers"][i]["Estado"]["Cursando"]=True
+            guardarJS(Hor)
+            guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioD"]["C2"]) < 33:
+            Hor["Horarios"]["HorarioD"]["C2"].append({camp["Campers"][i]["ID"],
+                                                        camp["Campers"][i]["nombre"],
+                                                        camp["Campers"][i]["apellido"],
+                                                        Hor["Horarios"]["HorarioD"]["C2"]["NotaProyecto"],
+                                                        Hor["Horarios"]["HorarioD"]["C2"]["NotaFiltro"],
+                                                        Hor["Horarios"]["HorarioD"]["C2"]["NotaTrabajos"],
+                                                        Hor["Horarios"]["HorarioD"]["C2"]["NotaFinal"]
+                                                        })
+            camp["Campers"][i]["Estado"]["Aprobado"]=False
+            camp["Campers"][i]["Estado"]["Cursando"]=True
+            guardarJS(Hor)
 
+
+Vercamper()
     #match E:  #(Falta entrar al diccionario para elegir el estudiante a editar) 
      #   case 1:
       #      IDnuevo = int(input("Ingresa el nuevo ID: "))
