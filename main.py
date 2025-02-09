@@ -1,6 +1,11 @@
 from Logic.Modulos import *
 from Design.Menus import *
 
+asignargrupo()
 MenuPrincipal()
-
-aggcamper()
+n=int(input(": "))
+if n==3:
+    MenuCamper()
+    opc=int(input(": "))
+    if opc==1:
+        Aggcamper()

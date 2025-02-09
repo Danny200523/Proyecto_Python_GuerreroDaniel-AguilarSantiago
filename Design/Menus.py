@@ -1,9 +1,9 @@
 def MenuPrincipal():
     print('''
 ==============================
-===Bienvenido a Campuslands===
+=  Bienvenido a Campuslands  =
 ==============================
-========¿Quien eres?==========
+=       ¿Quien eres?         =
 ==============================
 =     (1). Camper            =
 =     (2). Trainer           =
@@ -24,32 +24,48 @@ def MenuCamper():
 def MenuInscripcionCamper():
     print('''
 ==============================
-    Bienvenido, /n
+=        Bienvenido          =
 ==============================
           ''')
+    
 
 def SiInscrito():
     print('''
 ============================
-=   Bienvenido, Camper     =
+=    Bienvenido, Camper    =
 ============================
           ''')#Funcion para pedir al camper su ID y acceder a sus datos.
     
-#def LogTrainer():
+def LogTrainer():
     print('''
  ==========================
  =  Bienvenido, Trainer   =
  ==========================
- =  Ingresa tu usuario    =          
           ''') # Validar usuario (Opcional para mejorar el programa) 
 
 def MenuTrainer():
     print('''
 ==========================
-=  ¿Qué deseas hacer?    =
+=   ¿Qué deseas hacer?   =
 ==========================
 =   1. Ver notas         =
 =   2. Editar notas      =
 =   3. Ver estudiantes   =
+==========================
+          ''')
+    
+def Menucordinadora():
+    print('''
+=========================================
+=          ¿Que desea hacer?            =
+=========================================
+=   (1).agregar estudiante              =
+=   (2).editar estudiante               =
+=   (3).ver estudiantes                 =
+=   (4).eliminar estudiante             =
+=   (5).Agregar estudiante a curso      =
+=   (6).Agregar nueva ruta de estudio   =
+=   (7).asignar ruta a trainer          =
+=========================================
           ''')
     

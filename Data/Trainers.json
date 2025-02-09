@@ -1,10 +1,21 @@
 {
     "Trainers":[
         {"Nombre":"Pedro",
-        "HorarioA": true ,
-        "HorarioB": true,
-        "HorarioC": true,
-        "HorarioD": true,
-        "Cursos":[]
-    }]
+         "Jornada":"FullTime",
+         "Ruta":"Java"},
+
+        {"Nombre":"Jolver",
+         "Jornada":"FullTime",
+         "Ruta":"NodeJS"},
+
+        {"Nombre":"Miguel",
+         "Jornada":"FullTime",
+         "Ruta":".NET"},
+
+        {"Nombre":"Juan Carlos",
+          "Jornada":"MidTime"},
+
+        {"Nombre":"Carlos Rueda",
+         "Jornada":"MidTime"}
+]
 }
