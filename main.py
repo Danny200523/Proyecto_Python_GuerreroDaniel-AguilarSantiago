@@ -1,12 +1,16 @@
 import json
-from Logic.Modulos import *
+from Logic.Coordinadora import *
 from Design.Menus import *
-
-asignargrupo()
-MenuPrincipal()
-n=int(input(": "))
-if n==3:
-    MenuCamper()
-    opc=int(input(": "))
+camp=abrirJSON
+list=[]
+bo=True
+while bo==True:
+    for i in range(len(camp["Campers"])):
+        print("")
+    MenuPrincipal()
+    n=int(input(": "))
+    if n==3:
+        MenuCamper()
+        opc=int(input(": "))
     if opc==1:
         Aggcamper()
