@@ -1,32 +1,32 @@
 import json
 def abrirJSON():
     dicFinal={}
-    with open('/home/camper/Documentos/DanielGuerrero/Proyecto_Python_GuerreroDaniel-AguilarSantiago/Data/campers.json',"r") as openFile:
+    with open('../Data/campers.json',"r") as openFile:
         dicFinal=json.load(openFile)
     return dicFinal
 
 def guardarJSON(dic):
-    with open("/home/camper/Documentos/DanielGuerrero/Proyecto_Python_GuerreroDaniel-AguilarSantiago/Data/campers.json",'w') as outFile:
+    with open("../Data/campers.json",'w') as outFile:
         json.dump(dic,outFile)
 
 def abrirJSO():
     dicFinal={}
-    with open('/home/camper/Documentos/DanielGuerrero/Proyecto_Python_GuerreroDaniel-AguilarSantiago/Data/Rutas.json',"r") as openFile:
+    with open('../Data/Rutas.json',"r") as openFile:
         dicFinal=json.load(openFile)
     return dicFinal
 
 def guardarJSO(dic):
-    with open("/home/camper/Documentos/DanielGuerrero/Proyecto_Python_GuerreroDaniel-AguilarSantiago/Data/Rutas.json",'w') as outFile:
+    with open("../Data/Rutas.json",'w') as outFile:
         json.dump(dic,outFile)
 
 def abrirJS():
     dicFinal={}
-    with open('/home/camper/Documentos/DanielGuerrero/Proyecto_Python_GuerreroDaniel-AguilarSantiago/Data/HorariosCursos.json',"r") as openFile:
+    with open('../Data/HorariosCursos.json',"r") as openFile:
         dicFinal=json.load(openFile)
     return dicFinal
 
 def guardarJS(dic):
-    with open("/home/camper/Documentos/DanielGuerrero/Proyecto_Python_GuerreroDaniel-AguilarSantiago/Data/HorariosCursos.json",'w') as outFile:
+    with open("../Data/HorariosCursos.json",'w') as outFile:
         json.dump(dic,outFile)
 camp={}
 rut={}
@@ -481,7 +481,7 @@ def asignargrupo():
             guardarJS(Hor)
 
 
-Vercamper()
+def asignacionnotainicial():
     #match E:  #(Falta entrar al diccionario para elegir el estudiante a editar) 
      #   case 1:
       #      IDnuevo = int(input("Ingresa el nuevo ID: "))
