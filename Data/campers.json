@@ -17,7 +17,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 100
         },
         {
             "ID": 1097099391,
@@ -36,7 +37,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 37
         },
         {
             "ID": 1000000001,
@@ -55,7 +57,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 17
         },
         {
             "ID": 1000000002,
@@ -74,7 +77,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 14
         },
         {
             "ID": 1000000003,
@@ -93,7 +97,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 21
         },
         {
             "ID": 1000000004,
@@ -112,7 +117,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 68
         },
         {
             "ID": 1000000005,
@@ -131,7 +137,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 57
         },
         {
             "ID": 1000000006,
@@ -150,7 +157,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 84
         },
         {
             "ID": 1000000007,
@@ -169,7 +177,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 63
         },
         {
             "ID": 1000000008,
@@ -188,7 +197,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 38
         },
         {
             "ID": 1000000009,
@@ -207,7 +217,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 18
         },
         {
             "ID": 1000000010,
@@ -226,7 +237,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 83
         },
         {
             "ID": 1000000011,
@@ -245,7 +257,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 85
         },
         {
             "ID": 1000000012,
@@ -264,7 +277,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 33
         },
         {
             "ID": 1000000013,
@@ -283,7 +297,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 30
         },
         {
             "ID": 1000000014,
@@ -302,7 +317,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 66
         },
         {
             "ID": 1000000015,
@@ -321,7 +337,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 64
         },
         {
             "ID": 1000000016,
@@ -340,7 +357,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 26
         },
         {
             "ID": 1000000017,
@@ -359,7 +377,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 12
         },
         {
             "ID": 1000000018,
@@ -378,7 +397,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 12
         },
         {
             "ID": 1000000019,
@@ -397,7 +417,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 74
         },
         {
             "ID": 1000000020,
@@ -416,7 +437,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 85
         },
         {
             "ID": 1000000021,
@@ -435,7 +457,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 40
         },
         {
             "ID": 1000000022,
@@ -454,7 +477,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 56
         },
         {
             "ID": 1000000023,
@@ -473,7 +497,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 100
         },
         {
             "ID": 1000000024,
@@ -492,7 +517,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 27
         },
         {
             "ID": 1000000025,
@@ -511,7 +537,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 24
         },
         {
             "ID": 1000000026,
@@ -530,7 +557,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 31
         },
         {
             "ID": 1000000027,
@@ -549,7 +577,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 54
         },
         {
             "ID": 1000000028,
@@ -568,7 +597,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 72
         },
         {
             "ID": 1000000029,
@@ -587,7 +617,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 55
         },
         {
             "ID": 1000000030,
@@ -606,7 +637,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 17
         },
         {
             "ID": 1000000031,
@@ -625,7 +657,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 88
         },
         {
             "ID": 1000000032,
@@ -644,7 +677,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 31
         },
         {
             "ID": 1000000033,
@@ -663,7 +697,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 60
         },
         {
             "ID": 1000000034,
@@ -682,7 +717,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 87
         },
         {
             "ID": 1000000035,
@@ -701,7 +737,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 87
         },
         {
             "ID": 1000000036,
@@ -720,7 +757,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 46
         },
         {
             "ID": 1000000037,
@@ -739,7 +777,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 69
         },
         {
             "ID": 1000000038,
@@ -758,7 +797,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 75
         },
         {
             "ID": 1000000039,
@@ -777,7 +817,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 71
         },
         {
             "ID": 1000000040,
@@ -796,7 +837,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 10
         },
         {
             "ID": 1000000041,
@@ -815,7 +857,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 79
         },
         {
             "ID": 1000000042,
@@ -834,7 +877,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 83
         },
         {
             "ID": 1000000043,
@@ -853,7 +897,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 76
         },
         {
             "ID": 1000000044,
@@ -872,7 +917,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 73
         },
         {
             "ID": 1000000045,
@@ -891,7 +937,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 91
         },
         {
             "ID": 1000000046,
@@ -910,7 +957,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 96
         },
         {
             "ID": 1000000047,
@@ -929,7 +977,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 16
         },
         {
             "ID": 1000000048,
@@ -948,7 +997,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 93
         },
         {
             "ID": 1000000049,
@@ -967,7 +1017,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 33
         },
         {
             "ID": 1000000050,
@@ -986,7 +1037,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 87
         },
         {
             "ID": 1000000051,
@@ -1005,7 +1057,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 42
         },
         {
             "ID": 1000000052,
@@ -1024,7 +1077,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 13
         },
         {
             "ID": 1000000053,
@@ -1043,7 +1097,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 75
         },
         {
             "ID": 1000000054,
@@ -1062,7 +1117,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 11
         },
         {
             "ID": 1000000055,
@@ -1081,7 +1137,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 72
         },
         {
             "ID": 1000000056,
@@ -1100,7 +1157,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 25
         },
         {
             "ID": 1000000057,
@@ -1119,7 +1177,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 79
         },
         {
             "ID": 1000000058,
@@ -1138,7 +1197,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 61
         },
         {
             "ID": 1000000059,
@@ -1157,7 +1217,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 61
         },
         {
             "ID": 1000000060,
@@ -1176,7 +1237,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 46
         },
         {
             "ID": 1000000061,
@@ -1195,7 +1257,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 19
         },
         {
             "ID": 1000000062,
@@ -1214,7 +1277,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 10
         },
         {
             "ID": 1000000063,
@@ -1233,7 +1297,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 81
         },
         {
             "ID": 1000000064,
@@ -1252,7 +1317,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 71
         },
         {
             "ID": 1000000065,
@@ -1271,7 +1337,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 18
         },
         {
             "ID": 1000000066,
@@ -1290,7 +1357,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 73
         },
         {
             "ID": 1000000067,
@@ -1309,7 +1377,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 78
         },
         {
             "ID": 1000000068,
@@ -1328,7 +1397,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 63
         },
         {
             "ID": 1000000069,
@@ -1347,7 +1417,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 33
         },
         {
             "ID": 1000000070,
@@ -1366,7 +1437,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 43
         },
         {
             "ID": 1000000071,
@@ -1385,7 +1457,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 40
         },
         {
             "ID": 1000000072,
@@ -1404,7 +1477,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 36
         },
         {
             "ID": 1000000073,
@@ -1423,7 +1497,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 63
         },
         {
             "ID": 1000000074,
@@ -1442,7 +1517,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 14
         },
         {
             "ID": 1000000075,
@@ -1461,7 +1537,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 16
         },
         {
             "ID": 1000000076,
@@ -1480,7 +1557,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 84
         },
         {
             "ID": 1000000077,
@@ -1499,7 +1577,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 36
         },
         {
             "ID": 1000000078,
@@ -1518,7 +1597,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 17
         },
         {
             "ID": 1000000079,
@@ -1537,7 +1617,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 50
         },
         {
             "ID": 1000000080,
@@ -1556,7 +1637,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 62
         },
         {
             "ID": 1000000081,
@@ -1575,7 +1657,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 95
         },
         {
             "ID": 1000000082,
@@ -1594,7 +1677,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 10
         },
         {
             "ID": 1000000083,
@@ -1613,7 +1697,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 39
         },
         {
             "ID": 1000000084,
@@ -1632,7 +1717,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 75
         },
         {
             "ID": 1000000085,
@@ -1651,7 +1737,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 89
         },
         {
             "ID": 1000000086,
@@ -1670,7 +1757,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 91
         },
         {
             "ID": 1000000087,
@@ -1689,7 +1777,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 65
         },
         {
             "ID": 1000000088,
@@ -1708,7 +1797,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 82
         },
         {
             "ID": 1000000089,
@@ -1727,7 +1817,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 38
         },
         {
             "ID": 1000000090,
@@ -1746,7 +1837,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 57
         },
         {
             "ID": 1000000091,
@@ -1765,7 +1857,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 24
         },
         {
             "ID": 1000000092,
@@ -1784,7 +1877,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 81
         },
         {
             "ID": 1000000093,
@@ -1803,7 +1897,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 68
         },
         {
             "ID": 1000000094,
@@ -1822,7 +1917,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 98
         },
         {
             "ID": 1000000095,
@@ -1841,7 +1937,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 82
         },
         {
             "ID": 109833492423,
@@ -1860,7 +1957,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 95
         },
         {
             "ID": 1821381823,
@@ -1879,7 +1977,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 54
         },
         {
             "ID": 19392183822,
@@ -1898,7 +1997,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 15
         },
         {
             "ID": 5203779532,
@@ -1917,7 +2017,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 42
         },
         {
             "ID": 2434883346,
@@ -1936,7 +2037,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 97
         },
         {
             "ID": 6641013705,
@@ -1955,7 +2057,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 51
         },
         {
             "ID": 6132081075,
@@ -1974,7 +2077,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 67
         },
         {
             "ID": 2336809243,
@@ -1993,7 +2097,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 94
         },
         {
             "ID": 3602321745,
@@ -2012,7 +2117,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 23
         },
         {
             "ID": 5300907882,
@@ -2031,7 +2137,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 89
         },
         {
             "ID": 7732818391,
@@ -2050,7 +2157,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 53
         },
         {
             "ID": 6218519404,
@@ -2069,7 +2177,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 91
         },
         {
             "ID": 2637447129,
@@ -2088,7 +2197,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 84
         },
         {
             "ID": 5389517512,
@@ -2107,7 +2217,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 68
         },
         {
             "ID": 2429740039,
@@ -2126,7 +2237,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 46
         },
         {
             "ID": 3542795317,
@@ -2145,7 +2257,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 46
         },
         {
             "ID": 8409634258,
@@ -2164,7 +2277,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 19
         },
         {
             "ID": 8836830223,
@@ -2183,7 +2297,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 62
         },
         {
             "ID": 2877834380,
@@ -2202,7 +2317,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 29
         },
         {
             "ID": 7286777162,
@@ -2221,7 +2337,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 18
         },
         {
             "ID": 6332311240,
@@ -2240,7 +2357,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 41
         },
         {
             "ID": 8632756085,
@@ -2259,7 +2377,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 85
         },
         {
             "ID": 4365575823,
@@ -2278,7 +2397,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 22
         },
         {
             "ID": 3796858885,
@@ -2297,7 +2417,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 53
         },
         {
             "ID": 2499233058,
@@ -2316,7 +2437,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 95
         },
         {
             "ID": 9168273911,
@@ -2335,7 +2457,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 12
         },
         {
             "ID": 7453600291,
@@ -2354,7 +2477,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 24
         },
         {
             "ID": 9421600876,
@@ -2373,7 +2497,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 73
         },
         {
             "ID": 8280305078,
@@ -2392,7 +2517,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 15
         },
         {
             "ID": 3475712085,
@@ -2411,7 +2537,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 37
         },
         {
             "ID": 9635954126,
@@ -2430,7 +2557,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 75
         },
         {
             "ID": 9707253050,
@@ -2449,7 +2577,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 85
         },
         {
             "ID": 9696732838,
@@ -2468,7 +2597,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 52
         },
         {
             "ID": 8039164904,
@@ -2487,7 +2617,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 27
         },
         {
             "ID": 3548694287,
@@ -2506,7 +2637,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 20
         },
         {
             "ID": 5082111688,
@@ -2525,7 +2657,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 87
         },
         {
             "ID": 6235484242,
@@ -2544,7 +2677,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 10
         },
         {
             "ID": 2555474632,
@@ -2563,7 +2697,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 57
         },
         {
             "ID": 7188088384,
@@ -2582,7 +2717,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 95
         },
         {
             "ID": 9267767850,
@@ -2601,7 +2737,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 23
         },
         {
             "ID": 1558262055,
@@ -2620,7 +2757,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 54
         },
         {
             "ID": 9319174862,
@@ -2639,7 +2777,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 66
         },
         {
             "ID": 6247073538,
@@ -2658,7 +2797,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 20
         },
         {
             "ID": 5871920180,
@@ -2677,7 +2817,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 65
         },
         {
             "ID": 8719685713,
@@ -2696,7 +2837,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 99
         },
         {
             "ID": 9553257127,
@@ -2715,7 +2857,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 65
         },
         {
             "ID": 6687025018,
@@ -2734,7 +2877,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 42
         },
         {
             "ID": 1977534534,
@@ -2753,7 +2897,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 57
         },
         {
             "ID": 4151578882,
@@ -2772,7 +2917,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 79
         },
         {
             "ID": 3041776692,
@@ -2791,7 +2937,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 14
         },
         {
             "ID": 3638301718,
@@ -2810,7 +2957,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 78
         },
         {
             "ID": 8696411006,
@@ -2829,7 +2977,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 33
         },
         {
             "ID": 3730393431,
@@ -2848,7 +2997,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 70
         },
         {
             "ID": 3291177617,
@@ -2867,7 +3017,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 65
         },
         {
             "ID": 9292297836,
@@ -2886,7 +3037,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 98
         },
         {
             "ID": 3495560465,
@@ -2905,7 +3057,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 29
         },
         {
             "ID": 7299642907,
@@ -2924,7 +3077,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 43
         },
         {
             "ID": 7575250724,
@@ -2943,7 +3097,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 35
         },
         {
             "ID": 5076379638,
@@ -2962,7 +3117,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 37
         },
         {
             "ID": 2406212753,
@@ -2981,7 +3137,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 79
         },
         {
             "ID": 3972976188,
@@ -3000,7 +3157,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 21
         },
         {
             "ID": 3295005646,
@@ -3019,7 +3177,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 60
         },
         {
             "ID": 2924556647,
@@ -3038,7 +3197,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 64
         },
         {
             "ID": 2737190281,
@@ -3057,7 +3217,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 55
         },
         {
             "ID": 7864638867,
@@ -3076,7 +3237,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 30
         },
         {
             "ID": 2043462442,
@@ -3095,7 +3257,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 89
         },
         {
             "ID": 7965322803,
@@ -3114,7 +3277,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 75
         },
         {
             "ID": 9842967017,
@@ -3133,7 +3297,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 18
         },
         {
             "ID": 3973743254,
@@ -3152,7 +3317,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 23
         },
         {
             "ID": 4289579759,
@@ -3171,7 +3337,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 70
         },
         {
             "ID": 7942186176,
@@ -3190,7 +3357,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 84
         },
         {
             "ID": 8213886794,
@@ -3209,7 +3377,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 100
         },
         {
             "ID": 9741945017,
@@ -3228,7 +3397,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 84
         },
         {
             "ID": 7643060083,
@@ -3247,7 +3417,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 53
         },
         {
             "ID": 9792238547,
@@ -3266,7 +3437,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 78
         },
         {
             "ID": 3520679036,
@@ -3285,7 +3457,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 73
         },
         {
             "ID": 7842784367,
@@ -3304,7 +3477,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 12
         },
         {
             "ID": 4020297252,
@@ -3323,7 +3497,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 71
         },
         {
             "ID": 4655112277,
@@ -3342,7 +3517,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 73
         },
         {
             "ID": 3068629312,
@@ -3361,7 +3537,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 61
         },
         {
             "ID": 2063387335,
@@ -3380,7 +3557,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 20
         },
         {
             "ID": 2758249563,
@@ -3399,7 +3577,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 21
         },
         {
             "ID": 3067155710,
@@ -3418,7 +3597,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 26
         },
         {
             "ID": 9157585734,
@@ -3437,7 +3617,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 31
         },
         {
             "ID": 6164967524,
@@ -3456,7 +3637,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 34
         },
         {
             "ID": 2021511958,
@@ -3475,7 +3657,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 86
         },
         {
             "ID": 1567533093,
@@ -3494,7 +3677,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 74
         },
         {
             "ID": 7555592397,
@@ -3513,7 +3697,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 56
         },
         {
             "ID": 4522523035,
@@ -3532,7 +3717,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 59
         },
         {
             "ID": 9791781321,
@@ -3551,7 +3737,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 29
         },
         {
             "ID": 9386198829,
@@ -3570,7 +3757,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 97
         },
         {
             "ID": 6089943792,
@@ -3589,7 +3777,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 36
         },
         {
             "ID": 9366619679,
@@ -3608,7 +3797,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 72
         },
         {
             "ID": 5307077930,
@@ -3627,7 +3817,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 21
         },
         {
             "ID": 4862031420,
@@ -3646,7 +3837,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 14
         },
         {
             "ID": 5144311261,
@@ -3665,7 +3857,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 75
         },
         {
             "ID": 6111641669,
@@ -3684,7 +3877,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 70
         },
         {
             "ID": 2270151993,
@@ -3703,7 +3897,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 65
         },
         {
             "ID": 9401964236,
@@ -3722,7 +3917,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 33
         },
         {
             "ID": 8320381432,
@@ -3741,7 +3937,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 41
         },
         {
             "ID": 5729112310,
@@ -3760,7 +3957,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 19
         },
         {
             "ID": 8209542411,
@@ -3779,7 +3977,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 48
         },
         {
             "ID": 9882410013,
@@ -3798,7 +3997,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 22
         },
         {
             "ID": 8420022215,
@@ -3817,7 +4017,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 96
         },
         {
             "ID": 2608502936,
@@ -3836,7 +4037,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 16
         },
         {
             "ID": 9002281602,
@@ -3855,7 +4057,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 51
         },
         {
             "ID": 5529935145,
@@ -3874,7 +4077,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 17
         },
         {
             "ID": 4627317242,
@@ -3893,7 +4097,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 80
         },
         {
             "ID": 5215917894,
@@ -3912,7 +4117,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 27
         },
         {
             "ID": 8721882136,
@@ -3931,7 +4137,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 63
         },
         {
             "ID": 8159906427,
@@ -3950,7 +4157,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 58
         },
         {
             "ID": 2323903495,
@@ -3969,7 +4177,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 91
         },
         {
             "ID": 1768202897,
@@ -3988,7 +4197,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 94
         },
         {
             "ID": 4528092555,
@@ -4007,7 +4217,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 22
         },
         {
             "ID": 8674562750,
@@ -4026,7 +4237,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 50
         },
         {
             "ID": 9529670577,
@@ -4045,7 +4257,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 84
         },
         {
             "ID": 7870936537,
@@ -4064,7 +4277,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 30
         },
         {
             "ID": 3043394780,
@@ -4083,7 +4297,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 87
         },
         {
             "ID": 2637617606,
@@ -4102,7 +4317,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 44
         },
         {
             "ID": 1246900305,
@@ -4121,7 +4337,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 64
         },
         {
             "ID": 8021274526,
@@ -4140,7 +4357,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 82
         },
         {
             "ID": 1380016923,
@@ -4159,7 +4377,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 84
         },
         {
             "ID": 6562019426,
@@ -4178,7 +4397,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 47
         },
         {
             "ID": 6115801699,
@@ -4197,7 +4417,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 97
         },
         {
             "ID": 7792732797,
@@ -4216,7 +4437,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 74
         },
         {
             "ID": 4695421397,
@@ -4235,7 +4457,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 64
         },
         {
             "ID": 8369873158,
@@ -4254,7 +4477,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 59
         },
         {
             "ID": 8950181448,
@@ -4273,7 +4497,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 62
         },
         {
             "ID": 6848231040,
@@ -4292,7 +4517,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 84
         },
         {
             "ID": 2231887808,
@@ -4311,7 +4537,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 54
         },
         {
             "ID": 9462727457,
@@ -4330,7 +4557,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 99
         },
         {
             "ID": 9554903627,
@@ -4349,7 +4577,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 99
         },
         {
             "ID": 9539502090,
@@ -4368,7 +4597,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 20
         },
         {
             "ID": 1727749817,
@@ -4387,7 +4617,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 92
         },
         {
             "ID": 1188605829,
@@ -4406,7 +4637,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 43
         },
         {
             "ID": 3182959531,
@@ -4425,7 +4657,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 11
         },
         {
             "ID": 5157598864,
@@ -4444,7 +4677,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 61
         },
         {
             "ID": 5605203430,
@@ -4463,7 +4697,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 15
         },
         {
             "ID": 5029720617,
@@ -4482,7 +4717,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 60
         },
         {
             "ID": 4256033931,
@@ -4501,7 +4737,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 16
         },
         {
             "ID": 6488356910,
@@ -4520,7 +4757,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 100
         },
         {
             "ID": 8054483072,
@@ -4539,7 +4777,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 33
         },
         {
             "ID": 1390696281,
@@ -4558,7 +4797,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 30
         },
         {
             "ID": 4722890738,
@@ -4577,7 +4817,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 90
         },
         {
             "ID": 8373463574,
@@ -4596,7 +4837,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 49
         },
         {
             "ID": 2125367424,
@@ -4615,7 +4857,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 44
         },
         {
             "ID": 1671762119,
@@ -4634,7 +4877,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 99
         },
         {
             "ID": 4942263771,
@@ -4653,7 +4897,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 11
         },
         {
             "ID": 9948887117,
@@ -4672,7 +4917,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 85
         },
         {
             "ID": 7554250337,
@@ -4691,7 +4937,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 78
         },
         {
             "ID": 5004996271,
@@ -4710,7 +4957,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 22
         },
         {
             "ID": 6031108337,
@@ -4729,7 +4977,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 90
         },
         {
             "ID": 7251395834,
@@ -4748,7 +4997,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 13
         },
         {
             "ID": 2014139449,
@@ -4767,7 +5017,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 35
         },
         {
             "ID": 6154397294,
@@ -4786,7 +5037,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 81
         },
         {
             "ID": 5718265259,
@@ -4805,7 +5057,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 15
         },
         {
             "ID": 3988888382,
@@ -4824,7 +5077,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 50
         },
         {
             "ID": 1114533757,
@@ -4843,7 +5097,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 90
         },
         {
             "ID": 2522993496,
@@ -4862,7 +5117,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 84
         },
         {
             "ID": 7296541932,
@@ -4881,7 +5137,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 49
         },
         {
             "ID": 1832197362,
@@ -4900,7 +5157,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 66
         },
         {
             "ID": 4534560870,
@@ -4919,7 +5177,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 97
         },
         {
             "ID": 1495422741,
@@ -4938,7 +5197,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 36
         },
         {
             "ID": 4689388931,
@@ -4957,7 +5217,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 55
         },
         {
             "ID": 5368590632,
@@ -4976,7 +5237,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 52
         },
         {
             "ID": 7004135531,
@@ -4995,7 +5257,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 96
         },
         {
             "ID": 1830746733,
@@ -5014,7 +5277,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 80
         },
         {
             "ID": 8027106249,
@@ -5033,7 +5297,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 58
         },
         {
             "ID": 1506414091,
@@ -5052,7 +5317,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 63
         },
         {
             "ID": 8068862688,
@@ -5071,7 +5337,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 64
         },
         {
             "ID": 3223672384,
@@ -5090,7 +5357,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 96
         },
         {
             "ID": 8500676167,
@@ -5109,7 +5377,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 33
         },
         {
             "ID": 7602253379,
@@ -5128,7 +5397,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 26
         },
         {
             "ID": 4703169292,
@@ -5147,7 +5417,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 90
         },
         {
             "ID": 5676191413,
@@ -5166,7 +5437,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 43
         },
         {
             "ID": 9670815164,
@@ -5185,7 +5457,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 63
         },
         {
             "ID": 5121828223,
@@ -5204,7 +5477,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 87
         },
         {
             "ID": 8372981529,
@@ -5223,7 +5497,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 46
         },
         {
             "ID": 6817813997,
@@ -5242,7 +5517,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 25
         },
         {
             "ID": 3386849662,
@@ -5261,7 +5537,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 70
         },
         {
             "ID": 1141473930,
@@ -5280,7 +5557,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 99
         },
         {
             "ID": 1315492621,
@@ -5299,7 +5577,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 67
         },
         {
             "ID": 9312012492,
@@ -5318,7 +5597,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 45
         },
         {
             "ID": 8741906801,
@@ -5337,7 +5617,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 10
         },
         {
             "ID": 3335277026,
@@ -5356,7 +5637,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 49
         },
         {
             "ID": 4870229619,
@@ -5375,7 +5657,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 68
         },
         {
             "ID": 2765533782,
@@ -5394,7 +5677,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 16
         },
         {
             "ID": 9649778572,
@@ -5413,7 +5697,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 45
         },
         {
             "ID": 5131013287,
@@ -5432,7 +5717,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 22
         },
         {
             "ID": 4198600945,
@@ -5451,7 +5737,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 91
         },
         {
             "ID": 4922708809,
@@ -5470,7 +5757,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 40
         },
         {
             "ID": 9809700665,
@@ -5489,7 +5777,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 98
         },
         {
             "ID": 8512652486,
@@ -5508,7 +5797,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 91
         },
         {
             "ID": 9702142476,
@@ -5527,7 +5817,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 53
         },
         {
             "ID": 3800959041,
@@ -5546,7 +5837,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 65
         },
         {
             "ID": 8694796076,
@@ -5565,7 +5857,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 54
         },
         {
             "ID": 7004451854,
@@ -5584,7 +5877,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 67
         },
         {
             "ID": 4883291107,
@@ -5603,7 +5897,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 77
         },
         {
             "ID": 4791461014,
@@ -5622,7 +5917,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 71
         },
         {
             "ID": 5318321778,
@@ -5641,7 +5937,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 87
         },
         {
             "ID": 7995962907,
@@ -5660,7 +5957,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 43
         },
         {
             "ID": 4461027730,
@@ -5679,7 +5977,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 70
         },
         {
             "ID": 1865982479,
@@ -5698,7 +5997,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 57
         },
         {
             "ID": 2923461664,
@@ -5717,7 +6017,8 @@
                 "Retirado": false
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 71
         },
         {
             "ID": 6065323665,
@@ -5736,7 +6037,8 @@
                 "Retirado": true
             },
             "Curso": "",
-            "Riesgo": ""
+            "Riesgo": "",
+            "notainicial": 84
         }
     ]
 }

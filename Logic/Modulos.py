@@ -34,6 +34,8 @@ Hor={}
 camp=abrirJSON()
 rut=abrirJSO()
 Hor=abrirJS()
+
+##FUNCIONES COORDINADORA
 def Aggcamper():
     print("Ingrese el documento de identidad del nuevo Camper")
     id=int(input(": "))
@@ -243,6 +245,13 @@ def Editarcamper():
                 print("El estado que ingreso es incorrecto")
                 bo=False
 
+def editarnota():
+    Vercamper()
+    el = input("¿A cuál estudiante le va a cambiar la nota?")
+    camp["Campers"][el-1]
+    notanueva = int(input("¿Cuál es la nueva nota?"))
+    camp["Campers"][el-1]["notainicial"]=notanueva
+
 def Eliminarcamper():
     Vercamper()
     print("Que camper quiere eliminar?")
@@ -269,6 +278,7 @@ def agregarnuevaruta():
         rut["Rutas"][nvr][ski]=[]
         guardarJSO(rut)
 
+##Se podría dar la opción a la coordinadora para cambiar de grupo SI este no está completo(opcional)
 def asignargrupo():
     for i in range(len(camp["Campers"])):
         if camp["Campers"][i]["Estado"]["Aprobado"]:
@@ -481,11 +491,16 @@ def asignargrupo():
             guardarJS(Hor)
 
 
-def asignacionnotainicial():
+def asignacionnotainical():
+    print("Falta asignar")
+    
+    
     #match E:  #(Falta entrar al diccionario para elegir el estudiante a editar) 
      #   case 1:
       #      IDnuevo = int(input("Ingresa el nuevo ID: "))
        #     camp["ID"] = IDnuevo
         #    guardarJSON(camp)
+    
+    
 ##Crear una contrasena para el usuario trainner  
 #pero igual solo cree el menu las funciones las implementamos en el main

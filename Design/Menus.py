@@ -59,13 +59,13 @@ def Menucordinadora():
 =========================================
 =          ¿Que desea hacer?            =
 =========================================
-=   (1).agregar estudiante              =
-=   (2).editar estudiante               =
-=   (3).ver estudiantes                 =
-=   (4).eliminar estudiante             =
+=   (1).Agregar estudiante              =
+=   (2).Editar estudiante               =
+=   (3).Ver estudiantes                 =
+=   (4).Eliminar estudiante             =
 =   (5).Agregar estudiante a curso      =
 =   (6).Agregar nueva ruta de estudio   =
-=   (7).asignar ruta a trainer          =
+=   (7).Asignar ruta a trainer          =
 =========================================
           ''')
     
