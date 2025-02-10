@@ -34,7 +34,8 @@ Hor={}
 camp=abrirJSON()
 rut=abrirJSO()
 Hor=abrirJS()
-
+cursando=camp["Campers"]["Estado"]["Cursando"].count("true")
+print(cursando,"1")
 ##FUNCIONES COORDINADORA
 def Aggcamper():
     print("Ingrese el documento de identidad del nuevo Camper")
@@ -132,31 +133,31 @@ def Editarcamper():
     if ed==1:
         print("Ingrese el nuevo ID")
         identi=input(": ")
-        camp["Campers"][ed-1]["ID"]=identi
+        camp["Campers"][E-1]["ID"]=identi
     elif ed==2:
         print("Ingrese el nuevo Nombre(Nombres)")
         name=input(": ")
-        camp["Campers"][ed-1]["nombre"]=name
+        camp["Campers"][E-1]["nombre"]=name
     elif ed==3:
         print("Ingrese el nuevo Apellido(Apellidos)")
         apll=input(": ")
-        camp["Campers"][ed-1]["apellido"]=apll
+        camp["Campers"][E-1]["apellido"]=apll
     elif ed==4:
         print("Ingrese la nueva direccion")
         direc=input(": ")
-        camp["Campers"][ed-1]["direccion"]=direc
+        camp["Campers"][E-1]["direccion"]=direc
     elif ed==5:
         print("Ingrese el nuevo Nombre del acudiente(Nombres)")
         acud=input(": ")
-        camp["Campers"][ed-1]["nombre"]=acud
+        camp["Campers"][E-1]["nombre"]=acud
     elif ed==6:
         print("Ingrese el nuevo #Celular")
         celul=input(": ")
-        camp["Campers"][ed-1]["#celular"]=celul
+        camp["Campers"][E-1]["#celular"]=celul
     elif ed==8:
         print("Ingrese el nuevo curso")
         cur=input(": ")
-        camp["Campers"][ed-1]["Curso"]=cur
+        camp["Campers"][E-1]["Curso"]=cur
     bo=False
     while bo==False:
         if ed==7:
@@ -172,73 +173,73 @@ def Editarcamper():
               ''')
             estad=input(": ")
             if estad==1:
-                camp["Campers"][ed-1]["Estado"]["Aprobado"]=True
-                camp["Campers"][ed-1]["Estado"]["Cursando"]=False
-                camp["Campers"][ed-1]["Estado"]["En proceso de ingreso"]=False
-                camp["Campers"][ed-1]["Estado"]["Expulsado"]=False
-                camp["Campers"][ed-1]["Estado"]["Graduado"]=False
-                camp["Campers"][ed-1]["Estado"]["Inscrito"]=False
-                camp["Campers"][ed-1]["Estado"]["Retirado"]=False
+                camp["Campers"][E-1]["Estado"]["Aprobado"]=True
+                camp["Campers"][E-1]["Estado"]["Cursando"]=False
+                camp["Campers"][E-1]["Estado"]["En proceso de ingreso"]=False
+                camp["Campers"][E-1]["Estado"]["Expulsado"]=False
+                camp["Campers"][E-1]["Estado"]["Graduado"]=False
+                camp["Campers"][E-1]["Estado"]["Inscrito"]=False
+                camp["Campers"][E-1]["Estado"]["Retirado"]=False
                 bo=True
                 guardarJSON(camp)
             elif estad==2:
-                camp["Campers"][ed-1]["Estado"]["Aprobado"]=False
-                camp["Campers"][ed-1]["Estado"]["Cursando"]=True
-                camp["Campers"][ed-1]["Estado"]["En proceso de ingreso"]=False
-                camp["Campers"][ed-1]["Estado"]["Expulsado"]=False
-                camp["Campers"][ed-1]["Estado"]["Graduado"]=False
-                camp["Campers"][ed-1]["Estado"]["Inscrito"]=False
-                camp["Campers"][ed-1]["Estado"]["Retirado"]=False
+                camp["Campers"][E-1]["Estado"]["Aprobado"]=False
+                camp["Campers"][E-1]["Estado"]["Cursando"]=True
+                camp["Campers"][E-1]["Estado"]["En proceso de ingreso"]=False
+                camp["Campers"][E-1]["Estado"]["Expulsado"]=False
+                camp["Campers"][E-1]["Estado"]["Graduado"]=False
+                camp["Campers"][E-1]["Estado"]["Inscrito"]=False
+                camp["Campers"][E-1]["Estado"]["Retirado"]=False
                 bo=True
                 guardarJSON(camp)
             elif estad==3:
-                camp["Campers"][ed-1]["Estado"]["Aprobado"]=False
-                camp["Campers"][ed-1]["Estado"]["Cursando"]=False
-                camp["Campers"][ed-1]["Estado"]["En proceso de ingreso"]=True
-                camp["Campers"][ed-1]["Estado"]["Expulsado"]=False
-                camp["Campers"][ed-1]["Estado"]["Graduado"]=False
-                camp["Campers"][ed-1]["Estado"]["Inscrito"]=False
-                camp["Campers"][ed-1]["Estado"]["Retirado"]=False
+                camp["Campers"][E-1]["Estado"]["Aprobado"]=False
+                camp["Campers"][E-1]["Estado"]["Cursando"]=False
+                camp["Campers"][E-1]["Estado"]["En proceso de ingreso"]=True
+                camp["Campers"][E-1]["Estado"]["Expulsado"]=False
+                camp["Campers"][E-1]["Estado"]["Graduado"]=False
+                camp["Campers"][E-1]["Estado"]["Inscrito"]=False
+                camp["Campers"][E-1]["Estado"]["Retirado"]=False
                 bo=True
                 guardarJSON(camp)
             elif estad==4:
-                camp["Campers"][ed-1]["Estado"]["Aprobado"]=False
-                camp["Campers"][ed-1]["Estado"]["Cursando"]=False
-                camp["Campers"][ed-1]["Estado"]["En proceso de ingreso"]=False
-                camp["Campers"][ed-1]["Estado"]["Expulsado"]=True
-                camp["Campers"][ed-1]["Estado"]["Graduado"]=False
-                camp["Campers"][ed-1]["Estado"]["Inscrito"]=False
-                camp["Campers"][ed-1]["Estado"]["Retirado"]=False
+                camp["Campers"][E-1]["Estado"]["Aprobado"]=False
+                camp["Campers"][E-1]["Estado"]["Cursando"]=False
+                camp["Campers"][E-1]["Estado"]["En proceso de ingreso"]=False
+                camp["Campers"][E-1]["Estado"]["Expulsado"]=True
+                camp["Campers"][E-1]["Estado"]["Graduado"]=False
+                camp["Campers"][E-1]["Estado"]["Inscrito"]=False
+                camp["Campers"][E-1]["Estado"]["Retirado"]=False
                 bo=True
                 guardarJSON(camp)
             elif estad==5:
-                camp["Campers"][ed-1]["Estado"]["Aprobado"]=False
-                camp["Campers"][ed-1]["Estado"]["Cursando"]=False
-                camp["Campers"][ed-1]["Estado"]["En proceso de ingreso"]=False
-                camp["Campers"][ed-1]["Estado"]["Expulsado"]=False
-                camp["Campers"][ed-1]["Estado"]["Graduado"]=True
-                camp["Campers"][ed-1]["Estado"]["Inscrito"]=False
-                camp["Campers"][ed-1]["Estado"]["Retirado"]=False
+                camp["Campers"][E-1]["Estado"]["Aprobado"]=False
+                camp["Campers"][E-1]["Estado"]["Cursando"]=False
+                camp["Campers"][E-1]["Estado"]["En proceso de ingreso"]=False
+                camp["Campers"][E-1]["Estado"]["Expulsado"]=False
+                camp["Campers"][E-1]["Estado"]["Graduado"]=True
+                camp["Campers"][E-1]["Estado"]["Inscrito"]=False
+                camp["Campers"][E-1]["Estado"]["Retirado"]=False
                 bo=True
                 guardarJSON(camp)
             elif estad==6:
-                camp["Campers"][ed-1]["Estado"]["Aprobado"]=False
-                camp["Campers"][ed-1]["Estado"]["Cursando"]=False
-                camp["Campers"][ed-1]["Estado"]["En proceso de ingreso"]=False
-                camp["Campers"][ed-1]["Estado"]["Expulsado"]=False
-                camp["Campers"][ed-1]["Estado"]["Graduado"]=False
-                camp["Campers"][ed-1]["Estado"]["Inscrito"]=True
-                camp["Campers"][ed-1]["Estado"]["Retirado"]=False
+                camp["Campers"][E-1]["Estado"]["Aprobado"]=False
+                camp["Campers"][E-1]["Estado"]["Cursando"]=False
+                camp["Campers"][E-1]["Estado"]["En proceso de ingreso"]=False
+                camp["Campers"][E-1]["Estado"]["Expulsado"]=False
+                camp["Campers"][E-1]["Estado"]["Graduado"]=False
+                camp["Campers"][E-1]["Estado"]["Inscrito"]=True
+                camp["Campers"][E-1]["Estado"]["Retirado"]=False
                 bo=True
                 guardarJSON(camp)
             elif estad==7:
-                camp["Campers"][ed-1]["Estado"]["Aprobado"]=False
-                camp["Campers"][ed-1]["Estado"]["Cursando"]=False
-                camp["Campers"][ed-1]["Estado"]["En proceso de ingreso"]=False
-                camp["Campers"][ed-1]["Estado"]["Expulsado"]=False
-                camp["Campers"][ed-1]["Estado"]["Graduado"]=False
-                camp["Campers"][ed-1]["Estado"]["Inscrito"]=False
-                camp["Campers"][ed-1]["Estado"]["Retirado"]=True
+                camp["Campers"][E-1]["Estado"]["Aprobado"]=False
+                camp["Campers"][E-1]["Estado"]["Cursando"]=False
+                camp["Campers"][E-1]["Estado"]["En proceso de ingreso"]=False
+                camp["Campers"][E-1]["Estado"]["Expulsado"]=False
+                camp["Campers"][E-1]["Estado"]["Graduado"]=False
+                camp["Campers"][E-1]["Estado"]["Inscrito"]=False
+                camp["Campers"][E-1]["Estado"]["Retirado"]=True
                 bo=True
                 guardarJSON(camp)
             else:
@@ -280,6 +281,11 @@ def agregarnuevaruta():
 
 ##Se podría dar la opción a la coordinadora para cambiar de grupo SI este no está completo(opcional)
 def asignargrupo():
+    c=0
+    for i in range(len(camp["Campers"])):
+        if camp["Campers"]["Estado"]["Cursando"]:
+            c+=1
+    cursando=camp["Campers"]["Estado"]["Cursando"].count("true")
     for i in range(len(camp["Campers"])):
         if camp["Campers"][i]["Estado"]["Aprobado"]:
             if len(Hor["Horarios"]["HorarioA"]["P1"]) < 33:
