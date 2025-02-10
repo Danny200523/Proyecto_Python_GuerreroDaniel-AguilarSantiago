@@ -8,8 +8,8 @@
             "acudientes": "Shirley",
             "#celular": 3144795848,
             "Estado": {
-                "Aprobado": false,
-                "Cursando": true,
+                "Aprobado": true,
+                "Cursando": false,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
