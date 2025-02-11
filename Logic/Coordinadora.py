@@ -249,7 +249,6 @@ def Editarcamper():
 def editarnota():
     Vercamper()
     el = input("¿A cuál estudiante le va a cambiar la nota?")
-    camp["Campers"][el-1]
     notanueva = int(input("¿Cuál es la nueva nota?"))
     camp["Campers"][el-1]["notainicial"]=notanueva
 
@@ -279,14 +278,11 @@ def agregarnuevaruta():
         rut["Rutas"][nvr][ski]=[]
         guardarJSO(rut)
 
-##Se podría dar la opción a la coordinadora para cambiar de grupo SI este no está completo(opcional)
-def asignargrupo1():
+
+def asignargrupo():
     for i in range(len(camp["Campers"])):
-        print(camp["Campers"][i]["Estado"]["Aprobado"])
-        if camp["Campers"][i]["Estado"]["Aprobado"] == True:
-            print(i)
+        if camp["Campers"][i]["Estado"]["Aprobado"]:
             if len(Hor["Horarios"]["HorarioA"]["P1"]) < 33:
-                print("hola")
                 Hor["Horarios"]["HorarioA"]["P1"].append({"ID":camp["Campers"][i]["ID"],
                                                             "nombre":camp["Campers"][i]["nombre"],
                                                             "apellido":camp["Campers"][i]["apellido"]
@@ -295,230 +291,883 @@ def asignargrupo1():
                 camp["Campers"][i]["Estado"]["Cursando"]=True
                 guardarJS(Hor)
                 guardarJSON(camp)
-
-
-def asignargrupo():
-    for i in range(len(camp["Campers"])):
-        if camp["Campers"][i]["Estado"]["Aprobado"]:
-            if len(Hor["Horarios"]["HorarioA"]["P1"]) < 33:
-                Hor["Horarios"]["HorarioA"]["P1"].append({camp["Campers"][i]["ID"],
-                                                            camp["Campers"][i]["nombre"],
-                                                            camp["Campers"][i]["apellido"],
-                                                            Hor["Horarios"]["HorarioA"]["P1"]["NotaProyecto"],
-                                                            Hor["Horarios"]["HorarioA"]["P1"]["NotaFiltro"],
-                                                            Hor["Horarios"]["HorarioA"]["P1"]["NotaTrabajos"],
-                                                            Hor["Horarios"]["HorarioA"]["P1"]["NotaFinal"]
-                                                            })
-                camp["Campers"][i]["Estado"]["Aprobado"]=False
-                camp["Campers"][i]["Estado"]["Cursando"]=True
-                guardarJS(Hor)
-                guardarJSON(camp)
         elif len(Hor["Horarios"]["HorarioB"]["P2"]) < 33:
-                Hor["Horarios"]["HorarioB"]["P2"].append({camp["Campers"][i]["ID"],
-                                                            camp["Campers"][i]["nombre"],
-                                                            camp["Campers"][i]["apellido"],
-                                                            Hor["Horarios"]["HorarioB"]["P2"].append({"NotaProyecto":None}),
-                                                            Hor["Horarios"]["HorarioB"]["P2"]["NotaFiltro"],
-                                                            Hor["Horarios"]["HorarioB"]["P2"]["NotaTrabajos"],
-                                                            Hor["Horarios"]["HorarioB"]["P2"]["NotaFinal"]
+                Hor["Horarios"]["HorarioB"]["P2"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
                                                             })
                 camp["Campers"][i]["Estado"]["Aprobado"]=False
                 camp["Campers"][i]["Estado"]["Cursando"]=True
                 guardarJS(Hor)
                 guardarJSON(camp)
         elif len(Hor["Horarios"]["HorarioC"]["P3"]) < 33:
-                Hor["Horarios"]["HorarioC"]["P3"].append({camp["Campers"][i]["ID"],
-                                                            camp["Campers"][i]["nombre"],
-                                                            camp["Campers"][i]["apellido"],
-                                                            Hor["Horarios"]["HorarioC"]["P3"]["NotaProyecto"],
-                                                            Hor["Horarios"]["HorarioC"]["P3"]["NotaFiltro"],
-                                                            Hor["Horarios"]["HorarioC"]["P3"]["NotaTrabajos"],
-                                                            Hor["Horarios"]["HorarioC"]["P3"]["NotaFinal"]
+                Hor["Horarios"]["HorarioC"]["P3"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
                                                             })
                 camp["Campers"][i]["Estado"]["Aprobado"]=False
                 camp["Campers"][i]["Estado"]["Cursando"]=True
                 guardarJS(Hor)
                 guardarJSON(camp)
         elif len(Hor["Horarios"]["HorarioD"]["P4"]) < 33:
-                Hor["Horarios"]["HorarioD"]["P4"].append({camp["Campers"][i]["ID"],
-                                                            camp["Campers"][i]["nombre"],
-                                                            camp["Campers"][i]["apellido"],
-                                                            Hor["Horarios"]["HorarioD"]["P4"]["NotaProyecto"],
-                                                            Hor["Horarios"]["HorarioD"]["P4"]["NotaFiltro"],
-                                                            Hor["Horarios"]["HorarioD"]["P4"]["NotaTrabajos"],
-                                                            Hor["Horarios"]["HorarioD"]["P4"]["NotaFinal"]
+                Hor["Horarios"]["HorarioD"]["P4"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
                                                             })
                 camp["Campers"][i]["Estado"]["Aprobado"]=False
                 camp["Campers"][i]["Estado"]["Cursando"]=True
                 guardarJS(Hor)
                 guardarJSON(camp)
         elif len(Hor["Horarios"]["HorarioA"]["M1"]) < 33:
-                Hor["Horarios"]["HorarioA"]["M1"].append({camp["Campers"][i]["ID"],
-                                                            camp["Campers"][i]["nombre"],
-                                                            camp["Campers"][i]["apellido"],
-                                                            Hor["Horarios"]["HorarioA"]["M1"]["NotaProyecto"],
-                                                            Hor["Horarios"]["HorarioA"]["M1"]["NotaFiltro"],
-                                                            Hor["Horarios"]["HorarioA"]["M1"]["NotaTrabajos"],
-                                                            Hor["Horarios"]["HorarioA"]["M1"]["NotaFinal"]
-                                                            })
-                camp["Campers"][i]["Estado"]["Aprobado"]=False
-                camp["Campers"][i]["Estado"]["Cursando"]=True
-                guardarJS(Hor)
-                guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioB"]["M2"]) < 33:
-            Hor["Horarios"]["HorarioAB"]["M2"].append({camp["Campers"][i]["ID"],
-                                                        camp["Campers"][i]["nombre"],
-                                                        camp["Campers"][i]["apellido"],
-                                                        Hor["Horarios"]["HorarioB"]["M2"]["NotaProyecto"],
-                                                        Hor["Horarios"]["HorarioB"]["M2"]["NotaFiltro"],
-                                                        Hor["Horarios"]["HorarioB"]["M2"]["NotaTrabajos"],
-                                                        Hor["Horarios"]["HorarioB"]["M2"]["NotaFinal"]
+            Hor["Horarios"]["HorarioA"]["M1"].append({"ID":camp["Campers"][i]["ID"],
+                                                        "nombre":camp["Campers"][i]["nombre"],
+                                                        "apellido":camp["Campers"][i]["apellido"]
                                                         })
             camp["Campers"][i]["Estado"]["Aprobado"]=False
             camp["Campers"][i]["Estado"]["Cursando"]=True
             guardarJS(Hor)
             guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioC"]["M3"]) < 33:
-            Hor["Horarios"]["HorarioAC"]["M3"].append({camp["Campers"][i]["ID"],
-                                                        camp["Campers"][i]["nombre"],
-                                                        camp["Campers"][i]["apellido"],
-                                                        Hor["Horarios"]["HorarioC"]["M3"]["NotaProyecto"],
-                                                        Hor["Horarios"]["HorarioC"]["M3"]["NotaFiltro"],
-                                                        Hor["Horarios"]["HorarioC"]["M3"]["NotaTrabajos"],
-                                                        Hor["Horarios"]["HorarioC"]["M3"]["NotaFinal"]
+        elif len(Hor["Horarios"]["HorarioB"]["M2"]) < 33:
+            Hor["Horarios"]["HorarioAB"]["M2"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
+                                                        })
+            camp["Campers"][i]["Estado"]["Aprobado"]=False
+            camp["Campers"][i]["Estado"]["Cursando"]=True
+            guardarJS(Hor)
+            guardarJSON(camp)
+        elif len(Hor["Horarios"]["HorarioC"]["M2"]) < 33:
+            Hor["Horarios"]["HorarioAC"]["M2"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
                                                         })
             camp["Campers"][i]["Estado"]["Aprobado"]=False
             camp["Campers"][i]["Estado"]["Cursando"]=True
             guardarJS(Hor)
             guardarJSON(camp)
         elif len(Hor["Horarios"]["HorarioD"]["M4"]) < 33:
-            Hor["Horarios"]["HorarioAD"]["M4"].append({camp["Campers"][i]["ID"],
-                                                        camp["Campers"][i]["nombre"],
-                                                        camp["Campers"][i]["apellido"],
-                                                        Hor["Horarios"]["HorarioD"]["M4"]["NotaProyecto"],
-                                                        Hor["Horarios"]["HorarioD"]["M4"]["NotaFiltro"],
-                                                        Hor["Horarios"]["HorarioD"]["M4"]["NotaTrabajos"],
-                                                        Hor["Horarios"]["HorarioD"]["M4"]["NotaFinal"]
+            Hor["Horarios"]["HorarioAD"]["M4"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
                                                         })
             camp["Campers"][i]["Estado"]["Aprobado"]=False
             camp["Campers"][i]["Estado"]["Cursando"]=True
             guardarJS(Hor)
             guardarJSON(camp)
         elif len(Hor["Horarios"]["HorarioA"]["J1"]) < 33:
-            Hor["Horarios"]["HorarioAA"]["J1"].append({camp["Campers"][i]["ID"],
-                                                        camp["Campers"][i]["nombre"],
-                                                        camp["Campers"][i]["apellido"],
-                                                        Hor["Horarios"]["HorarioA"]["J1"]["NotaProyecto"],
-                                                        Hor["Horarios"]["HorarioA"]["J1"]["NotaFiltro"],
-                                                        Hor["Horarios"]["HorarioA"]["J1"]["NotaTrabajos"],
-                                                        Hor["Horarios"]["HorarioA"]["J1"]["NotaFinal"]
+            Hor["Horarios"]["HorarioAA"]["J1"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
                                                         })
             camp["Campers"][i]["Estado"]["Aprobado"]=False
             camp["Campers"][i]["Estado"]["Cursando"]=True
             guardarJS(Hor)
             guardarJSON(camp)
         elif len(Hor["Horarios"]["HorarioB"]["J2"]) < 33:
-            Hor["Horarios"]["HorarioB"]["J2"].append({camp["Campers"][i]["ID"],
-                                                        camp["Campers"][i]["nombre"],
-                                                        camp["Campers"][i]["apellido"],
-                                                        Hor["Horarios"]["HorarioB"]["J2"]["NotaProyecto"],
-                                                        Hor["Horarios"]["HorarioB"]["J2"]["NotaFiltro"],
-                                                        Hor["Horarios"]["HorarioB"]["J2"]["NotaTrabajos"],
-                                                        Hor["Horarios"]["HorarioB"]["J2"]["NotaFinal"]
+            Hor["Horarios"]["HorarioB"]["J2"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
                                                         })
             camp["Campers"][i]["Estado"]["Aprobado"]=False
             camp["Campers"][i]["Estado"]["Cursando"]=True
             guardarJS(Hor)
             guardarJSON(camp)
         elif len(Hor["Horarios"]["HorarioC"]["J3"]) < 33:
-            Hor["Horarios"]["HorarioC"]["J3"].append({camp["Campers"][i]["ID"],
-                                                        camp["Campers"][i]["nombre"],
-                                                        camp["Campers"][i]["apellido"],
-                                                        Hor["Horarios"]["HorarioC"]["J3"]["NotaProyecto"],
-                                                        Hor["Horarios"]["HorarioC"]["J3"]["NotaFiltro"],
-                                                        Hor["Horarios"]["HorarioC"]["J3"]["NotaTrabajos"],
-                                                        Hor["Horarios"]["HorarioC"]["J3"]["NotaFinal"]
+            Hor["Horarios"]["HorarioC"]["J3"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
                                                         })
             camp["Campers"][i]["Estado"]["Aprobado"]=False
             camp["Campers"][i]["Estado"]["Cursando"]=True
             guardarJS(Hor)
             guardarJSON(camp)
         elif len(Hor["Horarios"]["HorarioD"]["J4"]) < 33:
-            Hor["Horarios"]["HorarioD"]["J4"].append({camp["Campers"][i]["ID"],
-                                                        camp["Campers"][i]["nombre"],
-                                                        camp["Campers"][i]["apellido"],
-                                                        Hor["Horarios"]["HorarioD"]["J4"]["NotaProyecto"],
-                                                        Hor["Horarios"]["HorarioD"]["J4"]["NotaFiltro"],
-                                                        Hor["Horarios"]["HorarioD"]["J4"]["NotaTrabajos"],
-                                                        Hor["Horarios"]["HorarioD"]["J4"]["NotaFinal"]
+            Hor["Horarios"]["HorarioD"]["J4"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
                                                         })
             camp["Campers"][i]["Estado"]["Aprobado"]=False
             camp["Campers"][i]["Estado"]["Cursando"]=True
             guardarJS(Hor)
             guardarJSON(camp)
         elif len(Hor["Horarios"]["HorarioA"]["JC1"]) < 33:
-            Hor["Horarios"]["HorarioA"]["JC1"].append({camp["Campers"][i]["ID"],
-                                                        camp["Campers"][i]["nombre"],
-                                                        camp["Campers"][i]["apellido"],
-                                                        Hor["Horarios"]["HorarioA"]["JC1"]["NotaProyecto"],
-                                                        Hor["Horarios"]["HorarioA"]["JC1"]["NotaFiltro"],
-                                                        Hor["Horarios"]["HorarioA"]["JC1"]["NotaTrabajos"],
-                                                        Hor["Horarios"]["HorarioA"]["JC1"]["NotaFinal"]
+            Hor["Horarios"]["HorarioA"]["JC1"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
                                                         })
             camp["Campers"][i]["Estado"]["Aprobado"]=False
             camp["Campers"][i]["Estado"]["Cursando"]=True
             guardarJS(Hor)
             guardarJSON(camp)
         elif len(Hor["Horarios"]["HorarioB"]["JC2"]) < 33:
-            Hor["Horarios"]["HorarioB"]["JC2"].append({camp["Campers"][i]["ID"],
-                                                        camp["Campers"][i]["nombre"],
-                                                        camp["Campers"][i]["apellido"],
-                                                        Hor["Horarios"]["HorarioB"]["JC2"]["NotaProyecto"],
-                                                        Hor["Horarios"]["HorarioB"]["JC2"]["NotaFiltro"],
-                                                        Hor["Horarios"]["HorarioB"]["JC2"]["NotaTrabajos"],
-                                                        Hor["Horarios"]["HorarioB"]["JC2"]["NotaFinal"]
+            Hor["Horarios"]["HorarioB"]["JC2"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
                                                         })
             camp["Campers"][i]["Estado"]["Aprobado"]=False
             camp["Campers"][i]["Estado"]["Cursando"]=True
             guardarJS(Hor)
             guardarJSON(camp)
         elif len(Hor["Horarios"]["HorarioC"]["C1"]) < 33:
-            Hor["Horarios"]["HorarioC"]["C1"].append({camp["Campers"][i]["ID"],
-                                                        camp["Campers"][i]["nombre"],
-                                                        camp["Campers"][i]["apellido"],
-                                                        Hor["Horarios"]["HorarioC"]["C1"]["NotaProyecto"],
-                                                        Hor["Horarios"]["HorarioC"]["C1"]["NotaFiltro"],
-                                                        Hor["Horarios"]["HorarioC"]["C1"]["NotaTrabajos"],
-                                                        Hor["Horarios"]["HorarioC"]["C1"]["NotaFinal"]
+            Hor["Horarios"]["HorarioC"]["C1"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
                                                         })
             camp["Campers"][i]["Estado"]["Aprobado"]=False
             camp["Campers"][i]["Estado"]["Cursando"]=True
             guardarJS(Hor)
             guardarJSON(camp)
         elif len(Hor["Horarios"]["HorarioD"]["C2"]) < 33:
-            Hor["Horarios"]["HorarioD"]["C2"].append({camp["Campers"][i]["ID"],
-                                                        camp["Campers"][i]["nombre"],
-                                                        camp["Campers"][i]["apellido"],
-                                                        Hor["Horarios"]["HorarioD"]["C2"]["NotaProyecto"],
-                                                        Hor["Horarios"]["HorarioD"]["C2"]["NotaFiltro"],
-                                                        Hor["Horarios"]["HorarioD"]["C2"]["NotaTrabajos"],
-                                                        Hor["Horarios"]["HorarioD"]["C2"]["NotaFinal"]
+            Hor["Horarios"]["HorarioD"]["C2"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
                                                         })
             camp["Campers"][i]["Estado"]["Aprobado"]=False
             camp["Campers"][i]["Estado"]["Cursando"]=True
             guardarJS(Hor)
+            guardarJSON(camp)
+
+
+def asignarestruta():
+    for i in range(len(camp)):
+        if camp["Campers"][i]["Estado"]["Cursando"]==True:
+            x=camp["Campers"][i]["ID"]
+            if Hor["Horarios"]["HorarioA"]["P1"]["ID"]==x:
+                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Python"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Html/css"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Scrum"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Git"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Javascript"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["IntroBack"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["IntroBBDD"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["MySQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Java"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["PostgresSQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["SpringBoot"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["P2"]["ID"]==x:
+                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P2"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P2"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Python"].append({"nombre":Hor["Horarios"]["HorarioA"]["P2"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P2"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Html/css"].append({"nombre":Hor["Horarios"]["HorarioA"]["P2"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P2"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Scrum"].append({"nombre":Hor["Horarios"]["HorarioA"]["P2"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P2"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Git"].append({"nombre":Hor["Horarios"]["HorarioA"]["P2"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P2"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Javascript"].append({"nombre":Hor["Horarios"]["HorarioA"]["P2"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P2"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["IntroBack"].append({"nombre":Hor["Horarios"]["HorarioA"]["P2"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P2"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["IntroBBDD"].append({"nombre":Hor["Horarios"]["HorarioA"]["P2"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P2"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["MySQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["P2"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P2"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Java"].append({"nombre":Hor["Horarios"]["HorarioA"]["P2"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P2"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["PostgresSQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["P2"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P2"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["SpringBoot"].append({"nombre":Hor["Horarios"]["HorarioA"]["P2"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P2"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                                           "notaFiltro":"",
+                                                                           "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["P3"]["ID"]==x:
+                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Python"].append({"nombre":Hor["Horarios"]["HorarioA"]["P3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Html/css"].append({"nombre":Hor["Horarios"]["HorarioA"]["P3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Scrum"].append({"nombre":Hor["Horarios"]["HorarioA"]["P3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Git"].append({"nombre":Hor["Horarios"]["HorarioA"]["P3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Javascript"].append({"nombre":Hor["Horarios"]["HorarioA"]["P3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["IntroBack"].append({"nombre":Hor["Horarios"]["HorarioA"]["P3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["IntroBBDD"].append({"nombre":Hor["Horarios"]["HorarioA"]["P3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["MySQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["P3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Java"].append({"nombre":Hor["Horarios"]["HorarioA"]["P3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["PostgresSQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["P3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["SpringBoot"].append({"nombre":Hor["Horarios"]["HorarioA"]["P3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                          "notaFiltro":"",
+                                                          "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["P4"]["ID"]==x:
+                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Python"].append({"nombre":Hor["Horarios"]["HorarioA"]["P4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Html/css"].append({"nombre":Hor["Horarios"]["HorarioA"]["P4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Scrum"].append({"nombre":Hor["Horarios"]["HorarioA"]["P4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Git"].append({"nombre":Hor["Horarios"]["HorarioA"]["P4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Javascript"].append({"nombre":Hor["Horarios"]["HorarioA"]["P4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["IntroBack"].append({"nombre":Hor["Horarios"]["HorarioA"]["P4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["IntroBBDD"].append({"nombre":Hor["Horarios"]["HorarioA"]["P4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["MySQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["P4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["Java"].append({"nombre":Hor["Horarios"]["HorarioA"]["P4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["PostgresSQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["P4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["Java"]["SpringBoot"].append({"nombre":Hor["Horarios"]["HorarioA"]["P4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["P4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                          "notaFiltro":"",
+                                                          "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["M1"]["ID"]==x:
+                rut["Rutas"]["NodeJS"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["M1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Python"].append({"nombre":Hor["Horarios"]["HorarioA"]["M1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Html/css"].append({"nombre":Hor["Horarios"]["HorarioA"]["M1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Scrum"].append({"nombre":Hor["Horarios"]["HorarioA"]["M1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Git"].append({"nombre":Hor["Horarios"]["HorarioA"]["M1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Javascript"].append({"nombre":Hor["Horarios"]["HorarioA"]["M1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["IntroBack"].append({"nombre":Hor["Horarios"]["HorarioA"]["M1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["IntroBBDD"].append({"nombre":Hor["Horarios"]["HorarioA"]["M1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["MongDB"].append({"nombre":Hor["Horarios"]["HorarioA"]["M1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Javascripts2"].append({"nombre":Hor["Horarios"]["HorarioA"]["M1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["MySQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["M1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Express"].append({"nombre":Hor["Horarios"]["HorarioA"]["M1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                          "notaFiltro":"",
+                                                          "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["M2"]["ID"]==x:
+                rut["Rutas"]["NodeJS"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["M2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Python"].append({"nombre":Hor["Horarios"]["HorarioA"]["M2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Html/css"].append({"nombre":Hor["Horarios"]["HorarioA"]["M2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Scrum"].append({"nombre":Hor["Horarios"]["HorarioA"]["M2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Git"].append({"nombre":Hor["Horarios"]["HorarioA"]["M2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Javascript"].append({"nombre":Hor["Horarios"]["HorarioA"]["M2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["IntroBack"].append({"nombre":Hor["Horarios"]["HorarioA"]["M2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["IntroBBDD"].append({"nombre":Hor["Horarios"]["HorarioA"]["M2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["MongDB"].append({"nombre":Hor["Horarios"]["HorarioA"]["M2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Javascripts2"].append({"nombre":Hor["Horarios"]["HorarioA"]["M2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["MySQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["M2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Express"].append({"nombre":Hor["Horarios"]["HorarioA"]["M2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                          "notaFiltro":"",
+                                                          "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["M3"]["ID"]==x:
+                rut["Rutas"]["NodeJS"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["M3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Python"].append({"nombre":Hor["Horarios"]["HorarioA"]["M3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Html/css"].append({"nombre":Hor["Horarios"]["HorarioA"]["M3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Scrum"].append({"nombre":Hor["Horarios"]["HorarioA"]["M3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Git"].append({"nombre":Hor["Horarios"]["HorarioA"]["M3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Javascript"].append({"nombre":Hor["Horarios"]["HorarioA"]["M3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["IntroBack"].append({"nombre":Hor["Horarios"]["HorarioA"]["M3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["IntroBBDD"].append({"nombre":Hor["Horarios"]["HorarioA"]["M3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["MongDB"].append({"nombre":Hor["Horarios"]["HorarioA"]["M3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Javascripts2"].append({"nombre":Hor["Horarios"]["HorarioA"]["M3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["MySQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["M3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Express"].append({"nombre":Hor["Horarios"]["HorarioA"]["M3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M3"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                          "notaFiltro":"",
+                                                          "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["M4"]["ID"]==x:
+                rut["Rutas"]["NodeJS"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["M4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Python"].append({"nombre":Hor["Horarios"]["HorarioA"]["M4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Html/css"].append({"nombre":Hor["Horarios"]["HorarioA"]["M4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Scrum"].append({"nombre":Hor["Horarios"]["HorarioA"]["M4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Git"].append({"nombre":Hor["Horarios"]["HorarioA"]["M4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Javascript"].append({"nombre":Hor["Horarios"]["HorarioA"]["M4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["IntroBack"].append({"nombre":Hor["Horarios"]["HorarioA"]["M4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["IntroBBDD"].append({"nombre":Hor["Horarios"]["HorarioA"]["M4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["MongDB"].append({"nombre":Hor["Horarios"]["HorarioA"]["M4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Javascripts2"].append({"nombre":Hor["Horarios"]["HorarioA"]["M4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["MySQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["M4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NodeJS"]["Express"].append({"nombre":Hor["Horarios"]["HorarioA"]["M4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["M4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                          "notaFiltro":"",
+                                                          "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["J1"]["ID"]==x:
+                rut["Rutas"]["NetCore"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["J1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Python"].append({"nombre":Hor["Horarios"]["HorarioA"]["J1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Html/css"].append({"nombre":Hor["Horarios"]["HorarioA"]["J1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Scrum"].append({"nombre":Hor["Horarios"]["HorarioA"]["J1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Git"].append({"nombre":Hor["Horarios"]["HorarioA"]["J1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Javascript"].append({"nombre":Hor["Horarios"]["HorarioA"]["J1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["IntroBack"].append({"nombre":Hor["Horarios"]["HorarioA"]["J1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["IntroBBDD"].append({"nombre":Hor["Horarios"]["HorarioA"]["J1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["MySQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["J1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["C##"].append({"nombre":Hor["Horarios"]["HorarioA"]["J1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["PostgresSQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["J1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"][".NetCore"].append({"nombre":Hor["Horarios"]["HorarioA"]["J1"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J1"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                          "notaFiltro":"",
+                                                          "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["J2"]["ID"]==x:
+                rut["Rutas"]["NetCore"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Python"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Html/css"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Scrum"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Git"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Javascript"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["IntroBack"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["IntroBBDD"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["MySQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["C##"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["PostgresSQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"][".NetCore"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                          "notaFiltro":"",
+                                                          "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["J2"]["ID"]==x:
+                rut["Rutas"]["NetCore"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Python"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Html/css"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Scrum"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Git"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Javascript"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["IntroBack"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["IntroBBDD"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["MySQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["C##"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["PostgresSQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"][".NetCore"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                          "notaFiltro":"",
+                                                          "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["P1"]["ID"]==x:
+                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["P1"]["ID"]==x:
+                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["P1"]["ID"]==x:
+                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["P1"]["ID"]==x:
+                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["P1"]["ID"]==x:
+                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                guardarJSO(rut)
+            elif Hor["Horarios"]["HorarioA"]["P1"]["ID"]==x:
+                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
+                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
+                                                      "Notas":{"notaProyecto":"",
+                                                               "notaFiltro":"",
+                                                               "notaTrabajos":""}})
+                guardarJSO(rut)
+            
 
 
 def asignacionnotainical():
-    print("Falta asignar")
+    Vercamper()
+    print("A que estudiante le quiere asignar la nota del examen de ingreso")
+    x=int(input(": "))
+    print("Ingrese la nueva nota")
+    nt=int(input(": "))
+    camp["Campers"][x-1]["notainicial"]=nt
     
-    
-    #match E:  #(Falta entrar al diccionario para elegir el estudiante a editar) 
-     #   case 1:
-      #      IDnuevo = int(input("Ingresa el nuevo ID: "))
-       #     camp["ID"] = IDnuevo
-        #    guardarJSON(camp)
-    
+
     
 ##Crear una contrasena para el usuario trainner  
 #pero igual solo cree el menu las funciones las implementamos en el main
