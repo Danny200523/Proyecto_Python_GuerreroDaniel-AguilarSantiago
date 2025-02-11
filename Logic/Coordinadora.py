@@ -287,9 +287,9 @@ def asignargrupo1():
             print(i)
             if len(Hor["Horarios"]["HorarioA"]["P1"]) < 33:
                 print("hola")
-                Hor["Horarios"]["HorarioA"]["P1"].append({camp["Campers"][i]["ID"],
-                                                            camp["Campers"][i]["nombre"],
-                                                            camp["Campers"][i]["apellido"]
+                Hor["Horarios"]["HorarioA"]["P1"].append({"ID":camp["Campers"][i]["ID"],
+                                                            "nombre":camp["Campers"][i]["nombre"],
+                                                            "apellido":camp["Campers"][i]["apellido"]
                                                             })
                 camp["Campers"][i]["Estado"]["Aprobado"]=False
                 camp["Campers"][i]["Estado"]["Cursando"]=True
