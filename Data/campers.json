@@ -8,8 +8,8 @@
             "acudientes": "Shirley",
             "#celular": 3144795848,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -26,7 +26,7 @@
             "ID": 1097099391,
             "nombre": "Santiago",
             "apellido": "Aguilar",
-            "direccion": "Calle 105Â·15d-27",
+            "direccion": "Calle 105\u00c2\u00b715d-27",
             "acudientes": "Sandra",
             "#celular": 3502712357,
             "Estado": {
@@ -47,9 +47,9 @@
         {
             "ID": 1000000001,
             "nombre": "Ana",
-            "apellido": "LÃ³pez",
+            "apellido": "L\u00c3\u00b3pez",
             "direccion": "Calle 12 #34-56",
-            "acudientes": "Carlos LÃ³pez",
+            "acudientes": "Carlos L\u00c3\u00b3pez",
             "#celular": 3101234567,
             "Estado": {
                 "Aprobado": false,
@@ -69,9 +69,9 @@
         {
             "ID": 1000000002,
             "nombre": "Juan",
-            "apellido": "GÃ³mez",
+            "apellido": "G\u00c3\u00b3mez",
             "direccion": "Carrera 45 #67-89",
-            "acudientes": "MarÃ­a GÃ³mez",
+            "acudientes": "Mar\u00c3\u00ada G\u00c3\u00b3mez",
             "#celular": 3202345678,
             "Estado": {
                 "Aprobado": false,
@@ -91,13 +91,13 @@
         {
             "ID": 1000000003,
             "nombre": "Laura",
-            "apellido": "MartÃ­nez",
+            "apellido": "Mart\u00c3\u00adnez",
             "direccion": "Avenida 78 #90-12",
-            "acudientes": "Pedro MartÃ­nez",
+            "acudientes": "Pedro Mart\u00c3\u00adnez",
             "#celular": 3003456789,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -113,9 +113,9 @@
         {
             "ID": 1000000004,
             "nombre": "Carlos",
-            "apellido": "RodrÃ­guez",
+            "apellido": "Rodr\u00c3\u00adguez",
             "direccion": "Calle 56 #78-90",
-            "acudientes": "Ana RodrÃ­guez",
+            "acudientes": "Ana Rodr\u00c3\u00adguez",
             "#celular": 3154567890,
             "Estado": {
                 "Aprobado": false,
@@ -134,10 +134,10 @@
         },
         {
             "ID": 1000000005,
-            "nombre": "SofÃ­a",
-            "apellido": "HernÃ¡ndez",
+            "nombre": "Sof\u00c3\u00ada",
+            "apellido": "Hern\u00c3\u00a1ndez",
             "direccion": "Carrera 23 #45-67",
-            "acudientes": "Luis HernÃ¡ndez",
+            "acudientes": "Luis Hern\u00c3\u00a1ndez",
             "#celular": 3185678901,
             "Estado": {
                 "Aprobado": false,
@@ -157,9 +157,9 @@
         {
             "ID": 1000000006,
             "nombre": "Diego",
-            "apellido": "PÃ©rez",
+            "apellido": "P\u00c3\u00a9rez",
             "direccion": "Avenida 34 #56-78",
-            "acudientes": "Carmen PÃ©rez",
+            "acudientes": "Carmen P\u00c3\u00a9rez",
             "#celular": 3176789012,
             "Estado": {
                 "Aprobado": false,
@@ -179,13 +179,13 @@
         {
             "ID": 1000000007,
             "nombre": "Valentina",
-            "apellido": "GarcÃ­a",
+            "apellido": "Garc\u00c3\u00ada",
             "direccion": "Calle 67 #89-01",
-            "acudientes": "Jorge GarcÃ­a",
+            "acudientes": "Jorge Garc\u00c3\u00ada",
             "#celular": 3137890123,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -201,9 +201,9 @@
         {
             "ID": 1000000008,
             "nombre": "Mateo",
-            "apellido": "FernÃ¡ndez",
+            "apellido": "Fern\u00c3\u00a1ndez",
             "direccion": "Carrera 78 #90-12",
-            "acudientes": "LucÃ­a FernÃ¡ndez",
+            "acudientes": "Luc\u00c3\u00ada Fern\u00c3\u00a1ndez",
             "#celular": 3148901234,
             "Estado": {
                 "Aprobado": false,
@@ -223,9 +223,9 @@
         {
             "ID": 1000000009,
             "nombre": "Isabella",
-            "apellido": "DÃ­az",
+            "apellido": "D\u00c3\u00adaz",
             "direccion": "Avenida 90 #12-34",
-            "acudientes": "AndrÃ©s DÃ­az",
+            "acudientes": "Andr\u00c3\u00a9s D\u00c3\u00adaz",
             "#celular": 3199012345,
             "Estado": {
                 "Aprobado": false,
@@ -244,10 +244,10 @@
         },
         {
             "ID": 1000000010,
-            "nombre": "SebastiÃ¡n",
-            "apellido": "SÃ¡nchez",
+            "nombre": "Sebasti\u00c3\u00a1n",
+            "apellido": "S\u00c3\u00a1nchez",
             "direccion": "Calle 11 #22-33",
-            "acudientes": "Patricia SÃ¡nchez",
+            "acudientes": "Patricia S\u00c3\u00a1nchez",
             "#celular": 3120123456,
             "Estado": {
                 "Aprobado": false,
@@ -267,9 +267,9 @@
         {
             "ID": 1000000011,
             "nombre": "Camila",
-            "apellido": "RamÃ­rez",
+            "apellido": "Ram\u00c3\u00adrez",
             "direccion": "Carrera 22 #33-44",
-            "acudientes": "Fernando RamÃ­rez",
+            "acudientes": "Fernando Ram\u00c3\u00adrez",
             "#celular": 3111234567,
             "Estado": {
                 "Aprobado": false,
@@ -288,7 +288,7 @@
         },
         {
             "ID": 1000000012,
-            "nombre": "NicolÃ¡s",
+            "nombre": "Nicol\u00c3\u00a1s",
             "apellido": "Torres",
             "direccion": "Avenida 33 #44-55",
             "acudientes": "Sandra Torres",
@@ -357,11 +357,11 @@
             "nombre": "Mariana",
             "apellido": "Vargas",
             "direccion": "Avenida 66 #77-88",
-            "acudientes": "HÃ©ctor Vargas",
+            "acudientes": "H\u00c3\u00a9ctor Vargas",
             "#celular": 3155678901,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -382,8 +382,8 @@
             "acudientes": "Claudia Castro",
             "#celular": 3186789012,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -464,10 +464,10 @@
         },
         {
             "ID": 1000000020,
-            "nombre": "JuliÃ¡n",
+            "nombre": "Juli\u00c3\u00a1n",
             "apellido": "Herrera",
             "direccion": "Carrera 20 #30-40",
-            "acudientes": "MÃ³nica Herrera",
+            "acudientes": "M\u00c3\u00b3nica Herrera",
             "#celular": 3190123456,
             "Estado": {
                 "Aprobado": false,
@@ -486,7 +486,7 @@
         },
         {
             "ID": 1000000021,
-            "nombre": "LucÃ­a",
+            "nombre": "Luc\u00c3\u00ada",
             "apellido": "Morales",
             "direccion": "Avenida 30 #40-50",
             "acudientes": "Alberto Morales",
@@ -531,9 +531,9 @@
         {
             "ID": 1000000023,
             "nombre": "Ximena",
-            "apellido": "GutiÃ©rrez",
+            "apellido": "Guti\u00c3\u00a9rrez",
             "direccion": "Carrera 50 #60-70",
-            "acudientes": "RaÃºl GutiÃ©rrez",
+            "acudientes": "Ra\u00c3\u00bal Guti\u00c3\u00a9rrez",
             "#celular": 3163456789,
             "Estado": {
                 "Aprobado": false,
@@ -552,14 +552,14 @@
         },
         {
             "ID": 1000000024,
-            "nombre": "AndrÃ©s",
-            "apellido": "JimÃ©nez",
+            "nombre": "Andr\u00c3\u00a9s",
+            "apellido": "Jim\u00c3\u00a9nez",
             "direccion": "Avenida 60 #70-80",
-            "acudientes": "Carolina JimÃ©nez",
+            "acudientes": "Carolina Jim\u00c3\u00a9nez",
             "#celular": 3104567890,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -640,7 +640,7 @@
         },
         {
             "ID": 1000000028,
-            "nombre": "JoaquÃ­n",
+            "nombre": "Joaqu\u00c3\u00adn",
             "apellido": "Navarro",
             "direccion": "Calle 10 #20-30",
             "acudientes": "Elena Navarro",
@@ -712,8 +712,8 @@
             "acudientes": "Hugo Vega",
             "#celular": 3191234567,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -731,11 +731,11 @@
             "nombre": "Thiago",
             "apellido": "Campos",
             "direccion": "Carrera 50 #60-70",
-            "acudientes": "VerÃ³nica Campos",
+            "acudientes": "Ver\u00c3\u00b3nica Campos",
             "#celular": 3122345678,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -772,10 +772,10 @@
         },
         {
             "ID": 1000000034,
-            "nombre": "BenjamÃ­n",
-            "apellido": "RÃ­os",
+            "nombre": "Benjam\u00c3\u00adn",
+            "apellido": "R\u00c3\u00ados",
             "direccion": "Calle 70 #80-90",
-            "acudientes": "Clara RÃ­os",
+            "acudientes": "Clara R\u00c3\u00ados",
             "#celular": 3164567890,
             "Estado": {
                 "Aprobado": false,
@@ -800,8 +800,8 @@
             "acudientes": "Federico Medina",
             "#celular": 3105678901,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -819,7 +819,7 @@
             "nombre": "Ignacio",
             "apellido": "Soto",
             "direccion": "Avenida 90 #10-20",
-            "acudientes": "LucÃ­a Soto",
+            "acudientes": "Luc\u00c3\u00ada Soto",
             "#celular": 3206789012,
             "Estado": {
                 "Aprobado": false,
@@ -841,7 +841,7 @@
             "nombre": "Constanza",
             "apellido": "Lara",
             "direccion": "Calle 10 #20-30",
-            "acudientes": "MartÃ­n Lara",
+            "acudientes": "Mart\u00c3\u00adn Lara",
             "#celular": 3157890123,
             "Estado": {
                 "Aprobado": false,
@@ -860,7 +860,7 @@
         },
         {
             "ID": 1000000038,
-            "nombre": "MatÃ­as",
+            "nombre": "Mat\u00c3\u00adas",
             "apellido": "Miranda",
             "direccion": "Carrera 20 #30-40",
             "acudientes": "Paula Miranda",
@@ -905,13 +905,13 @@
         {
             "ID": 1000000040,
             "nombre": "Emilia",
-            "apellido": "CortÃ©s",
+            "apellido": "Cort\u00c3\u00a9s",
             "direccion": "Calle 40 #50-60",
-            "acudientes": "Ana CortÃ©s",
+            "acudientes": "Ana Cort\u00c3\u00a9s",
             "#celular": 3130123456,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -927,9 +927,9 @@
         {
             "ID": 1000000041,
             "nombre": "Leonardo",
-            "apellido": "NÃºÃ±ez",
+            "apellido": "N\u00c3\u00ba\u00c3\u00b1ez",
             "direccion": "Carrera 50 #60-70",
-            "acudientes": "SofÃ­a NÃºÃ±ez",
+            "acudientes": "Sof\u00c3\u00ada N\u00c3\u00ba\u00c3\u00b1ez",
             "#celular": 3141234567,
             "Estado": {
                 "Aprobado": false,
@@ -954,8 +954,8 @@
             "acudientes": "Jorge Paredes",
             "#celular": 3192345678,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -973,11 +973,11 @@
             "nombre": "Bruno",
             "apellido": "Cabrera",
             "direccion": "Calle 70 #80-90",
-            "acudientes": "MarÃ­a Cabrera",
+            "acudientes": "Mar\u00c3\u00ada Cabrera",
             "#celular": 3123456789,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -993,9 +993,9 @@
         {
             "ID": 1000000044,
             "nombre": "Abril",
-            "apellido": "PeÃ±a",
+            "apellido": "Pe\u00c3\u00b1a",
             "direccion": "Carrera 80 #90-10",
-            "acudientes": "Luis PeÃ±a",
+            "acudientes": "Luis Pe\u00c3\u00b1a",
             "#celular": 3114567890,
             "Estado": {
                 "Aprobado": false,
@@ -1015,9 +1015,9 @@
         {
             "ID": 1000000045,
             "nombre": "Dante",
-            "apellido": "CÃ¡rdenas",
+            "apellido": "C\u00c3\u00a1rdenas",
             "direccion": "Avenida 90 #10-20",
-            "acudientes": "Carmen CÃ¡rdenas",
+            "acudientes": "Carmen C\u00c3\u00a1rdenas",
             "#celular": 3165678901,
             "Estado": {
                 "Aprobado": false,
@@ -1064,8 +1064,8 @@
             "acudientes": "Patricia Bravo",
             "#celular": 3207890123,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1086,8 +1086,8 @@
             "acudientes": "Ricardo Salazar",
             "#celular": 3158901234,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1103,9 +1103,9 @@
         {
             "ID": 1000000049,
             "nombre": "Carlos",
-            "apellido": "GÃ³mez",
+            "apellido": "G\u00c3\u00b3mez",
             "direccion": "Calle 15 #25-35",
-            "acudientes": "MarÃ­a GÃ³mez",
+            "acudientes": "Mar\u00c3\u00ada G\u00c3\u00b3mez",
             "#celular": 3101234567,
             "Estado": {
                 "Aprobado": false,
@@ -1124,10 +1124,10 @@
         },
         {
             "ID": 1000000050,
-            "nombre": "SofÃ­a",
-            "apellido": "LÃ³pez",
+            "nombre": "Sof\u00c3\u00ada",
+            "apellido": "L\u00c3\u00b3pez",
             "direccion": "Carrera 10 #20-30",
-            "acudientes": "Juan LÃ³pez",
+            "acudientes": "Juan L\u00c3\u00b3pez",
             "#celular": 3112345678,
             "Estado": {
                 "Aprobado": false,
@@ -1147,13 +1147,13 @@
         {
             "ID": 1000000051,
             "nombre": "Javier",
-            "apellido": "MartÃ­nez",
+            "apellido": "Mart\u00c3\u00adnez",
             "direccion": "Avenida 5 #15-25",
-            "acudientes": "Ana MartÃ­nez",
+            "acudientes": "Ana Mart\u00c3\u00adnez",
             "#celular": 3123456789,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1169,13 +1169,13 @@
         {
             "ID": 1000000052,
             "nombre": "Valentina",
-            "apellido": "GarcÃ­a",
+            "apellido": "Garc\u00c3\u00ada",
             "direccion": "Calle 25 #35-45",
-            "acudientes": "Carlos GarcÃ­a",
+            "acudientes": "Carlos Garc\u00c3\u00ada",
             "#celular": 3134567890,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1191,9 +1191,9 @@
         {
             "ID": 1000000053,
             "nombre": "Diego",
-            "apellido": "RodrÃ­guez",
+            "apellido": "Rodr\u00c3\u00adguez",
             "direccion": "Carrera 30 #40-50",
-            "acudientes": "Laura RodrÃ­guez",
+            "acudientes": "Laura Rodr\u00c3\u00adguez",
             "#celular": 3145678901,
             "Estado": {
                 "Aprobado": false,
@@ -1213,9 +1213,9 @@
         {
             "ID": 1000000054,
             "nombre": "Camila",
-            "apellido": "HernÃ¡ndez",
+            "apellido": "Hern\u00c3\u00a1ndez",
             "direccion": "Avenida 10 #20-30",
-            "acudientes": "Pedro HernÃ¡ndez",
+            "acudientes": "Pedro Hern\u00c3\u00a1ndez",
             "#celular": 3156789012,
             "Estado": {
                 "Aprobado": false,
@@ -1234,10 +1234,10 @@
         },
         {
             "ID": 1000000055,
-            "nombre": "AndrÃ©s",
-            "apellido": "DÃ­az",
+            "nombre": "Andr\u00c3\u00a9s",
+            "apellido": "D\u00c3\u00adaz",
             "direccion": "Calle 20 #30-40",
-            "acudientes": "Sandra DÃ­az",
+            "acudientes": "Sandra D\u00c3\u00adaz",
             "#celular": 3167890123,
             "Estado": {
                 "Aprobado": false,
@@ -1257,13 +1257,13 @@
         {
             "ID": 1000000056,
             "nombre": "Mariana",
-            "apellido": "PÃ©rez",
+            "apellido": "P\u00c3\u00a9rez",
             "direccion": "Carrera 25 #35-45",
-            "acudientes": "Luis PÃ©rez",
+            "acudientes": "Luis P\u00c3\u00a9rez",
             "#celular": 3178901234,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1278,14 +1278,14 @@
         },
         {
             "ID": 1000000057,
-            "nombre": "SebastiÃ¡n",
-            "apellido": "SÃ¡nchez",
+            "nombre": "Sebasti\u00c3\u00a1n",
+            "apellido": "S\u00c3\u00a1nchez",
             "direccion": "Avenida 15 #25-35",
-            "acudientes": "Carmen SÃ¡nchez",
+            "acudientes": "Carmen S\u00c3\u00a1nchez",
             "#celular": 3189012345,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1301,9 +1301,9 @@
         {
             "ID": 1000000058,
             "nombre": "Isabella",
-            "apellido": "RamÃ­rez",
+            "apellido": "Ram\u00c3\u00adrez",
             "direccion": "Calle 30 #40-50",
-            "acudientes": "Jorge RamÃ­rez",
+            "acudientes": "Jorge Ram\u00c3\u00adrez",
             "#celular": 3190123456,
             "Estado": {
                 "Aprobado": false,
@@ -1366,14 +1366,14 @@
         },
         {
             "ID": 1000000061,
-            "nombre": "NicolÃ¡s",
+            "nombre": "Nicol\u00c3\u00a1s",
             "apellido": "Vargas",
             "direccion": "Calle 35 #45-55",
             "acudientes": "Ana Vargas",
             "#celular": 3223456789,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1388,14 +1388,14 @@
         },
         {
             "ID": 1000000062,
-            "nombre": "LucÃ­a",
-            "apellido": "GutiÃ©rrez",
+            "nombre": "Luc\u00c3\u00ada",
+            "apellido": "Guti\u00c3\u00a9rrez",
             "direccion": "Carrera 40 #50-60",
-            "acudientes": "Carlos GutiÃ©rrez",
+            "acudientes": "Carlos Guti\u00c3\u00a9rrez",
             "#celular": 3234567890,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1460,8 +1460,8 @@
             "acudientes": "Sandra Mendoza",
             "#celular": 3267890123,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1499,13 +1499,13 @@
         {
             "ID": 1000000067,
             "nombre": "Daniel",
-            "apellido": "RÃ­os",
+            "apellido": "R\u00c3\u00ados",
             "direccion": "Calle 45 #55-65",
-            "acudientes": "Carmen RÃ­os",
+            "acudientes": "Carmen R\u00c3\u00ados",
             "#celular": 3289012345,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1548,8 +1548,8 @@
             "acudientes": "Patricia Ortiz",
             "#celular": 3301234567,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1564,14 +1564,14 @@
         },
         {
             "ID": 1000000070,
-            "nombre": "MarÃ­a",
+            "nombre": "Mar\u00c3\u00ada",
             "apellido": "Cruz",
             "direccion": "Calle 50 #60-70",
             "acudientes": "Ricardo Cruz",
             "#celular": 3312345678,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1586,14 +1586,14 @@
         },
         {
             "ID": 1000000071,
-            "nombre": "JosÃ©",
+            "nombre": "Jos\u00c3\u00a9",
             "apellido": "Navarro",
             "direccion": "Carrera 55 #65-75",
             "acudientes": "Ana Navarro",
             "#celular": 3323456789,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1609,9 +1609,9 @@
         {
             "ID": 1000000072,
             "nombre": "Sara",
-            "apellido": "JimÃ©nez",
+            "apellido": "Jim\u00c3\u00a9nez",
             "direccion": "Avenida 40 #50-60",
-            "acudientes": "Carlos JimÃ©nez",
+            "acudientes": "Carlos Jim\u00c3\u00a9nez",
             "#celular": 3334567890,
             "Estado": {
                 "Aprobado": false,
@@ -1630,7 +1630,7 @@
         },
         {
             "ID": 1000000073,
-            "nombre": "TomÃ¡s",
+            "nombre": "Tom\u00c3\u00a1s",
             "apellido": "Ruiz",
             "direccion": "Calle 55 #65-75",
             "acudientes": "Laura Ruiz",
@@ -1697,9 +1697,9 @@
         {
             "ID": 1000000076,
             "nombre": "Ana",
-            "apellido": "SuÃ¡rez",
+            "apellido": "Su\u00c3\u00a1rez",
             "direccion": "Calle 60 #70-80",
-            "acudientes": "Luis SuÃ¡rez",
+            "acudientes": "Luis Su\u00c3\u00a1rez",
             "#celular": 3378901234,
             "Estado": {
                 "Aprobado": false,
@@ -1762,7 +1762,7 @@
         },
         {
             "ID": 1000000079,
-            "nombre": "AdriÃ¡n",
+            "nombre": "Adri\u00c3\u00a1n",
             "apellido": "Ortega",
             "direccion": "Calle 65 #75-85",
             "acudientes": "Patricia Ortega",
@@ -1807,13 +1807,13 @@
         {
             "ID": 1000000081,
             "nombre": "Jorge",
-            "apellido": "CortÃ©s",
+            "apellido": "Cort\u00c3\u00a9s",
             "direccion": "Avenida 55 #65-75",
-            "acudientes": "Ana CortÃ©s",
+            "acudientes": "Ana Cort\u00c3\u00a9s",
             "#celular": 3423456789,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1829,9 +1829,9 @@
         {
             "ID": 1000000082,
             "nombre": "Laura",
-            "apellido": "GuzmÃ¡n",
+            "apellido": "Guzm\u00c3\u00a1n",
             "direccion": "Calle 70 #80-90",
-            "acudientes": "Carlos GuzmÃ¡n",
+            "acudientes": "Carlos Guzm\u00c3\u00a1n",
             "#celular": 3434567890,
             "Estado": {
                 "Aprobado": false,
@@ -1856,8 +1856,8 @@
             "acudientes": "Laura Vega",
             "#celular": 3445678901,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1900,8 +1900,8 @@
             "acudientes": "Sandra Lara",
             "#celular": 3467890123,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1922,8 +1922,8 @@
             "acudientes": "Luis Campos",
             "#celular": 3478901234,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1938,7 +1938,7 @@
         },
         {
             "ID": 1000000087,
-            "nombre": "RaÃºl",
+            "nombre": "Ra\u00c3\u00bal",
             "apellido": "Fuentes",
             "direccion": "Avenida 65 #75-85",
             "acudientes": "Carmen Fuentes",
@@ -1961,13 +1961,13 @@
         {
             "ID": 1000000088,
             "nombre": "Rosa",
-            "apellido": "MÃ©ndez",
+            "apellido": "M\u00c3\u00a9ndez",
             "direccion": "Calle 80 #90-100",
-            "acudientes": "Jorge MÃ©ndez",
+            "acudientes": "Jorge M\u00c3\u00a9ndez",
             "#celular": 3490123456,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -1988,8 +1988,8 @@
             "acudientes": "Patricia Reyes",
             "#celular": 3501234567,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -2005,13 +2005,13 @@
         {
             "ID": 1000000090,
             "nombre": "Silvia",
-            "apellido": "LeÃ³n",
+            "apellido": "Le\u00c3\u00b3n",
             "direccion": "Avenida 70 #80-90",
-            "acudientes": "Ricardo LeÃ³n",
+            "acudientes": "Ricardo Le\u00c3\u00b3n",
             "#celular": 3512345678,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -2032,8 +2032,8 @@
             "acudientes": "Ana Miranda",
             "#celular": 3523456789,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -2049,13 +2049,13 @@
         {
             "ID": 1000000092,
             "nombre": "Eva",
-            "apellido": "NÃºÃ±ez",
+            "apellido": "N\u00c3\u00ba\u00c3\u00b1ez",
             "direccion": "Carrera 90 #100-110",
-            "acudientes": "Carlos NÃºÃ±ez",
+            "acudientes": "Carlos N\u00c3\u00ba\u00c3\u00b1ez",
             "#celular": 3534567890,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -2076,8 +2076,8 @@
             "acudientes": "Laura Iglesias",
             "#celular": 3545678901,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -2203,9 +2203,9 @@
         {
             "ID": 5203779532,
             "nombre": "Emilio",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Avenida 45 #31-8",
-            "acudientes": "David García",
+            "acudientes": "David Garc\u00eda",
             "#celular": "354056803",
             "Estado": {
                 "Aprobado": false,
@@ -2225,7 +2225,7 @@
         {
             "ID": 2434883346,
             "nombre": "Emilio",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 39 #47-29",
             "acudientes": "Ana Mendoza",
             "#celular": "387264922",
@@ -2247,9 +2247,9 @@
         {
             "ID": 6641013705,
             "nombre": "Pedro",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 9 #90-25",
-            "acudientes": "Martín Vargas",
+            "acudientes": "Mart\u00edn Vargas",
             "#celular": "356904094",
             "Estado": {
                 "Aprobado": false,
@@ -2269,9 +2269,9 @@
         {
             "ID": 6132081075,
             "nombre": "Jorge",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Diagonal 133 #70-10",
-            "acudientes": "Valeria García",
+            "acudientes": "Valeria Garc\u00eda",
             "#celular": "351366074",
             "Estado": {
                 "Aprobado": false,
@@ -2290,8 +2290,8 @@
         },
         {
             "ID": 2336809243,
-            "nombre": "Sofía",
-            "apellido": "García",
+            "nombre": "Sof\u00eda",
+            "apellido": "Garc\u00eda",
             "direccion": "Diagonal 81 #30-5",
             "acudientes": "Pedro Vargas",
             "#celular": "344550048",
@@ -2313,7 +2313,7 @@
         {
             "ID": 3602321745,
             "nombre": "Camila",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Transversal 60 #44-48",
             "acudientes": "Pedro Morales",
             "#celular": "357278302",
@@ -2337,11 +2337,11 @@
             "nombre": "Carlos",
             "apellido": "Vargas",
             "direccion": "Transversal 139 #1-50",
-            "acudientes": "David Martínez",
+            "acudientes": "David Mart\u00ednez",
             "#celular": "341654244",
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -2359,11 +2359,11 @@
             "nombre": "Carlos",
             "apellido": "Morales",
             "direccion": "Avenida 69 #98-1",
-            "acudientes": "Emilio Díaz",
+            "acudientes": "Emilio D\u00edaz",
             "#celular": "322728409",
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -2401,9 +2401,9 @@
         {
             "ID": 2637447129,
             "nombre": "Carlos",
-            "apellido": "Díaz",
+            "apellido": "D\u00edaz",
             "direccion": "Carrera 120 #20-28",
-            "acudientes": "Camila García",
+            "acudientes": "Camila Garc\u00eda",
             "#celular": "373011226",
             "Estado": {
                 "Aprobado": false,
@@ -2423,9 +2423,9 @@
         {
             "ID": 5389517512,
             "nombre": "Gabriela",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 143 #30-28",
-            "acudientes": "David Gómez",
+            "acudientes": "David G\u00f3mez",
             "#celular": "341645572",
             "Estado": {
                 "Aprobado": false,
@@ -2445,9 +2445,9 @@
         {
             "ID": 2429740039,
             "nombre": "Gabriela",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Diagonal 122 #9-14",
-            "acudientes": "Sofía García",
+            "acudientes": "Sof\u00eda Garc\u00eda",
             "#celular": "361873796",
             "Estado": {
                 "Aprobado": false,
@@ -2466,14 +2466,14 @@
         },
         {
             "ID": 3542795317,
-            "nombre": "Lucía",
-            "apellido": "Martínez",
+            "nombre": "Luc\u00eda",
+            "apellido": "Mart\u00ednez",
             "direccion": "Carrera 127 #83-10",
-            "acudientes": "Sofía Ramírez",
+            "acudientes": "Sof\u00eda Ram\u00edrez",
             "#celular": "380103517",
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -2489,9 +2489,9 @@
         {
             "ID": 8409634258,
             "nombre": "Luis",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Carrera 66 #14-16",
-            "acudientes": "Mariana Gómez",
+            "acudientes": "Mariana G\u00f3mez",
             "#celular": "338331000",
             "Estado": {
                 "Aprobado": false,
@@ -2513,7 +2513,7 @@
             "nombre": "Carlos",
             "apellido": "Torres",
             "direccion": "Carrera 74 #96-36",
-            "acudientes": "Camila Gómez",
+            "acudientes": "Camila G\u00f3mez",
             "#celular": "381951670",
             "Estado": {
                 "Aprobado": false,
@@ -2532,8 +2532,8 @@
         },
         {
             "ID": 2877834380,
-            "nombre": "Lucía",
-            "apellido": "Sánchez",
+            "nombre": "Luc\u00eda",
+            "apellido": "S\u00e1nchez",
             "direccion": "Diagonal 71 #12-47",
             "acudientes": "Mariana Morales",
             "#celular": "322050226",
@@ -2555,9 +2555,9 @@
         {
             "ID": 7286777162,
             "nombre": "Emilio",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Carrera 27 #41-22",
-            "acudientes": "Pedro López",
+            "acudientes": "Pedro L\u00f3pez",
             "#celular": "313577252",
             "Estado": {
                 "Aprobado": false,
@@ -2579,7 +2579,7 @@
             "nombre": "Pedro",
             "apellido": "Morales",
             "direccion": "Avenida 111 #88-11",
-            "acudientes": "Carlos Hernández",
+            "acudientes": "Carlos Hern\u00e1ndez",
             "#celular": "389786138",
             "Estado": {
                 "Aprobado": false,
@@ -2599,13 +2599,13 @@
         {
             "ID": 8632756085,
             "nombre": "Luis",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Carrera 125 #54-45",
-            "acudientes": "Lucía Gómez",
+            "acudientes": "Luc\u00eda G\u00f3mez",
             "#celular": "314742013",
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -2623,7 +2623,7 @@
             "nombre": "Valeria",
             "apellido": "Vargas",
             "direccion": "Transversal 11 #95-47",
-            "acudientes": "Mariana Díaz",
+            "acudientes": "Mariana D\u00edaz",
             "#celular": "357108812",
             "Estado": {
                 "Aprobado": false,
@@ -2643,9 +2643,9 @@
         {
             "ID": 3796858885,
             "nombre": "Camila",
-            "apellido": "Ramírez",
+            "apellido": "Ram\u00edrez",
             "direccion": "Transversal 52 #57-8",
-            "acudientes": "Sofía Mendoza",
+            "acudientes": "Sof\u00eda Mendoza",
             "#celular": "338024513",
             "Estado": {
                 "Aprobado": false,
@@ -2665,9 +2665,9 @@
         {
             "ID": 2499233058,
             "nombre": "Valeria",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Avenida 103 #45-40",
-            "acudientes": "Gabriela Rodríguez",
+            "acudientes": "Gabriela Rodr\u00edguez",
             "#celular": "369630245",
             "Estado": {
                 "Aprobado": false,
@@ -2689,7 +2689,7 @@
             "nombre": "Pedro",
             "apellido": "Vargas",
             "direccion": "Avenida 10 #85-9",
-            "acudientes": "Sofía Mendoza",
+            "acudientes": "Sof\u00eda Mendoza",
             "#celular": "369915700",
             "Estado": {
                 "Aprobado": false,
@@ -2709,9 +2709,9 @@
         {
             "ID": 7453600291,
             "nombre": "Ana",
-            "apellido": "Ramírez",
+            "apellido": "Ram\u00edrez",
             "direccion": "Calle 126 #5-24",
-            "acudientes": "Jorge Rodríguez",
+            "acudientes": "Jorge Rodr\u00edguez",
             "#celular": "353538320",
             "Estado": {
                 "Aprobado": false,
@@ -2730,7 +2730,7 @@
         },
         {
             "ID": 9421600876,
-            "nombre": "Lucía",
+            "nombre": "Luc\u00eda",
             "apellido": "Torres",
             "direccion": "Transversal 81 #38-35",
             "acudientes": "Ana Torres",
@@ -2755,7 +2755,7 @@
             "nombre": "Gabriela",
             "apellido": "Vargas",
             "direccion": "Diagonal 93 #24-35",
-            "acudientes": "Martín Pérez",
+            "acudientes": "Mart\u00edn P\u00e9rez",
             "#celular": "381753480",
             "Estado": {
                 "Aprobado": false,
@@ -2774,10 +2774,10 @@
         },
         {
             "ID": 3475712085,
-            "nombre": "Lucía",
+            "nombre": "Luc\u00eda",
             "apellido": "Vargas",
             "direccion": "Diagonal 107 #6-23",
-            "acudientes": "Valeria Pérez",
+            "acudientes": "Valeria P\u00e9rez",
             "#celular": "371648355",
             "Estado": {
                 "Aprobado": false,
@@ -2799,7 +2799,7 @@
             "nombre": "Luis",
             "apellido": "Morales",
             "direccion": "Transversal 65 #96-33",
-            "acudientes": "Valeria Rodríguez",
+            "acudientes": "Valeria Rodr\u00edguez",
             "#celular": "312143657",
             "Estado": {
                 "Aprobado": false,
@@ -2819,9 +2819,9 @@
         {
             "ID": 9707253050,
             "nombre": "David",
-            "apellido": "Sánchez",
+            "apellido": "S\u00e1nchez",
             "direccion": "Avenida 125 #12-32",
-            "acudientes": "Pedro Díaz",
+            "acudientes": "Pedro D\u00edaz",
             "#celular": "324691943",
             "Estado": {
                 "Aprobado": false,
@@ -2843,7 +2843,7 @@
             "nombre": "Carlos",
             "apellido": "Torres",
             "direccion": "Transversal 134 #53-15",
-            "acudientes": "Luis Hernández",
+            "acudientes": "Luis Hern\u00e1ndez",
             "#celular": "357781886",
             "Estado": {
                 "Aprobado": false,
@@ -2863,9 +2863,9 @@
         {
             "ID": 8039164904,
             "nombre": "Luis",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 2 #87-30",
-            "acudientes": "Camila Sánchez",
+            "acudientes": "Camila S\u00e1nchez",
             "#celular": "397100979",
             "Estado": {
                 "Aprobado": false,
@@ -2884,10 +2884,10 @@
         },
         {
             "ID": 3548694287,
-            "nombre": "Lucía",
-            "apellido": "García",
+            "nombre": "Luc\u00eda",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 91 #30-15",
-            "acudientes": "Jorge López",
+            "acudientes": "Jorge L\u00f3pez",
             "#celular": "375982683",
             "Estado": {
                 "Aprobado": false,
@@ -2907,9 +2907,9 @@
         {
             "ID": 5082111688,
             "nombre": "Luis",
-            "apellido": "Hernández",
+            "apellido": "Hern\u00e1ndez",
             "direccion": "Calle 110 #11-37",
-            "acudientes": "Valeria López",
+            "acudientes": "Valeria L\u00f3pez",
             "#celular": "395198454",
             "Estado": {
                 "Aprobado": false,
@@ -2931,7 +2931,7 @@
             "nombre": "Pedro",
             "apellido": "Mendoza",
             "direccion": "Avenida 6 #42-31",
-            "acudientes": "Mariana Hernández",
+            "acudientes": "Mariana Hern\u00e1ndez",
             "#celular": "351127681",
             "Estado": {
                 "Aprobado": false,
@@ -2975,7 +2975,7 @@
             "nombre": "Valeria",
             "apellido": "Morales",
             "direccion": "Diagonal 80 #35-10",
-            "acudientes": "Pedro Martínez",
+            "acudientes": "Pedro Mart\u00ednez",
             "#celular": "311679938",
             "Estado": {
                 "Aprobado": false,
@@ -2995,9 +2995,9 @@
         {
             "ID": 9267767850,
             "nombre": "Ana",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Transversal 20 #24-33",
-            "acudientes": "Ana Díaz",
+            "acudientes": "Ana D\u00edaz",
             "#celular": "336781404",
             "Estado": {
                 "Aprobado": false,
@@ -3017,7 +3017,7 @@
         {
             "ID": 1558262055,
             "nombre": "Pedro",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Avenida 86 #38-13",
             "acudientes": "Valeria Vargas",
             "#celular": "327081662",
@@ -3039,9 +3039,9 @@
         {
             "ID": 9319174862,
             "nombre": "Ana",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Avenida 8 #53-38",
-            "acudientes": "Pedro López",
+            "acudientes": "Pedro L\u00f3pez",
             "#celular": "325879173",
             "Estado": {
                 "Aprobado": false,
@@ -3063,7 +3063,7 @@
             "nombre": "Mariana",
             "apellido": "Morales",
             "direccion": "Carrera 95 #31-34",
-            "acudientes": "Martín Hernández",
+            "acudientes": "Mart\u00edn Hern\u00e1ndez",
             "#celular": "334457898",
             "Estado": {
                 "Aprobado": false,
@@ -3083,9 +3083,9 @@
         {
             "ID": 5871920180,
             "nombre": "Pedro",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Calle 144 #13-30",
-            "acudientes": "Carlos Gómez",
+            "acudientes": "Carlos G\u00f3mez",
             "#celular": "384164313",
             "Estado": {
                 "Aprobado": false,
@@ -3105,9 +3105,9 @@
         {
             "ID": 8719685713,
             "nombre": "Emilio",
-            "apellido": "Pérez",
+            "apellido": "P\u00e9rez",
             "direccion": "Calle 10 #15-24",
-            "acudientes": "Lucía Gómez",
+            "acudientes": "Luc\u00eda G\u00f3mez",
             "#celular": "361692665",
             "Estado": {
                 "Aprobado": false,
@@ -3127,9 +3127,9 @@
         {
             "ID": 9553257127,
             "nombre": "Mariana",
-            "apellido": "Hernández",
+            "apellido": "Hern\u00e1ndez",
             "direccion": "Avenida 34 #85-41",
-            "acudientes": "Carlos Sánchez",
+            "acudientes": "Carlos S\u00e1nchez",
             "#celular": "343725060",
             "Estado": {
                 "Aprobado": false,
@@ -3149,9 +3149,9 @@
         {
             "ID": 6687025018,
             "nombre": "Ana",
-            "apellido": "Sánchez",
+            "apellido": "S\u00e1nchez",
             "direccion": "Diagonal 54 #86-14",
-            "acudientes": "Martín Ramírez",
+            "acudientes": "Mart\u00edn Ram\u00edrez",
             "#celular": "393831156",
             "Estado": {
                 "Aprobado": false,
@@ -3171,9 +3171,9 @@
         {
             "ID": 1977534534,
             "nombre": "Jorge",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Carrera 118 #99-30",
-            "acudientes": "Lucía Gómez",
+            "acudientes": "Luc\u00eda G\u00f3mez",
             "#celular": "337132791",
             "Estado": {
                 "Aprobado": false,
@@ -3193,13 +3193,13 @@
         {
             "ID": 4151578882,
             "nombre": "Mariana",
-            "apellido": "Ramírez",
+            "apellido": "Ram\u00edrez",
             "direccion": "Carrera 70 #7-50",
             "acudientes": "Luis Vargas",
             "#celular": "312282860",
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -3215,7 +3215,7 @@
         {
             "ID": 3041776692,
             "nombre": "Luis",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Calle 7 #37-18",
             "acudientes": "Luis Morales",
             "#celular": "329354989",
@@ -3259,9 +3259,9 @@
         {
             "ID": 8696411006,
             "nombre": "Mariana",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Transversal 102 #83-50",
-            "acudientes": "Emilio Díaz",
+            "acudientes": "Emilio D\u00edaz",
             "#celular": "332758103",
             "Estado": {
                 "Aprobado": false,
@@ -3280,10 +3280,10 @@
         },
         {
             "ID": 3730393431,
-            "nombre": "Lucía",
+            "nombre": "Luc\u00eda",
             "apellido": "Vargas",
             "direccion": "Transversal 18 #55-12",
-            "acudientes": "Pedro Rodríguez",
+            "acudientes": "Pedro Rodr\u00edguez",
             "#celular": "379298519",
             "Estado": {
                 "Aprobado": false,
@@ -3305,7 +3305,7 @@
             "nombre": "Gabriela",
             "apellido": "Morales",
             "direccion": "Carrera 69 #26-37",
-            "acudientes": "Emilio Hernández",
+            "acudientes": "Emilio Hern\u00e1ndez",
             "#celular": "385557881",
             "Estado": {
                 "Aprobado": false,
@@ -3325,9 +3325,9 @@
         {
             "ID": 9292297836,
             "nombre": "Carlos",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Avenida 119 #99-26",
-            "acudientes": "Jorge Díaz",
+            "acudientes": "Jorge D\u00edaz",
             "#celular": "387547399",
             "Estado": {
                 "Aprobado": false,
@@ -3347,7 +3347,7 @@
         {
             "ID": 3495560465,
             "nombre": "Jorge",
-            "apellido": "Rodríguez",
+            "apellido": "Rodr\u00edguez",
             "direccion": "Carrera 99 #33-6",
             "acudientes": "Jorge Torres",
             "#celular": "386997192",
@@ -3368,7 +3368,7 @@
         },
         {
             "ID": 7299642907,
-            "nombre": "Lucía",
+            "nombre": "Luc\u00eda",
             "apellido": "Morales",
             "direccion": "Calle 87 #74-10",
             "acudientes": "David Vargas",
@@ -3435,9 +3435,9 @@
         {
             "ID": 2406212753,
             "nombre": "Valeria",
-            "apellido": "Rodríguez",
+            "apellido": "Rodr\u00edguez",
             "direccion": "Carrera 119 #39-14",
-            "acudientes": "Valeria Pérez",
+            "acudientes": "Valeria P\u00e9rez",
             "#celular": "321943641",
             "Estado": {
                 "Aprobado": false,
@@ -3456,10 +3456,10 @@
         },
         {
             "ID": 3972976188,
-            "nombre": "Sofía",
-            "apellido": "Martínez",
+            "nombre": "Sof\u00eda",
+            "apellido": "Mart\u00ednez",
             "direccion": "Calle 23 #34-20",
-            "acudientes": "David Gómez",
+            "acudientes": "David G\u00f3mez",
             "#celular": "321090996",
             "Estado": {
                 "Aprobado": false,
@@ -3478,10 +3478,10 @@
         },
         {
             "ID": 3295005646,
-            "nombre": "Sofía",
-            "apellido": "García",
+            "nombre": "Sof\u00eda",
+            "apellido": "Garc\u00eda",
             "direccion": "Avenida 110 #39-28",
-            "acudientes": "Jorge Hernández",
+            "acudientes": "Jorge Hern\u00e1ndez",
             "#celular": "354248066",
             "Estado": {
                 "Aprobado": false,
@@ -3501,13 +3501,13 @@
         {
             "ID": 2924556647,
             "nombre": "Valeria",
-            "apellido": "Sánchez",
+            "apellido": "S\u00e1nchez",
             "direccion": "Calle 11 #49-14",
-            "acudientes": "Camila Rodríguez",
+            "acudientes": "Camila Rodr\u00edguez",
             "#celular": "331879761",
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -3522,10 +3522,10 @@
         },
         {
             "ID": 2737190281,
-            "nombre": "Sofía",
-            "apellido": "García",
+            "nombre": "Sof\u00eda",
+            "apellido": "Garc\u00eda",
             "direccion": "Carrera 17 #65-5",
-            "acudientes": "Camila Gómez",
+            "acudientes": "Camila G\u00f3mez",
             "#celular": "395778056",
             "Estado": {
                 "Aprobado": false,
@@ -3544,10 +3544,10 @@
         },
         {
             "ID": 7864638867,
-            "nombre": "Lucía",
-            "apellido": "Hernández",
+            "nombre": "Luc\u00eda",
+            "apellido": "Hern\u00e1ndez",
             "direccion": "Carrera 91 #46-38",
-            "acudientes": "Valeria Sánchez",
+            "acudientes": "Valeria S\u00e1nchez",
             "#celular": "344137834",
             "Estado": {
                 "Aprobado": false,
@@ -3569,7 +3569,7 @@
             "nombre": "Valeria",
             "apellido": "Vargas",
             "direccion": "Diagonal 70 #20-17",
-            "acudientes": "David Pérez",
+            "acudientes": "David P\u00e9rez",
             "#celular": "386872959",
             "Estado": {
                 "Aprobado": false,
@@ -3588,14 +3588,14 @@
         },
         {
             "ID": 7965322803,
-            "nombre": "Martín",
-            "apellido": "Sánchez",
+            "nombre": "Mart\u00edn",
+            "apellido": "S\u00e1nchez",
             "direccion": "Diagonal 149 #62-23",
-            "acudientes": "Martín Hernández",
+            "acudientes": "Mart\u00edn Hern\u00e1ndez",
             "#celular": "368974283",
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -3610,10 +3610,10 @@
         },
         {
             "ID": 9842967017,
-            "nombre": "Martín",
-            "apellido": "García",
+            "nombre": "Mart\u00edn",
+            "apellido": "Garc\u00eda",
             "direccion": "Transversal 78 #3-46",
-            "acudientes": "Lucía Sánchez",
+            "acudientes": "Luc\u00eda S\u00e1nchez",
             "#celular": "334601547",
             "Estado": {
                 "Aprobado": false,
@@ -3635,11 +3635,11 @@
             "nombre": "Carlos",
             "apellido": "Morales",
             "direccion": "Diagonal 16 #14-35",
-            "acudientes": "Pedro Rodríguez",
+            "acudientes": "Pedro Rodr\u00edguez",
             "#celular": "315194747",
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -3655,9 +3655,9 @@
         {
             "ID": 4289579759,
             "nombre": "Gabriela",
-            "apellido": "Díaz",
+            "apellido": "D\u00edaz",
             "direccion": "Diagonal 82 #86-8",
-            "acudientes": "Gabriela Pérez",
+            "acudientes": "Gabriela P\u00e9rez",
             "#celular": "371868511",
             "Estado": {
                 "Aprobado": false,
@@ -3677,9 +3677,9 @@
         {
             "ID": 7942186176,
             "nombre": "Ana",
-            "apellido": "Pérez",
+            "apellido": "P\u00e9rez",
             "direccion": "Avenida 115 #84-47",
-            "acudientes": "Ana García",
+            "acudientes": "Ana Garc\u00eda",
             "#celular": "381671381",
             "Estado": {
                 "Aprobado": false,
@@ -3698,10 +3698,10 @@
         },
         {
             "ID": 8213886794,
-            "nombre": "Sofía",
-            "apellido": "Sánchez",
+            "nombre": "Sof\u00eda",
+            "apellido": "S\u00e1nchez",
             "direccion": "Calle 98 #78-37",
-            "acudientes": "Carlos Martínez",
+            "acudientes": "Carlos Mart\u00ednez",
             "#celular": "398587626",
             "Estado": {
                 "Aprobado": false,
@@ -3723,7 +3723,7 @@
             "nombre": "Luis",
             "apellido": "Mendoza",
             "direccion": "Transversal 5 #42-35",
-            "acudientes": "Lucía López",
+            "acudientes": "Luc\u00eda L\u00f3pez",
             "#celular": "391422816",
             "Estado": {
                 "Aprobado": false,
@@ -3743,9 +3743,9 @@
         {
             "ID": 7643060083,
             "nombre": "Camila",
-            "apellido": "Ramírez",
+            "apellido": "Ram\u00edrez",
             "direccion": "Transversal 115 #25-45",
-            "acudientes": "Martín Rodríguez",
+            "acudientes": "Mart\u00edn Rodr\u00edguez",
             "#celular": "339383327",
             "Estado": {
                 "Aprobado": false,
@@ -3787,9 +3787,9 @@
         {
             "ID": 3520679036,
             "nombre": "Ana",
-            "apellido": "Díaz",
+            "apellido": "D\u00edaz",
             "direccion": "Calle 95 #44-32",
-            "acudientes": "Mariana García",
+            "acudientes": "Mariana Garc\u00eda",
             "#celular": "393013622",
             "Estado": {
                 "Aprobado": false,
@@ -3833,7 +3833,7 @@
             "nombre": "Emilio",
             "apellido": "Torres",
             "direccion": "Carrera 91 #65-47",
-            "acudientes": "Lucía Mendoza",
+            "acudientes": "Luc\u00eda Mendoza",
             "#celular": "358665028",
             "Estado": {
                 "Aprobado": false,
@@ -3855,7 +3855,7 @@
             "nombre": "Pedro",
             "apellido": "Morales",
             "direccion": "Calle 28 #32-41",
-            "acudientes": "Ana Rodríguez",
+            "acudientes": "Ana Rodr\u00edguez",
             "#celular": "338235976",
             "Estado": {
                 "Aprobado": false,
@@ -3877,7 +3877,7 @@
             "nombre": "Camila",
             "apellido": "Morales",
             "direccion": "Carrera 142 #37-21",
-            "acudientes": "Valeria Hernández",
+            "acudientes": "Valeria Hern\u00e1ndez",
             "#celular": "386548844",
             "Estado": {
                 "Aprobado": false,
@@ -3897,9 +3897,9 @@
         {
             "ID": 2063387335,
             "nombre": "Pedro",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Transversal 22 #72-3",
-            "acudientes": "Camila Ramírez",
+            "acudientes": "Camila Ram\u00edrez",
             "#celular": "382834699",
             "Estado": {
                 "Aprobado": false,
@@ -3919,9 +3919,9 @@
         {
             "ID": 2758249563,
             "nombre": "Mariana",
-            "apellido": "Hernández",
+            "apellido": "Hern\u00e1ndez",
             "direccion": "Diagonal 112 #83-44",
-            "acudientes": "Mariana Martínez",
+            "acudientes": "Mariana Mart\u00ednez",
             "#celular": "335256180",
             "Estado": {
                 "Aprobado": false,
@@ -3941,9 +3941,9 @@
         {
             "ID": 3067155710,
             "nombre": "Jorge",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Avenida 20 #41-48",
-            "acudientes": "Mariana Díaz",
+            "acudientes": "Mariana D\u00edaz",
             "#celular": "390719680",
             "Estado": {
                 "Aprobado": false,
@@ -3962,8 +3962,8 @@
         },
         {
             "ID": 9157585734,
-            "nombre": "Lucía",
-            "apellido": "Hernández",
+            "nombre": "Luc\u00eda",
+            "apellido": "Hern\u00e1ndez",
             "direccion": "Avenida 99 #31-40",
             "acudientes": "Valeria Morales",
             "#celular": "327212267",
@@ -3984,10 +3984,10 @@
         },
         {
             "ID": 6164967524,
-            "nombre": "Sofía",
+            "nombre": "Sof\u00eda",
             "apellido": "Mendoza",
             "direccion": "Transversal 117 #57-4",
-            "acudientes": "Luis Hernández",
+            "acudientes": "Luis Hern\u00e1ndez",
             "#celular": "385617443",
             "Estado": {
                 "Aprobado": false,
@@ -4007,7 +4007,7 @@
         {
             "ID": 2021511958,
             "nombre": "Gabriela",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Carrera 102 #60-27",
             "acudientes": "Valeria Mendoza",
             "#celular": "321720084",
@@ -4029,9 +4029,9 @@
         {
             "ID": 1567533093,
             "nombre": "Pedro",
-            "apellido": "Pérez",
+            "apellido": "P\u00e9rez",
             "direccion": "Calle 98 #18-25",
-            "acudientes": "Martín Rodríguez",
+            "acudientes": "Mart\u00edn Rodr\u00edguez",
             "#celular": "349738414",
             "Estado": {
                 "Aprobado": false,
@@ -4051,7 +4051,7 @@
         {
             "ID": 7555592397,
             "nombre": "Jorge",
-            "apellido": "Ramírez",
+            "apellido": "Ram\u00edrez",
             "direccion": "Calle 44 #54-48",
             "acudientes": "Luis Vargas",
             "#celular": "332893554",
@@ -4072,10 +4072,10 @@
         },
         {
             "ID": 4522523035,
-            "nombre": "Martín",
-            "apellido": "Sánchez",
+            "nombre": "Mart\u00edn",
+            "apellido": "S\u00e1nchez",
             "direccion": "Transversal 106 #56-11",
-            "acudientes": "Carlos López",
+            "acudientes": "Carlos L\u00f3pez",
             "#celular": "310902361",
             "Estado": {
                 "Aprobado": false,
@@ -4095,9 +4095,9 @@
         {
             "ID": 9791781321,
             "nombre": "Carlos",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Diagonal 38 #80-5",
-            "acudientes": "Martín Pérez",
+            "acudientes": "Mart\u00edn P\u00e9rez",
             "#celular": "378786542",
             "Estado": {
                 "Aprobado": false,
@@ -4138,10 +4138,10 @@
         },
         {
             "ID": 6089943792,
-            "nombre": "Sofía",
+            "nombre": "Sof\u00eda",
             "apellido": "Mendoza",
             "direccion": "Calle 9 #75-34",
-            "acudientes": "Luis López",
+            "acudientes": "Luis L\u00f3pez",
             "#celular": "337398966",
             "Estado": {
                 "Aprobado": false,
@@ -4160,10 +4160,10 @@
         },
         {
             "ID": 9366619679,
-            "nombre": "Sofía",
-            "apellido": "Sánchez",
+            "nombre": "Sof\u00eda",
+            "apellido": "S\u00e1nchez",
             "direccion": "Avenida 93 #46-42",
-            "acudientes": "Lucía Hernández",
+            "acudientes": "Luc\u00eda Hern\u00e1ndez",
             "#celular": "386922480",
             "Estado": {
                 "Aprobado": false,
@@ -4185,11 +4185,11 @@
             "nombre": "Camila",
             "apellido": "Mendoza",
             "direccion": "Avenida 67 #72-44",
-            "acudientes": "Carlos García",
+            "acudientes": "Carlos Garc\u00eda",
             "#celular": "330619395",
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -4205,9 +4205,9 @@
         {
             "ID": 4862031420,
             "nombre": "Carlos",
-            "apellido": "Pérez",
+            "apellido": "P\u00e9rez",
             "direccion": "Transversal 25 #71-47",
-            "acudientes": "Mariana García",
+            "acudientes": "Mariana Garc\u00eda",
             "#celular": "310860459",
             "Estado": {
                 "Aprobado": false,
@@ -4226,14 +4226,14 @@
         },
         {
             "ID": 5144311261,
-            "nombre": "Martín",
-            "apellido": "Martínez",
+            "nombre": "Mart\u00edn",
+            "apellido": "Mart\u00ednez",
             "direccion": "Transversal 115 #86-23",
-            "acudientes": "Martín Ramírez",
+            "acudientes": "Mart\u00edn Ram\u00edrez",
             "#celular": "357605703",
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -4249,7 +4249,7 @@
         {
             "ID": 6111641669,
             "nombre": "Pedro",
-            "apellido": "Rodríguez",
+            "apellido": "Rodr\u00edguez",
             "direccion": "Transversal 74 #76-40",
             "acudientes": "Emilio Vargas",
             "#celular": "361300885",
@@ -4271,7 +4271,7 @@
         {
             "ID": 2270151993,
             "nombre": "Pedro",
-            "apellido": "Rodríguez",
+            "apellido": "Rodr\u00edguez",
             "direccion": "Transversal 11 #68-11",
             "acudientes": "Pedro Morales",
             "#celular": "397002996",
@@ -4295,7 +4295,7 @@
             "nombre": "Jorge",
             "apellido": "Mendoza",
             "direccion": "Calle 106 #46-27",
-            "acudientes": "Emilio Pérez",
+            "acudientes": "Emilio P\u00e9rez",
             "#celular": "353337093",
             "Estado": {
                 "Aprobado": false,
@@ -4315,9 +4315,9 @@
         {
             "ID": 8320381432,
             "nombre": "Camila",
-            "apellido": "Díaz",
+            "apellido": "D\u00edaz",
             "direccion": "Carrera 93 #59-44",
-            "acudientes": "Carlos Gómez",
+            "acudientes": "Carlos G\u00f3mez",
             "#celular": "378598102",
             "Estado": {
                 "Aprobado": false,
@@ -4337,9 +4337,9 @@
         {
             "ID": 5729112310,
             "nombre": "Mariana",
-            "apellido": "Hernández",
+            "apellido": "Hern\u00e1ndez",
             "direccion": "Carrera 13 #1-43",
-            "acudientes": "Sofía Hernández",
+            "acudientes": "Sof\u00eda Hern\u00e1ndez",
             "#celular": "323934441",
             "Estado": {
                 "Aprobado": false,
@@ -4358,14 +4358,14 @@
         },
         {
             "ID": 8209542411,
-            "nombre": "María",
-            "apellido": "Pérez",
+            "nombre": "Mar\u00eda",
+            "apellido": "P\u00e9rez",
             "direccion": "Calle 109 # 18-25",
-            "acudientes": "Andrea Díaz",
+            "acudientes": "Andrea D\u00edaz",
             "#celular": 3056660122,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -4380,10 +4380,10 @@
         },
         {
             "ID": 9882410013,
-            "nombre": "Martín",
+            "nombre": "Mart\u00edn",
             "apellido": "Torres",
             "direccion": "Calle 57 # 12-49",
-            "acudientes": "Carlos Rodríguez",
+            "acudientes": "Carlos Rodr\u00edguez",
             "#celular": 3208401861,
             "Estado": {
                 "Aprobado": false,
@@ -4402,10 +4402,10 @@
         },
         {
             "ID": 8420022215,
-            "nombre": "Sofía",
+            "nombre": "Sof\u00eda",
             "apellido": "Vargas",
             "direccion": "Calle 72 # 10-10",
-            "acudientes": "Sofía Vargas",
+            "acudientes": "Sof\u00eda Vargas",
             "#celular": 3256079332,
             "Estado": {
                 "Aprobado": false,
@@ -4425,7 +4425,7 @@
         {
             "ID": 2608502936,
             "nombre": "Javier",
-            "apellido": "Díaz",
+            "apellido": "D\u00edaz",
             "direccion": "Calle 47 # 24-24",
             "acudientes": "Daniel Vargas",
             "#celular": 3276127484,
@@ -4449,7 +4449,7 @@
             "nombre": "Andrea",
             "apellido": "Torres",
             "direccion": "Calle 67 # 30-50",
-            "acudientes": "Camila García",
+            "acudientes": "Camila Garc\u00eda",
             "#celular": 3254389503,
             "Estado": {
                 "Aprobado": false,
@@ -4469,13 +4469,13 @@
         {
             "ID": 5529935145,
             "nombre": "Daniel",
-            "apellido": "Ramírez",
+            "apellido": "Ram\u00edrez",
             "direccion": "Calle 27 # 41-22",
-            "acudientes": "Andrea López",
+            "acudientes": "Andrea L\u00f3pez",
             "#celular": 3045613721,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -4491,9 +4491,9 @@
         {
             "ID": 4627317242,
             "nombre": "Andrea",
-            "apellido": "Pérez",
+            "apellido": "P\u00e9rez",
             "direccion": "Calle 133 # 21-15",
-            "acudientes": "Lucas García",
+            "acudientes": "Lucas Garc\u00eda",
             "#celular": 3082441558,
             "Estado": {
                 "Aprobado": false,
@@ -4512,10 +4512,10 @@
         },
         {
             "ID": 5215917894,
-            "nombre": "Martín",
-            "apellido": "Díaz",
+            "nombre": "Mart\u00edn",
+            "apellido": "D\u00edaz",
             "direccion": "Calle 46 # 31-47",
-            "acudientes": "Javier Pérez",
+            "acudientes": "Javier P\u00e9rez",
             "#celular": 3121410026,
             "Estado": {
                 "Aprobado": false,
@@ -4537,7 +4537,7 @@
             "nombre": "Lucas",
             "apellido": "Vargas",
             "direccion": "Calle 135 # 44-31",
-            "acudientes": "Lucas Pérez",
+            "acudientes": "Lucas P\u00e9rez",
             "#celular": 3297407271,
             "Estado": {
                 "Aprobado": false,
@@ -4557,9 +4557,9 @@
         {
             "ID": 8159906427,
             "nombre": "Andrea",
-            "apellido": "Rodríguez",
+            "apellido": "Rodr\u00edguez",
             "direccion": "Calle 30 # 28-32",
-            "acudientes": "Andrea López",
+            "acudientes": "Andrea L\u00f3pez",
             "#celular": 3021635895,
             "Estado": {
                 "Aprobado": false,
@@ -4581,7 +4581,7 @@
             "nombre": "Daniel",
             "apellido": "Vargas",
             "direccion": "Calle 104 # 9-2",
-            "acudientes": "Camila García",
+            "acudientes": "Camila Garc\u00eda",
             "#celular": 3286660735,
             "Estado": {
                 "Aprobado": false,
@@ -4601,9 +4601,9 @@
         {
             "ID": 1768202897,
             "nombre": "Carlos",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 139 # 32-44",
-            "acudientes": "Lucas Gómez",
+            "acudientes": "Lucas G\u00f3mez",
             "#celular": 3071595550,
             "Estado": {
                 "Aprobado": false,
@@ -4622,10 +4622,10 @@
         },
         {
             "ID": 4528092555,
-            "nombre": "Sofía",
+            "nombre": "Sof\u00eda",
             "apellido": "Torres",
             "direccion": "Calle 104 # 23-28",
-            "acudientes": "Martín García",
+            "acudientes": "Mart\u00edn Garc\u00eda",
             "#celular": 3280134931,
             "Estado": {
                 "Aprobado": false,
@@ -4644,10 +4644,10 @@
         },
         {
             "ID": 8674562750,
-            "nombre": "Martín",
-            "apellido": "García",
+            "nombre": "Mart\u00edn",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 110 # 42-19",
-            "acudientes": "Javier García",
+            "acudientes": "Javier Garc\u00eda",
             "#celular": 3020526112,
             "Estado": {
                 "Aprobado": false,
@@ -4667,9 +4667,9 @@
         {
             "ID": 9529670577,
             "nombre": "Fernanda",
-            "apellido": "Ramírez",
+            "apellido": "Ram\u00edrez",
             "direccion": "Calle 50 # 6-8",
-            "acudientes": "Javier Pérez",
+            "acudientes": "Javier P\u00e9rez",
             "#celular": 3154446681,
             "Estado": {
                 "Aprobado": false,
@@ -4689,9 +4689,9 @@
         {
             "ID": 7870936537,
             "nombre": "Fernanda",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 30 # 50-47",
-            "acudientes": "Andrea López",
+            "acudientes": "Andrea L\u00f3pez",
             "#celular": 3293582076,
             "Estado": {
                 "Aprobado": false,
@@ -4713,7 +4713,7 @@
             "nombre": "Camila",
             "apellido": "Torres",
             "direccion": "Calle 108 # 3-33",
-            "acudientes": "Daniel Rodríguez",
+            "acudientes": "Daniel Rodr\u00edguez",
             "#celular": 3085723971,
             "Estado": {
                 "Aprobado": false,
@@ -4733,9 +4733,9 @@
         {
             "ID": 2637617606,
             "nombre": "Lucas",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 17 # 2-5",
-            "acudientes": "Andrea Pérez",
+            "acudientes": "Andrea P\u00e9rez",
             "#celular": 3018829424,
             "Estado": {
                 "Aprobado": false,
@@ -4755,9 +4755,9 @@
         {
             "ID": 1246900305,
             "nombre": "Carlos",
-            "apellido": "Pérez",
+            "apellido": "P\u00e9rez",
             "direccion": "Calle 145 # 48-32",
-            "acudientes": "Fernanda Pérez",
+            "acudientes": "Fernanda P\u00e9rez",
             "#celular": 3082208909,
             "Estado": {
                 "Aprobado": false,
@@ -4777,7 +4777,7 @@
         {
             "ID": 8021274526,
             "nombre": "Fernanda",
-            "apellido": "Pérez",
+            "apellido": "P\u00e9rez",
             "direccion": "Calle 66 # 41-30",
             "acudientes": "Camila Vargas",
             "#celular": 3262657469,
@@ -4799,9 +4799,9 @@
         {
             "ID": 1380016923,
             "nombre": "Lucas",
-            "apellido": "Díaz",
+            "apellido": "D\u00edaz",
             "direccion": "Calle 28 # 2-50",
-            "acudientes": "Martín Rodríguez",
+            "acudientes": "Mart\u00edn Rodr\u00edguez",
             "#celular": 3093001167,
             "Estado": {
                 "Aprobado": false,
@@ -4821,13 +4821,13 @@
         {
             "ID": 6562019426,
             "nombre": "Carlos",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Calle 117 # 43-15",
-            "acudientes": "Andrea Díaz",
+            "acudientes": "Andrea D\u00edaz",
             "#celular": 3144821341,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -4843,7 +4843,7 @@
         {
             "ID": 6115801699,
             "nombre": "Lucas",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Calle 3 # 34-25",
             "acudientes": "Lucas Vargas",
             "#celular": 3030914364,
@@ -4865,9 +4865,9 @@
         {
             "ID": 7792732797,
             "nombre": "Daniel",
-            "apellido": "Pérez",
+            "apellido": "P\u00e9rez",
             "direccion": "Calle 51 # 30-3",
-            "acudientes": "Martín Torres",
+            "acudientes": "Mart\u00edn Torres",
             "#celular": 3175967839,
             "Estado": {
                 "Aprobado": false,
@@ -4887,13 +4887,13 @@
         {
             "ID": 4695421397,
             "nombre": "Javier",
-            "apellido": "Pérez",
+            "apellido": "P\u00e9rez",
             "direccion": "Calle 40 # 49-11",
-            "acudientes": "Javier Gómez",
+            "acudientes": "Javier G\u00f3mez",
             "#celular": 3058027817,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -4908,10 +4908,10 @@
         },
         {
             "ID": 8369873158,
-            "nombre": "María",
-            "apellido": "Rodríguez",
+            "nombre": "Mar\u00eda",
+            "apellido": "Rodr\u00edguez",
             "direccion": "Calle 118 # 30-11",
-            "acudientes": "María Ramírez",
+            "acudientes": "Mar\u00eda Ram\u00edrez",
             "#celular": 3273691380,
             "Estado": {
                 "Aprobado": false,
@@ -4931,9 +4931,9 @@
         {
             "ID": 8950181448,
             "nombre": "Fernanda",
-            "apellido": "Ramírez",
+            "apellido": "Ram\u00edrez",
             "direccion": "Calle 109 # 7-31",
-            "acudientes": "Martín Ramírez",
+            "acudientes": "Mart\u00edn Ram\u00edrez",
             "#celular": 3046345869,
             "Estado": {
                 "Aprobado": false,
@@ -4953,7 +4953,7 @@
         {
             "ID": 6848231040,
             "nombre": "Andrea",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Calle 96 # 31-48",
             "acudientes": "Camila Vargas",
             "#celular": 3034463632,
@@ -4974,10 +4974,10 @@
         },
         {
             "ID": 2231887808,
-            "nombre": "Martín",
+            "nombre": "Mart\u00edn",
             "apellido": "Vargas",
             "direccion": "Calle 144 # 40-16",
-            "acudientes": "Carlos Gómez",
+            "acudientes": "Carlos G\u00f3mez",
             "#celular": 3062166672,
             "Estado": {
                 "Aprobado": false,
@@ -4997,13 +4997,13 @@
         {
             "ID": 9462727457,
             "nombre": "Daniel",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Calle 2 # 23-2",
-            "acudientes": "Sofía López",
+            "acudientes": "Sof\u00eda L\u00f3pez",
             "#celular": 3002692475,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -5019,9 +5019,9 @@
         {
             "ID": 9554903627,
             "nombre": "Fernanda",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 57 # 47-49",
-            "acudientes": "Daniel Ramírez",
+            "acudientes": "Daniel Ram\u00edrez",
             "#celular": 3149006458,
             "Estado": {
                 "Aprobado": false,
@@ -5040,10 +5040,10 @@
         },
         {
             "ID": 9539502090,
-            "nombre": "María",
-            "apellido": "Pérez",
+            "nombre": "Mar\u00eda",
+            "apellido": "P\u00e9rez",
             "direccion": "Calle 59 # 19-21",
-            "acudientes": "Martín Gómez",
+            "acudientes": "Mart\u00edn G\u00f3mez",
             "#celular": 3270153802,
             "Estado": {
                 "Aprobado": false,
@@ -5063,9 +5063,9 @@
         {
             "ID": 1727749817,
             "nombre": "Andrea",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Calle 142 # 47-11",
-            "acudientes": "Carlos Ramírez",
+            "acudientes": "Carlos Ram\u00edrez",
             "#celular": 3258539061,
             "Estado": {
                 "Aprobado": false,
@@ -5084,14 +5084,14 @@
         },
         {
             "ID": 1188605829,
-            "nombre": "María",
-            "apellido": "Gómez",
+            "nombre": "Mar\u00eda",
+            "apellido": "G\u00f3mez",
             "direccion": "Calle 57 # 49-9",
-            "acudientes": "Andrea López",
+            "acudientes": "Andrea L\u00f3pez",
             "#celular": 3079385725,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -5107,9 +5107,9 @@
         {
             "ID": 3182959531,
             "nombre": "Andrea",
-            "apellido": "Rodríguez",
+            "apellido": "Rodr\u00edguez",
             "direccion": "Calle 140 # 27-43",
-            "acudientes": "Fernanda López",
+            "acudientes": "Fernanda L\u00f3pez",
             "#celular": 3194785823,
             "Estado": {
                 "Aprobado": false,
@@ -5129,9 +5129,9 @@
         {
             "ID": 5157598864,
             "nombre": "Carlos",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Calle 107 # 34-29",
-            "acudientes": "Fernanda García",
+            "acudientes": "Fernanda Garc\u00eda",
             "#celular": 3141446204,
             "Estado": {
                 "Aprobado": false,
@@ -5150,10 +5150,10 @@
         },
         {
             "ID": 5605203430,
-            "nombre": "Sofía",
-            "apellido": "Rodríguez",
+            "nombre": "Sof\u00eda",
+            "apellido": "Rodr\u00edguez",
             "direccion": "Calle 27 # 23-38",
-            "acudientes": "María Martínez",
+            "acudientes": "Mar\u00eda Mart\u00ednez",
             "#celular": 3133218715,
             "Estado": {
                 "Aprobado": false,
@@ -5173,9 +5173,9 @@
         {
             "ID": 5029720617,
             "nombre": "Camila",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 136 # 12-14",
-            "acudientes": "Carlos Gómez",
+            "acudientes": "Carlos G\u00f3mez",
             "#celular": 3079967309,
             "Estado": {
                 "Aprobado": false,
@@ -5194,10 +5194,10 @@
         },
         {
             "ID": 4256033931,
-            "nombre": "María",
-            "apellido": "Díaz",
+            "nombre": "Mar\u00eda",
+            "apellido": "D\u00edaz",
             "direccion": "Calle 38 # 3-48",
-            "acudientes": "Daniel Pérez",
+            "acudientes": "Daniel P\u00e9rez",
             "#celular": 3294059524,
             "Estado": {
                 "Aprobado": false,
@@ -5217,9 +5217,9 @@
         {
             "ID": 6488356910,
             "nombre": "Lucas",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Calle 41 # 44-27",
-            "acudientes": "Martín Pérez",
+            "acudientes": "Mart\u00edn P\u00e9rez",
             "#celular": 3110173014,
             "Estado": {
                 "Aprobado": false,
@@ -5239,7 +5239,7 @@
         {
             "ID": 8054483072,
             "nombre": "Camila",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Calle 141 # 32-22",
             "acudientes": "Lucas Torres",
             "#celular": 3199468790,
@@ -5261,9 +5261,9 @@
         {
             "ID": 1390696281,
             "nombre": "Carlos",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 128 # 27-14",
-            "acudientes": "María García",
+            "acudientes": "Mar\u00eda Garc\u00eda",
             "#celular": 3176046878,
             "Estado": {
                 "Aprobado": false,
@@ -5283,13 +5283,13 @@
         {
             "ID": 4722890738,
             "nombre": "Carlos",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 8 # 10-12",
-            "acudientes": "Daniel García",
+            "acudientes": "Daniel Garc\u00eda",
             "#celular": 3290431565,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -5305,13 +5305,13 @@
         {
             "ID": 8373463574,
             "nombre": "Javier",
-            "apellido": "Díaz",
+            "apellido": "D\u00edaz",
             "direccion": "Calle 6 # 8-10",
             "acudientes": "Daniel Torres",
             "#celular": 3132193194,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -5327,9 +5327,9 @@
         {
             "ID": 2125367424,
             "nombre": "Andrea",
-            "apellido": "Díaz",
+            "apellido": "D\u00edaz",
             "direccion": "Calle 125 # 9-10",
-            "acudientes": "Javier López",
+            "acudientes": "Javier L\u00f3pez",
             "#celular": 3286527580,
             "Estado": {
                 "Aprobado": false,
@@ -5349,13 +5349,13 @@
         {
             "ID": 1671762119,
             "nombre": "Javier",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 83 # 18-9",
-            "acudientes": "Carlos Ramírez",
+            "acudientes": "Carlos Ram\u00edrez",
             "#celular": 3139374573,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -5371,13 +5371,13 @@
         {
             "ID": 4942263771,
             "nombre": "Javier",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 46 # 4-49",
-            "acudientes": "Carlos Rodríguez",
+            "acudientes": "Carlos Rodr\u00edguez",
             "#celular": 3293172415,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -5393,9 +5393,9 @@
         {
             "ID": 9948887117,
             "nombre": "Fernanda",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 29 # 50-15",
-            "acudientes": "Javier García",
+            "acudientes": "Javier Garc\u00eda",
             "#celular": 3064584247,
             "Estado": {
                 "Aprobado": false,
@@ -5415,9 +5415,9 @@
         {
             "ID": 7554250337,
             "nombre": "Fernanda",
-            "apellido": "Ramírez",
+            "apellido": "Ram\u00edrez",
             "direccion": "Calle 83 # 1-12",
-            "acudientes": "Daniel Pérez",
+            "acudientes": "Daniel P\u00e9rez",
             "#celular": 3119256194,
             "Estado": {
                 "Aprobado": false,
@@ -5437,13 +5437,13 @@
         {
             "ID": 5004996271,
             "nombre": "Andrea",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Calle 133 # 50-24",
             "acudientes": "Carlos Torres",
             "#celular": 3166319932,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -5459,9 +5459,9 @@
         {
             "ID": 6031108337,
             "nombre": "Fernanda",
-            "apellido": "Rodríguez",
+            "apellido": "Rodr\u00edguez",
             "direccion": "Calle 7 # 7-18",
-            "acudientes": "Daniel Martínez",
+            "acudientes": "Daniel Mart\u00ednez",
             "#celular": 3205518093,
             "Estado": {
                 "Aprobado": false,
@@ -5480,8 +5480,8 @@
         },
         {
             "ID": 7251395834,
-            "nombre": "María",
-            "apellido": "López",
+            "nombre": "Mar\u00eda",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 6 # 23-6",
             "acudientes": "Daniel Vargas",
             "#celular": 3265296377,
@@ -5505,7 +5505,7 @@
             "nombre": "Camila",
             "apellido": "Vargas",
             "direccion": "Calle 111 # 45-43",
-            "acudientes": "María García",
+            "acudientes": "Mar\u00eda Garc\u00eda",
             "#celular": 3101468260,
             "Estado": {
                 "Aprobado": false,
@@ -5525,9 +5525,9 @@
         {
             "ID": 6154397294,
             "nombre": "Daniel",
-            "apellido": "Pérez",
+            "apellido": "P\u00e9rez",
             "direccion": "Calle 10 # 41-31",
-            "acudientes": "Martín Torres",
+            "acudientes": "Mart\u00edn Torres",
             "#celular": 3287863301,
             "Estado": {
                 "Aprobado": false,
@@ -5546,10 +5546,10 @@
         },
         {
             "ID": 5718265259,
-            "nombre": "Sofía",
-            "apellido": "Díaz",
+            "nombre": "Sof\u00eda",
+            "apellido": "D\u00edaz",
             "direccion": "Calle 106 # 19-5",
-            "acudientes": "Lucas Pérez",
+            "acudientes": "Lucas P\u00e9rez",
             "#celular": 3148518758,
             "Estado": {
                 "Aprobado": false,
@@ -5569,9 +5569,9 @@
         {
             "ID": 3988888382,
             "nombre": "Carlos",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Calle 88 # 39-49",
-            "acudientes": "Camila Díaz",
+            "acudientes": "Camila D\u00edaz",
             "#celular": 3021192236,
             "Estado": {
                 "Aprobado": false,
@@ -5591,13 +5591,13 @@
         {
             "ID": 1114533757,
             "nombre": "Carlos",
-            "apellido": "Pérez",
+            "apellido": "P\u00e9rez",
             "direccion": "Calle 13 # 31-20",
-            "acudientes": "Daniel Gómez",
+            "acudientes": "Daniel G\u00f3mez",
             "#celular": 3035348615,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -5613,7 +5613,7 @@
         {
             "ID": 2522993496,
             "nombre": "Fernanda",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Calle 131 # 10-27",
             "acudientes": "Carlos Vargas",
             "#celular": 3159972005,
@@ -5635,9 +5635,9 @@
         {
             "ID": 7296541932,
             "nombre": "Daniel",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Calle 93 # 8-26",
-            "acudientes": "Camila Ramírez",
+            "acudientes": "Camila Ram\u00edrez",
             "#celular": 3194047338,
             "Estado": {
                 "Aprobado": false,
@@ -5656,10 +5656,10 @@
         },
         {
             "ID": 1832197362,
-            "nombre": "Martín",
-            "apellido": "Ramírez",
+            "nombre": "Mart\u00edn",
+            "apellido": "Ram\u00edrez",
             "direccion": "Calle 10 # 47-14",
-            "acudientes": "Camila Díaz",
+            "acudientes": "Camila D\u00edaz",
             "#celular": 3241532878,
             "Estado": {
                 "Aprobado": false,
@@ -5678,10 +5678,10 @@
         },
         {
             "ID": 4534560870,
-            "nombre": "María",
-            "apellido": "Martínez",
+            "nombre": "Mar\u00eda",
+            "apellido": "Mart\u00ednez",
             "direccion": "Calle 5 # 14-5",
-            "acudientes": "Andrea Gómez",
+            "acudientes": "Andrea G\u00f3mez",
             "#celular": 3033128042,
             "Estado": {
                 "Aprobado": false,
@@ -5701,9 +5701,9 @@
         {
             "ID": 1495422741,
             "nombre": "Lucas",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Calle 23 # 8-17",
-            "acudientes": "María Rodríguez",
+            "acudientes": "Mar\u00eda Rodr\u00edguez",
             "#celular": 3150398621,
             "Estado": {
                 "Aprobado": false,
@@ -5723,13 +5723,13 @@
         {
             "ID": 4689388931,
             "nombre": "Andrea",
-            "apellido": "Díaz",
+            "apellido": "D\u00edaz",
             "direccion": "Calle 47 # 39-9",
             "acudientes": "Fernanda Torres",
             "#celular": 3226192138,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -5745,9 +5745,9 @@
         {
             "ID": 5368590632,
             "nombre": "Fernanda",
-            "apellido": "Ramírez",
+            "apellido": "Ram\u00edrez",
             "direccion": "Calle 46 # 33-22",
-            "acudientes": "Carlos Díaz",
+            "acudientes": "Carlos D\u00edaz",
             "#celular": 3074170047,
             "Estado": {
                 "Aprobado": false,
@@ -5767,9 +5767,9 @@
         {
             "ID": 7004135531,
             "nombre": "Carlos",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 135 # 1-46",
-            "acudientes": "Lucas Gómez",
+            "acudientes": "Lucas G\u00f3mez",
             "#celular": 3237535841,
             "Estado": {
                 "Aprobado": false,
@@ -5788,10 +5788,10 @@
         },
         {
             "ID": 1830746733,
-            "nombre": "Martín",
-            "apellido": "López",
+            "nombre": "Mart\u00edn",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 137 # 23-23",
-            "acudientes": "Camila Ramírez",
+            "acudientes": "Camila Ram\u00edrez",
             "#celular": 3127188877,
             "Estado": {
                 "Aprobado": false,
@@ -5811,13 +5811,13 @@
         {
             "ID": 8027106249,
             "nombre": "Andrea",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 16 # 44-7",
             "acudientes": "Andrea Vargas",
             "#celular": 3020188717,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -5835,7 +5835,7 @@
             "nombre": "Fernanda",
             "apellido": "Vargas",
             "direccion": "Calle 134 # 22-22",
-            "acudientes": "Fernanda Pérez",
+            "acudientes": "Fernanda P\u00e9rez",
             "#celular": 3035023574,
             "Estado": {
                 "Aprobado": false,
@@ -5854,10 +5854,10 @@
         },
         {
             "ID": 8068862688,
-            "nombre": "María",
-            "apellido": "Díaz",
+            "nombre": "Mar\u00eda",
+            "apellido": "D\u00edaz",
             "direccion": "Calle 101 # 31-36",
-            "acudientes": "Lucas Gómez",
+            "acudientes": "Lucas G\u00f3mez",
             "#celular": 3020646304,
             "Estado": {
                 "Aprobado": false,
@@ -5877,7 +5877,7 @@
         {
             "ID": 3223672384,
             "nombre": "Fernanda",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Calle 46 # 14-41",
             "acudientes": "Camila Vargas",
             "#celular": 3170067255,
@@ -5899,13 +5899,13 @@
         {
             "ID": 8500676167,
             "nombre": "Lucas",
-            "apellido": "Rodríguez",
+            "apellido": "Rodr\u00edguez",
             "direccion": "Calle 108 # 31-37",
-            "acudientes": "Carlos Gómez",
+            "acudientes": "Carlos G\u00f3mez",
             "#celular": 3233312448,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -5920,10 +5920,10 @@
         },
         {
             "ID": 7602253379,
-            "nombre": "Sofía",
+            "nombre": "Sof\u00eda",
             "apellido": "Torres",
             "direccion": "Calle 125 # 35-20",
-            "acudientes": "Lucas Gómez",
+            "acudientes": "Lucas G\u00f3mez",
             "#celular": 3144195761,
             "Estado": {
                 "Aprobado": false,
@@ -5942,10 +5942,10 @@
         },
         {
             "ID": 4703169292,
-            "nombre": "María",
-            "apellido": "Díaz",
+            "nombre": "Mar\u00eda",
+            "apellido": "D\u00edaz",
             "direccion": "Calle 94 # 43-28",
-            "acudientes": "Lucas García",
+            "acudientes": "Lucas Garc\u00eda",
             "#celular": 3242793999,
             "Estado": {
                 "Aprobado": false,
@@ -5965,9 +5965,9 @@
         {
             "ID": 5676191413,
             "nombre": "Lucas",
-            "apellido": "Pérez",
+            "apellido": "P\u00e9rez",
             "direccion": "Calle 126 # 42-36",
-            "acudientes": "María Rodríguez",
+            "acudientes": "Mar\u00eda Rodr\u00edguez",
             "#celular": 3186181405,
             "Estado": {
                 "Aprobado": false,
@@ -5986,8 +5986,8 @@
         },
         {
             "ID": 9670815164,
-            "nombre": "María",
-            "apellido": "López",
+            "nombre": "Mar\u00eda",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 25 # 44-8",
             "acudientes": "Daniel Torres",
             "#celular": 3119225772,
@@ -6008,10 +6008,10 @@
         },
         {
             "ID": 5121828223,
-            "nombre": "Martín",
-            "apellido": "García",
+            "nombre": "Mart\u00edn",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 35 # 46-27",
-            "acudientes": "Andrea Gómez",
+            "acudientes": "Andrea G\u00f3mez",
             "#celular": 3018075322,
             "Estado": {
                 "Aprobado": false,
@@ -6031,9 +6031,9 @@
         {
             "ID": 8372981529,
             "nombre": "Andrea",
-            "apellido": "Díaz",
+            "apellido": "D\u00edaz",
             "direccion": "Calle 3 # 28-17",
-            "acudientes": "Daniel Gómez",
+            "acudientes": "Daniel G\u00f3mez",
             "#celular": 3178355880,
             "Estado": {
                 "Aprobado": false,
@@ -6055,11 +6055,11 @@
             "nombre": "Fernanda",
             "apellido": "Vargas",
             "direccion": "Calle 142 # 13-39",
-            "acudientes": "Lucas García",
+            "acudientes": "Lucas Garc\u00eda",
             "#celular": 3260042962,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -6075,9 +6075,9 @@
         {
             "ID": 3386849662,
             "nombre": "Carlos",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 119 # 48-42",
-            "acudientes": "Daniel Martínez",
+            "acudientes": "Daniel Mart\u00ednez",
             "#celular": 3056859223,
             "Estado": {
                 "Aprobado": false,
@@ -6097,7 +6097,7 @@
         {
             "ID": 1141473930,
             "nombre": "Fernanda",
-            "apellido": "Ramírez",
+            "apellido": "Ram\u00edrez",
             "direccion": "Calle 65 # 46-45",
             "acudientes": "Javier Vargas",
             "#celular": 3275585442,
@@ -6119,9 +6119,9 @@
         {
             "ID": 1315492621,
             "nombre": "Daniel",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 148 # 28-26",
-            "acudientes": "Carlos Pérez",
+            "acudientes": "Carlos P\u00e9rez",
             "#celular": 3262290276,
             "Estado": {
                 "Aprobado": false,
@@ -6141,13 +6141,13 @@
         {
             "ID": 9312012492,
             "nombre": "Javier",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 32 # 7-44",
-            "acudientes": "María García",
+            "acudientes": "Mar\u00eda Garc\u00eda",
             "#celular": 3020886258,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -6162,14 +6162,14 @@
         },
         {
             "ID": 8741906801,
-            "nombre": "María",
-            "apellido": "García",
+            "nombre": "Mar\u00eda",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 69 # 16-49",
-            "acudientes": "Camila Pérez",
+            "acudientes": "Camila P\u00e9rez",
             "#celular": 3145025490,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -6187,7 +6187,7 @@
             "nombre": "Daniel",
             "apellido": "Torres",
             "direccion": "Calle 86 # 48-48",
-            "acudientes": "Lucas García",
+            "acudientes": "Lucas Garc\u00eda",
             "#celular": 3024450955,
             "Estado": {
                 "Aprobado": false,
@@ -6207,9 +6207,9 @@
         {
             "ID": 4870229619,
             "nombre": "Camila",
-            "apellido": "Rodríguez",
+            "apellido": "Rodr\u00edguez",
             "direccion": "Calle 11 # 8-47",
-            "acudientes": "Camila Rodríguez",
+            "acudientes": "Camila Rodr\u00edguez",
             "#celular": 3128750283,
             "Estado": {
                 "Aprobado": false,
@@ -6229,7 +6229,7 @@
         {
             "ID": 2765533782,
             "nombre": "Javier",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 121 # 29-4",
             "acudientes": "Daniel Vargas",
             "#celular": 3089225827,
@@ -6251,9 +6251,9 @@
         {
             "ID": 9649778572,
             "nombre": "Carlos",
-            "apellido": "Pérez",
+            "apellido": "P\u00e9rez",
             "direccion": "Calle 72 # 6-14",
-            "acudientes": "Carlos Pérez",
+            "acudientes": "Carlos P\u00e9rez",
             "#celular": 3233646258,
             "Estado": {
                 "Aprobado": false,
@@ -6272,14 +6272,14 @@
         },
         {
             "ID": 5131013287,
-            "nombre": "Martín",
-            "apellido": "Gómez",
+            "nombre": "Mart\u00edn",
+            "apellido": "G\u00f3mez",
             "direccion": "Calle 104 # 39-39",
-            "acudientes": "Martín Rodríguez",
+            "acudientes": "Mart\u00edn Rodr\u00edguez",
             "#celular": 3232850134,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -6295,9 +6295,9 @@
         {
             "ID": 4198600945,
             "nombre": "Carlos",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Calle 95 # 5-15",
-            "acudientes": "Sofía Ramírez",
+            "acudientes": "Sof\u00eda Ram\u00edrez",
             "#celular": 3261977612,
             "Estado": {
                 "Aprobado": false,
@@ -6317,9 +6317,9 @@
         {
             "ID": 4922708809,
             "nombre": "Javier",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 66 # 18-15",
-            "acudientes": "Camila Ramírez",
+            "acudientes": "Camila Ram\u00edrez",
             "#celular": 3280626897,
             "Estado": {
                 "Aprobado": false,
@@ -6339,9 +6339,9 @@
         {
             "ID": 9809700665,
             "nombre": "Carlos",
-            "apellido": "López",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 24 # 8-50",
-            "acudientes": "Andrea Ramírez",
+            "acudientes": "Andrea Ram\u00edrez",
             "#celular": 3179125312,
             "Estado": {
                 "Aprobado": false,
@@ -6361,9 +6361,9 @@
         {
             "ID": 8512652486,
             "nombre": "Camila",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 108 # 49-9",
-            "acudientes": "Sofía Torres",
+            "acudientes": "Sof\u00eda Torres",
             "#celular": 3062228237,
             "Estado": {
                 "Aprobado": false,
@@ -6382,10 +6382,10 @@
         },
         {
             "ID": 9702142476,
-            "nombre": "María",
-            "apellido": "García",
+            "nombre": "Mar\u00eda",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 6 # 12-17",
-            "acudientes": "Fernanda Rodríguez",
+            "acudientes": "Fernanda Rodr\u00edguez",
             "#celular": 3100403485,
             "Estado": {
                 "Aprobado": false,
@@ -6404,10 +6404,10 @@
         },
         {
             "ID": 3800959041,
-            "nombre": "Sofía",
-            "apellido": "López",
+            "nombre": "Sof\u00eda",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 78 # 26-37",
-            "acudientes": "Fernanda Pérez",
+            "acudientes": "Fernanda P\u00e9rez",
             "#celular": 3198263372,
             "Estado": {
                 "Aprobado": false,
@@ -6426,8 +6426,8 @@
         },
         {
             "ID": 8694796076,
-            "nombre": "María",
-            "apellido": "López",
+            "nombre": "Mar\u00eda",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 145 # 29-7",
             "acudientes": "Camila Torres",
             "#celular": 3199140828,
@@ -6449,13 +6449,13 @@
         {
             "ID": 7004451854,
             "nombre": "Daniel",
-            "apellido": "Martínez",
+            "apellido": "Mart\u00ednez",
             "direccion": "Calle 107 # 13-3",
             "acudientes": "Daniel Torres",
             "#celular": 3169302478,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -6470,10 +6470,10 @@
         },
         {
             "ID": 4883291107,
-            "nombre": "Martín",
-            "apellido": "López",
+            "nombre": "Mart\u00edn",
+            "apellido": "L\u00f3pez",
             "direccion": "Calle 52 # 4-31",
-            "acudientes": "Martín Gómez",
+            "acudientes": "Mart\u00edn G\u00f3mez",
             "#celular": 3050841423,
             "Estado": {
                 "Aprobado": false,
@@ -6493,7 +6493,7 @@
         {
             "ID": 4791461014,
             "nombre": "Lucas",
-            "apellido": "Rodríguez",
+            "apellido": "Rodr\u00edguez",
             "direccion": "Calle 6 # 20-30",
             "acudientes": "Carlos Torres",
             "#celular": 3044859265,
@@ -6515,9 +6515,9 @@
         {
             "ID": 5318321778,
             "nombre": "Carlos",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 79 # 46-12",
-            "acudientes": "Camila Díaz",
+            "acudientes": "Camila D\u00edaz",
             "#celular": 3183907495,
             "Estado": {
                 "Aprobado": false,
@@ -6537,13 +6537,13 @@
         {
             "ID": 7995962907,
             "nombre": "Javier",
-            "apellido": "Díaz",
+            "apellido": "D\u00edaz",
             "direccion": "Calle 111 # 17-10",
-            "acudientes": "María Martínez",
+            "acudientes": "Mar\u00eda Mart\u00ednez",
             "#celular": 3286948455,
             "Estado": {
-                "Aprobado": true,
-                "Cursando": false,
+                "Aprobado": false,
+                "Cursando": true,
                 "En proceso de ingreso": false,
                 "Expulsado": false,
                 "Graduado": false,
@@ -6559,9 +6559,9 @@
         {
             "ID": 4461027730,
             "nombre": "Lucas",
-            "apellido": "Ramírez",
+            "apellido": "Ram\u00edrez",
             "direccion": "Calle 134 # 30-13",
-            "acudientes": "Andrea Gómez",
+            "acudientes": "Andrea G\u00f3mez",
             "#celular": 3150526103,
             "Estado": {
                 "Aprobado": false,
@@ -6581,9 +6581,9 @@
         {
             "ID": 1865982479,
             "nombre": "Carlos",
-            "apellido": "García",
+            "apellido": "Garc\u00eda",
             "direccion": "Calle 22 # 50-20",
-            "acudientes": "Javier Díaz",
+            "acudientes": "Javier D\u00edaz",
             "#celular": 3036226649,
             "Estado": {
                 "Aprobado": false,
@@ -6605,7 +6605,7 @@
             "nombre": "Lucas",
             "apellido": "Vargas",
             "direccion": "Calle 26 # 45-39",
-            "acudientes": "Daniel Gómez",
+            "acudientes": "Daniel G\u00f3mez",
             "#celular": 3214209634,
             "Estado": {
                 "Aprobado": false,
@@ -6625,7 +6625,7 @@
         {
             "ID": 6065323665,
             "nombre": "Lucas",
-            "apellido": "Gómez",
+            "apellido": "G\u00f3mez",
             "direccion": "Calle 37 # 44-22",
             "acudientes": "Andrea Torres",
             "#celular": 3125363674,

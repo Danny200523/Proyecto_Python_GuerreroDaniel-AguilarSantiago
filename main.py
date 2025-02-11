@@ -8,15 +8,13 @@ while bo==True:
     for i in range(len(camp["Campers"])):
         if camp["Campers"][i]["Estado"]["Cursando"]==True:
             list.append({"nombre":camp["Campers"][i]["nombre"],
-                         "Estado":True})
+                        "Estado":True})
     if len(list)<396:
         asignargrupo1()
-    else:
-        print(list)
-        MenuPrincipal()
-        n=int(input(": "))
-        if n==3:
-            Menucordinadora()
-            opc=int(input(": "))
-        if opc==1:
-            Aggcamper()
+    MenuPrincipal()
+    n=int(input(": "))
+    if n==3:
+        Menucordinadora()
+        opc=int(input(": "))
+    if opc==1:
+        Aggcamper()

@@ -28,10 +28,10 @@ def abrirJS():
 def guardarJS(dic):
     with open("Data/HorariosCursos.json",'w') as outFile:
         json.dump(dic,outFile)
+
 camp={}
 rut={}
 Hor={}
-print(abrirJSON)
 camp=abrirJSON()
 rut=abrirJSO()
 Hor=abrirJS()
@@ -282,20 +282,21 @@ def agregarnuevaruta():
 ##Se podría dar la opción a la coordinadora para cambiar de grupo SI este no está completo(opcional)
 def asignargrupo1():
     for i in range(len(camp["Campers"])):
-        if camp["Campers"][i]["Estado"]["Aprobado"]:
+        print(camp["Campers"][i]["Estado"]["Aprobado"])
+        if camp["Campers"][i]["Estado"]["Aprobado"] == True:
+            print(i)
             if len(Hor["Horarios"]["HorarioA"]["P1"]) < 33:
+                print("hola")
                 Hor["Horarios"]["HorarioA"]["P1"].append({camp["Campers"][i]["ID"],
                                                             camp["Campers"][i]["nombre"],
-                                                            camp["Campers"][i]["apellido"],
-                                                            Hor["Horarios"]["HorarioA"]["P1"].append({  "NotaProyecto":0,
-                                                                                                        "NotaFiltro":0,
-                                                                                                        "NotaTrabajos":0,
-                                                                                                        "NotaFinal":0}),
+                                                            camp["Campers"][i]["apellido"]
                                                             })
                 camp["Campers"][i]["Estado"]["Aprobado"]=False
                 camp["Campers"][i]["Estado"]["Cursando"]=True
-    guardarJS(Hor)
-    guardarJSON(camp)
+                guardarJS(Hor)
+                guardarJSON(camp)
+
+
 def asignargrupo():
     for i in range(len(camp["Campers"])):
         if camp["Campers"][i]["Estado"]["Aprobado"]:
