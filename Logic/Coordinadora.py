@@ -48,7 +48,6 @@ def asignar_fechas(camp):
     camp["fechaFin"] = fecha_fin.strftime("%d/%m/%Y")
     
     return camp
-
 ##FUNCIONES COORDINADORA
 def Aggcamper():
     print("Ingrese el documento de identidad del nuevo Camper")
@@ -83,9 +82,6 @@ def Aggcamper():
     asignar_fechas()
     guardarJSON(camp)
     
-
-
-
 def Vercamper():
     c=0
     for i in range(len(camp["Campers"])):
@@ -262,7 +258,6 @@ def agregarnuevaruta():
         ski=input(": ")
         rut["Rutas"][nvr][ski]=[]
         guardarJSO(rut)
-
 
 def asignargrupo():
     for i in range(len(camp["Campers"])):
@@ -1124,8 +1119,6 @@ def asignarestruta():
                                                           "notaTrabajos":""}})
                 guardarJSO(rut)
             
-
-
 def asignacionnotainical():
     Vercamper()
     print("A que estudiante le quiere asignar la nota del examen de ingreso")
