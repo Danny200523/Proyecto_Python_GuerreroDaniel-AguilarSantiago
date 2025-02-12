@@ -36,6 +36,19 @@ camp=abrirJSON()
 rut=abrirJSO()
 Hor=abrirJS()
 
+#FUNCION TIEMPO (Para llamr después)
+def asignar_fechas(camp):
+    """
+    Asigna una fecha de inicio con la fecha actual y una fecha de finalización 10 meses después.
+    """
+    fecha_inicio = datetime.today()
+    fecha_fin = fecha_inicio + timedelta(days=10 * 30)  # Aproximadamente 10 meses
+
+    camp["Campers"]["fechaInicio"] = fecha_inicio.strftime("%d/%m/%Y")
+    camp["fechaFin"] = fecha_fin.strftime("%d/%m/%Y")
+    
+    return camp
+
 ##FUNCIONES COORDINADORA
 def Aggcamper():
     print("Ingrese el documento de identidad del nuevo Camper")
@@ -67,7 +80,9 @@ def Aggcamper():
                             "#celular":cel,
                             "Estado":estado,
                             "Curso":""})
+    asignar_fechas()
     guardarJSON(camp)
+    
 
 
 
