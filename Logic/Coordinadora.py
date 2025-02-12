@@ -364,8 +364,7 @@ def asignargrupo():
 def asignarestruta():
     for i in range(len(camp)):
         if camp["Campers"][i]["Estado"]["Cursando"]==True:
-            x=camp["Campers"][i]["ID"]
-            if Hor["Horarios"]["HorarioA"]["P1"]["ID"]==x:
+            if Hor["Horarios"]["HorarioA"]["P1"]["ID"]==camp["Campers"][i]["ID"]:
                 rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
                                                       "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
                                                       "Notas":{"notaProyecto":"",

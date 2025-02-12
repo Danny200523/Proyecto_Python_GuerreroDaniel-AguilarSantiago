@@ -41,7 +41,7 @@ while True:
                 else:
                     break
             elif opc == 2:
-                editarnota()
+                EditarnotaJava()
             elif opc == 3:
                 Vercamper()
             elif opc == 4:
