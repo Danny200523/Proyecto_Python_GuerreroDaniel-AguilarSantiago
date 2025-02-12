@@ -8,6 +8,7 @@ def MenuPrincipal():
 =     (1). Camper            =
 =     (2). Trainer           =
 =     (3). Cordinadora       =
+=     (4). Salir             =
 ==============================
           ''')
     
@@ -65,7 +66,7 @@ def Menucordinadora():
 =   (4).Eliminar estudiante             =
 =   (5).Agregar estudiante a curso      =
 =   (6).Agregar nueva ruta de estudio   =
-=   (7).Asignar ruta a trainer          =
+=   (7). Volver al menu principal       =
 =========================================
           ''')
     

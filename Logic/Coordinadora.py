@@ -69,37 +69,7 @@ def Aggcamper():
                             "Curso":""})
     guardarJSON(camp)
 
-def Incripcion():
-    print("Ingrese su documento de identidad")
-    id=int(input(": "))
-    print("Ingrese sus nombres (de tener dos ingresar los dos)")
-    name=input(": ")
-    print("Ingrese sus apellidos")
-    apellido=input(": ")
-    print("Ingrese su direccion de residencia")
-    dir=input(": ")
-    print("Ingrese nombre de su acudiente")
-    acu=input(": ")
-    print("Ingrese el numero de telefono")
-    cel=input(": ")
-    estado={
-                "Aprobado": False,
-                "Cursando": False,
-                "En proceso de ingreso": False,
-                "Expulsado": False,
-                "Graduado": False,
-                "Inscrito": True,
-                "Retirado": False
-            },
-    camp["Campers"].append({"ID":id,
-                            "nombre":name,
-                            "apellido":apellido,
-                            "direccion":dir,
-                            "acudientes":acu,
-                            "#celular":cel,
-                            "Estado":estado,
-                            "Curso":""})
-    guardarJSON(camp)
+
 
 def Vercamper():
     c=0
@@ -291,8 +261,35 @@ def asignargrupo():
                 camp["Campers"][i]["Estado"]["Cursando"]=True
                 guardarJS(Hor)
                 guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioB"]["P2"]) < 33:
-                Hor["Horarios"]["HorarioB"]["P2"].append({"ID":camp["Campers"][i]["ID"],
+            elif len(Hor["Horarios"]["HorarioB"]["P2"]) < 33:
+                    Hor["Horarios"]["HorarioB"]["P2"].append({"ID":camp["Campers"][i]["ID"],
+                                                                "nombre":camp["Campers"][i]["nombre"],
+                                                                "apellido":camp["Campers"][i]["apellido"]
+                                                                })
+                    camp["Campers"][i]["Estado"]["Aprobado"]=False
+                    camp["Campers"][i]["Estado"]["Cursando"]=True
+                    guardarJS(Hor)
+                    guardarJSON(camp)
+            elif len(Hor["Horarios"]["HorarioC"]["P3"]) < 33:
+                    Hor["Horarios"]["HorarioC"]["P3"].append({"ID":camp["Campers"][i]["ID"],
+                                                                "nombre":camp["Campers"][i]["nombre"],
+                                                                "apellido":camp["Campers"][i]["apellido"]
+                                                                })
+                    camp["Campers"][i]["Estado"]["Aprobado"]=False
+                    camp["Campers"][i]["Estado"]["Cursando"]=True
+                    guardarJS(Hor)
+                    guardarJSON(camp)
+            elif len(Hor["Horarios"]["HorarioD"]["P4"]) < 33:
+                    Hor["Horarios"]["HorarioD"]["P4"].append({"ID":camp["Campers"][i]["ID"],
+                                                                "nombre":camp["Campers"][i]["nombre"],
+                                                                "apellido":camp["Campers"][i]["apellido"]
+                                                                })
+                    camp["Campers"][i]["Estado"]["Aprobado"]=False
+                    camp["Campers"][i]["Estado"]["Cursando"]=True
+                    guardarJS(Hor)
+                    guardarJSON(camp)
+            elif len(Hor["Horarios"]["HorarioA"]["M1"]) < 33:
+                Hor["Horarios"]["HorarioA"]["M1"].append({"ID":camp["Campers"][i]["ID"],
                                                             "nombre":camp["Campers"][i]["nombre"],
                                                             "apellido":camp["Campers"][i]["apellido"]
                                                             })
@@ -300,133 +297,69 @@ def asignargrupo():
                 camp["Campers"][i]["Estado"]["Cursando"]=True
                 guardarJS(Hor)
                 guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioC"]["P3"]) < 33:
-                Hor["Horarios"]["HorarioC"]["P3"].append({"ID":camp["Campers"][i]["ID"],
-                                                            "nombre":camp["Campers"][i]["nombre"],
-                                                            "apellido":camp["Campers"][i]["apellido"]
+            elif len(Hor["Horarios"]["HorarioB"]["M2"]) < 33:
+                Hor["Horarios"]["HorarioB"]["M2"].append({"ID":camp["Campers"][i]["ID"],
+                                                                "nombre":camp["Campers"][i]["nombre"],
+                                                                "apellido":camp["Campers"][i]["apellido"]
                                                             })
                 camp["Campers"][i]["Estado"]["Aprobado"]=False
                 camp["Campers"][i]["Estado"]["Cursando"]=True
                 guardarJS(Hor)
                 guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioD"]["P4"]) < 33:
-                Hor["Horarios"]["HorarioD"]["P4"].append({"ID":camp["Campers"][i]["ID"],
-                                                            "nombre":camp["Campers"][i]["nombre"],
-                                                            "apellido":camp["Campers"][i]["apellido"]
+            elif len(Hor["Horarios"]["HorarioB"]["M2"]) < 33:
+                Hor["Horarios"]["HorarioAC"]["M2"].append({"ID":camp["Campers"][i]["ID"],
+                                                                "nombre":camp["Campers"][i]["nombre"],
+                                                                "apellido":camp["Campers"][i]["apellido"]
                                                             })
                 camp["Campers"][i]["Estado"]["Aprobado"]=False
                 camp["Campers"][i]["Estado"]["Cursando"]=True
                 guardarJS(Hor)
                 guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioA"]["M1"]) < 33:
-            Hor["Horarios"]["HorarioA"]["M1"].append({"ID":camp["Campers"][i]["ID"],
-                                                        "nombre":camp["Campers"][i]["nombre"],
-                                                        "apellido":camp["Campers"][i]["apellido"]
-                                                        })
-            camp["Campers"][i]["Estado"]["Aprobado"]=False
-            camp["Campers"][i]["Estado"]["Cursando"]=True
-            guardarJS(Hor)
-            guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioB"]["M2"]) < 33:
-            Hor["Horarios"]["HorarioAB"]["M2"].append({"ID":camp["Campers"][i]["ID"],
-                                                            "nombre":camp["Campers"][i]["nombre"],
-                                                            "apellido":camp["Campers"][i]["apellido"]
-                                                        })
-            camp["Campers"][i]["Estado"]["Aprobado"]=False
-            camp["Campers"][i]["Estado"]["Cursando"]=True
-            guardarJS(Hor)
-            guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioC"]["M2"]) < 33:
-            Hor["Horarios"]["HorarioAC"]["M2"].append({"ID":camp["Campers"][i]["ID"],
-                                                            "nombre":camp["Campers"][i]["nombre"],
-                                                            "apellido":camp["Campers"][i]["apellido"]
-                                                        })
-            camp["Campers"][i]["Estado"]["Aprobado"]=False
-            camp["Campers"][i]["Estado"]["Cursando"]=True
-            guardarJS(Hor)
-            guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioD"]["M4"]) < 33:
-            Hor["Horarios"]["HorarioAD"]["M4"].append({"ID":camp["Campers"][i]["ID"],
-                                                            "nombre":camp["Campers"][i]["nombre"],
-                                                            "apellido":camp["Campers"][i]["apellido"]
-                                                        })
-            camp["Campers"][i]["Estado"]["Aprobado"]=False
-            camp["Campers"][i]["Estado"]["Cursando"]=True
-            guardarJS(Hor)
-            guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioA"]["J1"]) < 33:
-            Hor["Horarios"]["HorarioAA"]["J1"].append({"ID":camp["Campers"][i]["ID"],
-                                                            "nombre":camp["Campers"][i]["nombre"],
-                                                            "apellido":camp["Campers"][i]["apellido"]
-                                                        })
-            camp["Campers"][i]["Estado"]["Aprobado"]=False
-            camp["Campers"][i]["Estado"]["Cursando"]=True
-            guardarJS(Hor)
-            guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioB"]["J2"]) < 33:
-            Hor["Horarios"]["HorarioB"]["J2"].append({"ID":camp["Campers"][i]["ID"],
-                                                            "nombre":camp["Campers"][i]["nombre"],
-                                                            "apellido":camp["Campers"][i]["apellido"]
-                                                        })
-            camp["Campers"][i]["Estado"]["Aprobado"]=False
-            camp["Campers"][i]["Estado"]["Cursando"]=True
-            guardarJS(Hor)
-            guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioC"]["J3"]) < 33:
-            Hor["Horarios"]["HorarioC"]["J3"].append({"ID":camp["Campers"][i]["ID"],
-                                                            "nombre":camp["Campers"][i]["nombre"],
-                                                            "apellido":camp["Campers"][i]["apellido"]
-                                                        })
-            camp["Campers"][i]["Estado"]["Aprobado"]=False
-            camp["Campers"][i]["Estado"]["Cursando"]=True
-            guardarJS(Hor)
-            guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioD"]["J4"]) < 33:
-            Hor["Horarios"]["HorarioD"]["J4"].append({"ID":camp["Campers"][i]["ID"],
-                                                            "nombre":camp["Campers"][i]["nombre"],
-                                                            "apellido":camp["Campers"][i]["apellido"]
-                                                        })
-            camp["Campers"][i]["Estado"]["Aprobado"]=False
-            camp["Campers"][i]["Estado"]["Cursando"]=True
-            guardarJS(Hor)
-            guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioA"]["JC1"]) < 33:
-            Hor["Horarios"]["HorarioA"]["JC1"].append({"ID":camp["Campers"][i]["ID"],
-                                                            "nombre":camp["Campers"][i]["nombre"],
-                                                            "apellido":camp["Campers"][i]["apellido"]
-                                                        })
-            camp["Campers"][i]["Estado"]["Aprobado"]=False
-            camp["Campers"][i]["Estado"]["Cursando"]=True
-            guardarJS(Hor)
-            guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioB"]["JC2"]) < 33:
-            Hor["Horarios"]["HorarioB"]["JC2"].append({"ID":camp["Campers"][i]["ID"],
-                                                            "nombre":camp["Campers"][i]["nombre"],
-                                                            "apellido":camp["Campers"][i]["apellido"]
-                                                        })
-            camp["Campers"][i]["Estado"]["Aprobado"]=False
-            camp["Campers"][i]["Estado"]["Cursando"]=True
-            guardarJS(Hor)
-            guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioC"]["C1"]) < 33:
-            Hor["Horarios"]["HorarioC"]["C1"].append({"ID":camp["Campers"][i]["ID"],
-                                                            "nombre":camp["Campers"][i]["nombre"],
-                                                            "apellido":camp["Campers"][i]["apellido"]
-                                                        })
-            camp["Campers"][i]["Estado"]["Aprobado"]=False
-            camp["Campers"][i]["Estado"]["Cursando"]=True
-            guardarJS(Hor)
-            guardarJSON(camp)
-        elif len(Hor["Horarios"]["HorarioD"]["C2"]) < 33:
-            Hor["Horarios"]["HorarioD"]["C2"].append({"ID":camp["Campers"][i]["ID"],
-                                                            "nombre":camp["Campers"][i]["nombre"],
-                                                            "apellido":camp["Campers"][i]["apellido"]
-                                                        })
-            camp["Campers"][i]["Estado"]["Aprobado"]=False
-            camp["Campers"][i]["Estado"]["Cursando"]=True
-            guardarJS(Hor)
-            guardarJSON(camp)
-
+            elif len(Hor["Horarios"]["HorarioD"]["M4"]) < 33:
+                Hor["Horarios"]["HorarioD"]["M4"].append({"ID":camp["Campers"][i]["ID"],
+                                                                "nombre":camp["Campers"][i]["nombre"],
+                                                                "apellido":camp["Campers"][i]["apellido"]
+                                                            })
+                camp["Campers"][i]["Estado"]["Aprobado"]=False
+                camp["Campers"][i]["Estado"]["Cursando"]=True
+                guardarJS(Hor)
+                guardarJSON(camp)
+            elif len(Hor["Horarios"]["HorarioA"]["J1"]) < 33:
+                Hor["Horarios"]["HorarioA"]["J1"].append({"ID":camp["Campers"][i]["ID"],
+                                                                "nombre":camp["Campers"][i]["nombre"],
+                                                                "apellido":camp["Campers"][i]["apellido"]
+                                                            })
+                camp["Campers"][i]["Estado"]["Aprobado"]=False
+                camp["Campers"][i]["Estado"]["Cursando"]=True
+                guardarJS(Hor)
+                guardarJSON(camp)
+            elif len(Hor["Horarios"]["HorarioB"]["J2"]) < 33:
+                Hor["Horarios"]["HorarioB"]["J2"].append({"ID":camp["Campers"][i]["ID"],
+                                                                "nombre":camp["Campers"][i]["nombre"],
+                                                                "apellido":camp["Campers"][i]["apellido"]
+                                                            })
+                camp["Campers"][i]["Estado"]["Aprobado"]=False
+                camp["Campers"][i]["Estado"]["Cursando"]=True
+                guardarJS(Hor)
+                guardarJSON(camp)
+            elif len(Hor["Horarios"]["HorarioC"]["J3"]) < 33:
+                Hor["Horarios"]["HorarioC"]["J3"].append({"ID":camp["Campers"][i]["ID"],
+                                                                "nombre":camp["Campers"][i]["nombre"],
+                                                                "apellido":camp["Campers"][i]["apellido"]
+                                                            })
+                camp["Campers"][i]["Estado"]["Aprobado"]=False
+                camp["Campers"][i]["Estado"]["Cursando"]=True
+                guardarJS(Hor)
+                guardarJSON(camp)
+            elif len(Hor["Horarios"]["HorarioD"]["J4"]) < 33:
+                Hor["Horarios"]["HorarioD"]["J4"].append({"ID":camp["Campers"][i]["ID"],
+                                                                "nombre":camp["Campers"][i]["nombre"],
+                                                                "apellido":camp["Campers"][i]["apellido"]
+                                                            })
+                camp["Campers"][i]["Estado"]["Aprobado"]=False
+                camp["Campers"][i]["Estado"]["Cursando"]=True
+                guardarJS(Hor)
+                guardarJSON(camp)
 
 def asignarestruta():
     for i in range(len(camp)):
@@ -1052,109 +985,129 @@ def asignarestruta():
                                                           "notaFiltro":"",
                                                           "notaTrabajos":""}})
                 guardarJSO(rut)
-            elif Hor["Horarios"]["HorarioA"]["J2"]["ID"]==x:
-                rut["Rutas"]["NetCore"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
-                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+            elif Hor["Horarios"]["HorarioA"]["J3"]["ID"]==x:
+                rut["Rutas"]["NetCore"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["J3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J3"]["ID"],
                                                           "Notas":{"notaProyecto":"",
                                                                    "notaFiltro":"",
                                                                    "notaTrabajos":""}})
-                rut["Rutas"]["NetCore"]["Python"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
-                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                rut["Rutas"]["NetCore"]["Python"].append({"nombre":Hor["Horarios"]["HorarioA"]["J3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J3"]["ID"],
                                                           "Notas":{"notaProyecto":"",
                                                                    "notaFiltro":"",
                                                                    "notaTrabajos":""}})
-                rut["Rutas"]["NetCore"]["Html/css"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
-                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                rut["Rutas"]["NetCore"]["Html/css"].append({"nombre":Hor["Horarios"]["HorarioA"]["J3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J3"]["ID"],
                                                           "Notas":{"notaProyecto":"",
                                                                    "notaFiltro":"",
                                                                    "notaTrabajos":""}})
-                rut["Rutas"]["NetCore"]["Scrum"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
-                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                rut["Rutas"]["NetCore"]["Scrum"].append({"nombre":Hor["Horarios"]["HorarioA"]["J3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J3"]["ID"],
                                                           "Notas":{"notaProyecto":"",
                                                                    "notaFiltro":"",
                                                                    "notaTrabajos":""}})
-                rut["Rutas"]["NetCore"]["Git"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
-                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                rut["Rutas"]["NetCore"]["Git"].append({"nombre":Hor["Horarios"]["HorarioA"]["J3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J3"]["ID"],
                                                           "Notas":{"notaProyecto":"",
                                                                    "notaFiltro":"",
                                                                    "notaTrabajos":""}})
-                rut["Rutas"]["NetCore"]["Javascript"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
-                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                rut["Rutas"]["NetCore"]["Javascript"].append({"nombre":Hor["Horarios"]["HorarioA"]["J3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J3"]["ID"],
                                                           "Notas":{"notaProyecto":"",
                                                                    "notaFiltro":"",
                                                                    "notaTrabajos":""}})
-                rut["Rutas"]["NetCore"]["IntroBack"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
-                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                rut["Rutas"]["NetCore"]["IntroBack"].append({"nombre":Hor["Horarios"]["HorarioA"]["J3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J3"]["ID"],
                                                           "Notas":{"notaProyecto":"",
                                                                    "notaFiltro":"",
                                                                    "notaTrabajos":""}})
-                rut["Rutas"]["NetCore"]["IntroBBDD"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
-                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                rut["Rutas"]["NetCore"]["IntroBBDD"].append({"nombre":Hor["Horarios"]["HorarioA"]["J3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J3"]["ID"],
                                                           "Notas":{"notaProyecto":"",
                                                                    "notaFiltro":"",
                                                                    "notaTrabajos":""}})
-                rut["Rutas"]["NetCore"]["MySQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
-                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                rut["Rutas"]["NetCore"]["MySQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["J3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J3"]["ID"],
                                                           "Notas":{"notaProyecto":"",
                                                                    "notaFiltro":"",
                                                                    "notaTrabajos":""}})
-                rut["Rutas"]["NetCore"]["C##"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
-                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                rut["Rutas"]["NetCore"]["C##"].append({"nombre":Hor["Horarios"]["HorarioA"]["J3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J3"]["ID"],
                                                           "Notas":{"notaProyecto":"",
                                                                    "notaFiltro":"",
                                                                    "notaTrabajos":""}})
-                rut["Rutas"]["NetCore"]["PostgresSQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
-                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                rut["Rutas"]["NetCore"]["PostgresSQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["J3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J3"]["ID"],
                                                           "Notas":{"notaProyecto":"",
                                                                    "notaFiltro":"",
                                                                    "notaTrabajos":""}})
-                rut["Rutas"]["NetCore"][".NetCore"].append({"nombre":Hor["Horarios"]["HorarioA"]["J2"]["nombre"],
-                                                          "ID":Hor["Horarios"]["HorarioA"]["J2"]["ID"],
+                rut["Rutas"]["NetCore"][".NetCore"].append({"nombre":Hor["Horarios"]["HorarioA"]["J3"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J3"]["ID"],
                                                           "Notas":{"notaProyecto":"",
                                                           "notaFiltro":"",
                                                           "notaTrabajos":""}})
                 guardarJSO(rut)
-            elif Hor["Horarios"]["HorarioA"]["P1"]["ID"]==x:
-                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
-                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
-                                                      "Notas":{"notaProyecto":"",
-                                                               "notaFiltro":"",
-                                                               "notaTrabajos":""}})
-                guardarJSO(rut)
-            elif Hor["Horarios"]["HorarioA"]["P1"]["ID"]==x:
-                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
-                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
-                                                      "Notas":{"notaProyecto":"",
-                                                               "notaFiltro":"",
-                                                               "notaTrabajos":""}})
-                guardarJSO(rut)
-            elif Hor["Horarios"]["HorarioA"]["P1"]["ID"]==x:
-                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
-                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
-                                                      "Notas":{"notaProyecto":"",
-                                                               "notaFiltro":"",
-                                                               "notaTrabajos":""}})
-                guardarJSO(rut)
-            elif Hor["Horarios"]["HorarioA"]["P1"]["ID"]==x:
-                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
-                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
-                                                      "Notas":{"notaProyecto":"",
-                                                               "notaFiltro":"",
-                                                               "notaTrabajos":""}})
-                guardarJSO(rut)
-            elif Hor["Horarios"]["HorarioA"]["P1"]["ID"]==x:
-                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
-                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
-                                                      "Notas":{"notaProyecto":"",
-                                                               "notaFiltro":"",
-                                                               "notaTrabajos":""}})
-                guardarJSO(rut)
-            elif Hor["Horarios"]["HorarioA"]["P1"]["ID"]==x:
-                rut["Rutas"]["Java"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["P1"]["nombre"],
-                                                      "ID":Hor["Horarios"]["HorarioA"]["P1"]["ID"],
-                                                      "Notas":{"notaProyecto":"",
-                                                               "notaFiltro":"",
-                                                               "notaTrabajos":""}})
+            elif Hor["Horarios"]["HorarioA"]["J4"]["ID"]==x:
+                rut["Rutas"]["NetCore"]["Intro"].append({"nombre":Hor["Horarios"]["HorarioA"]["J4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Python"].append({"nombre":Hor["Horarios"]["HorarioA"]["J4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Html/css"].append({"nombre":Hor["Horarios"]["HorarioA"]["J4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Scrum"].append({"nombre":Hor["Horarios"]["HorarioA"]["J4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Git"].append({"nombre":Hor["Horarios"]["HorarioA"]["J4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["Javascript"].append({"nombre":Hor["Horarios"]["HorarioA"]["J4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["IntroBack"].append({"nombre":Hor["Horarios"]["HorarioA"]["J4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["IntroBBDD"].append({"nombre":Hor["Horarios"]["HorarioA"]["J4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["MySQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["J4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["C##"].append({"nombre":Hor["Horarios"]["HorarioA"]["J4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"]["PostgresSQL"].append({"nombre":Hor["Horarios"]["HorarioA"]["J4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                                   "notaFiltro":"",
+                                                                   "notaTrabajos":""}})
+                rut["Rutas"]["NetCore"][".NetCore"].append({"nombre":Hor["Horarios"]["HorarioA"]["J4"]["nombre"],
+                                                          "ID":Hor["Horarios"]["HorarioA"]["J4"]["ID"],
+                                                          "Notas":{"notaProyecto":"",
+                                                          "notaFiltro":"",
+                                                          "notaTrabajos":""}})
                 guardarJSO(rut)
             
 
@@ -1167,6 +1120,41 @@ def asignacionnotainical():
     nt=int(input(": "))
     camp["Campers"][x-1]["notainicial"]=nt
     
+def AggcamperCurso():
+    Vercamper() 
+    print("A qué estudiante desea agregar al curso?") 
+    estudiante = int(input(": ")) 
+    print(
+         '''A que grupo lo quiere agregar?
+         1. P1
+         2. P2
+         3. P3
+         4. P4
+         5. M1
+         6. M2
+         7. M3
+         8. M4
+         9. J1
+         10. J2
+         11. J3
+         12. J4
+         ''')
+    curso=int(input(": "))
+    if curso==1:
+            if len(Hor["Horarios"]["HorarioA"]["P1"]) < 33:
+                Hor["Horarios"]["HorarioA"]["P1"].append({"ID":camp["Campers"][estudiante-1]["ID"],
+                                                            "nombre":camp["Campers"][estudiante-1]["nombre"],
+                                                            "apellido":camp["Campers"][estudiante-1]["apellido"]
+                                                            })
+                guardarJS(Hor)
+    elif curso==2:
+        if len(Hor["Horarios"]["HorarioA"]["P2"]) < 33:
+            Hor["Horarios"]["HorarioA"]["P2"].append({"ID":camp["Campers"][estudiante-1]["ID"],
+                                                            "nombre":camp["Campers"][estudiante-1]["nombre"],
+                                                            "apellido":camp["Campers"][estudiante-1]["apellido"]
+                                                            })
+            guardarJS(Hor)
+        
 
     
 ##Crear una contrasena para el usuario trainner  

@@ -5,15 +5,14 @@ import json
 
 def abrirJSO():
     dicFinal={}
-    with open('../Data/Rutas.json',"r") as openFile:
+    with open('Data/Rutas.json',"r") as openFile:
         dicFinal=json.load(openFile)
     return dicFinal
 
-rutas={}
 rutas=abrirJSO()
 
 def guardarJSO(dic):
-    with open("../Data/Rutas.json",'w') as outFile:
+    with open("Data/Rutas.json",'w') as outFile:
         json.dump(dic,outFile)
 
 
@@ -69,3 +68,6 @@ def VerNotasNetCore():
     print("C##:",rutas["Rutas"]["Java"]["C##"])
     print("PostgreSQL:",rutas["Rutas"]["Java"]["PostgreSQL"])
     print(".NetCore:",rutas["Rutas"]["Java"][".NetCore"])
+
+def Editarnota():
+    print("")

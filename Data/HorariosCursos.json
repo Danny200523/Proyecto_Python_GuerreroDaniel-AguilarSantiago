@@ -2,27 +2,1683 @@
     "Horarios": {
         "HorarioA": {
             "P1": [],
-            "M1": [],
-            "J1": [],
-            "JC1": []
+            "M1": [
+                {
+                    "ID": 19392183822,
+                    "nombre": "Sofia",
+                    "apellido": "Duran"
+                },
+                {
+                    "ID": 5203779532,
+                    "nombre": "Emilio",
+                    "apellido": "Mart\u00ednez"
+                },
+                {
+                    "ID": 2434883346,
+                    "nombre": "Emilio",
+                    "apellido": "L\u00f3pez"
+                },
+                {
+                    "ID": 6641013705,
+                    "nombre": "Pedro",
+                    "apellido": "Garc\u00eda"
+                },
+                {
+                    "ID": 6132081075,
+                    "nombre": "Jorge",
+                    "apellido": "Mart\u00ednez"
+                },
+                {
+                    "ID": 2336809243,
+                    "nombre": "Sof\u00eda",
+                    "apellido": "Garc\u00eda"
+                },
+                {
+                    "ID": 3602321745,
+                    "nombre": "Camila",
+                    "apellido": "Mart\u00ednez"
+                },
+                {
+                    "ID": 5300907882,
+                    "nombre": "Carlos",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 7732818391,
+                    "nombre": "Carlos",
+                    "apellido": "Morales"
+                },
+                {
+                    "ID": 6218519404,
+                    "nombre": "Carlos",
+                    "apellido": "Morales"
+                },
+                {
+                    "ID": 2637447129,
+                    "nombre": "Carlos",
+                    "apellido": "D\u00edaz"
+                },
+                {
+                    "ID": 5389517512,
+                    "nombre": "Gabriela",
+                    "apellido": "Garc\u00eda"
+                },
+                {
+                    "ID": 2429740039,
+                    "nombre": "Gabriela",
+                    "apellido": "Mart\u00ednez"
+                },
+                {
+                    "ID": 3542795317,
+                    "nombre": "Luc\u00eda",
+                    "apellido": "Mart\u00ednez"
+                },
+                {
+                    "ID": 8409634258,
+                    "nombre": "Luis",
+                    "apellido": "Garc\u00eda"
+                },
+                {
+                    "ID": 8836830223,
+                    "nombre": "Carlos",
+                    "apellido": "Torres"
+                },
+                {
+                    "ID": 2877834380,
+                    "nombre": "Luc\u00eda",
+                    "apellido": "S\u00e1nchez"
+                },
+                {
+                    "ID": 7286777162,
+                    "nombre": "Emilio",
+                    "apellido": "G\u00f3mez"
+                },
+                {
+                    "ID": 6332311240,
+                    "nombre": "Pedro",
+                    "apellido": "Morales"
+                },
+                {
+                    "ID": 8632756085,
+                    "nombre": "Luis",
+                    "apellido": "L\u00f3pez"
+                },
+                {
+                    "ID": 4365575823,
+                    "nombre": "Valeria",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 3796858885,
+                    "nombre": "Camila",
+                    "apellido": "Ram\u00edrez"
+                },
+                {
+                    "ID": 2499233058,
+                    "nombre": "Valeria",
+                    "apellido": "G\u00f3mez"
+                },
+                {
+                    "ID": 9168273911,
+                    "nombre": "Pedro",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 7453600291,
+                    "nombre": "Ana",
+                    "apellido": "Ram\u00edrez"
+                },
+                {
+                    "ID": 9421600876,
+                    "nombre": "Luc\u00eda",
+                    "apellido": "Torres"
+                },
+                {
+                    "ID": 8280305078,
+                    "nombre": "Gabriela",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 3475712085,
+                    "nombre": "Luc\u00eda",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 9635954126,
+                    "nombre": "Luis",
+                    "apellido": "Morales"
+                },
+                {
+                    "ID": 9707253050,
+                    "nombre": "David",
+                    "apellido": "S\u00e1nchez"
+                },
+                {
+                    "ID": 9696732838,
+                    "nombre": "Carlos",
+                    "apellido": "Torres"
+                },
+                {
+                    "ID": 8039164904,
+                    "nombre": "Luis",
+                    "apellido": "Garc\u00eda"
+                },
+                {
+                    "ID": 3548694287,
+                    "nombre": "Luc\u00eda",
+                    "apellido": "Garc\u00eda"
+                }
+            ],
+            "J1": [
+                {
+                    "ID": 1049291388,
+                    "nombre": "Danny",
+                    "apellido": "Guerrero"
+                },
+                {
+                    "ID": 1097099391,
+                    "nombre": "Santiago",
+                    "apellido": "Aguilar"
+                },
+                {
+                    "ID": 1000000001,
+                    "nombre": "Ana",
+                    "apellido": "L\u00c3\u00b3pez"
+                },
+                {
+                    "ID": 1000000002,
+                    "nombre": "Juan",
+                    "apellido": "G\u00c3\u00b3mez"
+                },
+                {
+                    "ID": 1000000003,
+                    "nombre": "Laura",
+                    "apellido": "Mart\u00c3\u00adnez"
+                },
+                {
+                    "ID": 1000000004,
+                    "nombre": "Carlos",
+                    "apellido": "Rodr\u00c3\u00adguez"
+                },
+                {
+                    "ID": 1000000005,
+                    "nombre": "Sof\u00c3\u00ada",
+                    "apellido": "Hern\u00c3\u00a1ndez"
+                },
+                {
+                    "ID": 1000000006,
+                    "nombre": "Diego",
+                    "apellido": "P\u00c3\u00a9rez"
+                },
+                {
+                    "ID": 1000000007,
+                    "nombre": "Valentina",
+                    "apellido": "Garc\u00c3\u00ada"
+                },
+                {
+                    "ID": 1000000008,
+                    "nombre": "Mateo",
+                    "apellido": "Fern\u00c3\u00a1ndez"
+                },
+                {
+                    "ID": 1000000009,
+                    "nombre": "Isabella",
+                    "apellido": "D\u00c3\u00adaz"
+                },
+                {
+                    "ID": 1000000010,
+                    "nombre": "Sebasti\u00c3\u00a1n",
+                    "apellido": "S\u00c3\u00a1nchez"
+                },
+                {
+                    "ID": 1000000011,
+                    "nombre": "Camila",
+                    "apellido": "Ram\u00c3\u00adrez"
+                },
+                {
+                    "ID": 1000000012,
+                    "nombre": "Nicol\u00c3\u00a1s",
+                    "apellido": "Torres"
+                },
+                {
+                    "ID": 1000000013,
+                    "nombre": "Valeria",
+                    "apellido": "Flores"
+                },
+                {
+                    "ID": 1000000014,
+                    "nombre": "Samuel",
+                    "apellido": "Ortega"
+                },
+                {
+                    "ID": 1000000015,
+                    "nombre": "Mariana",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 1000000016,
+                    "nombre": "Daniel",
+                    "apellido": "Castro"
+                },
+                {
+                    "ID": 1000000017,
+                    "nombre": "Alejandra",
+                    "apellido": "Rojas"
+                },
+                {
+                    "ID": 1000000018,
+                    "nombre": "David",
+                    "apellido": "Mendoza"
+                },
+                {
+                    "ID": 1000000019,
+                    "nombre": "Gabriela",
+                    "apellido": "Guerrero"
+                },
+                {
+                    "ID": 1000000020,
+                    "nombre": "Juli\u00c3\u00a1n",
+                    "apellido": "Herrera"
+                },
+                {
+                    "ID": 1000000021,
+                    "nombre": "Luc\u00c3\u00ada",
+                    "apellido": "Morales"
+                },
+                {
+                    "ID": 1000000022,
+                    "nombre": "Emilio",
+                    "apellido": "Ortiz"
+                },
+                {
+                    "ID": 1000000023,
+                    "nombre": "Ximena",
+                    "apellido": "Guti\u00c3\u00a9rrez"
+                },
+                {
+                    "ID": 1000000024,
+                    "nombre": "Andr\u00c3\u00a9s",
+                    "apellido": "Jim\u00c3\u00a9nez"
+                },
+                {
+                    "ID": 1000000025,
+                    "nombre": "Paula",
+                    "apellido": "Ruiz"
+                },
+                {
+                    "ID": 1000000026,
+                    "nombre": "Miguel",
+                    "apellido": "Silva"
+                },
+                {
+                    "ID": 1000000027,
+                    "nombre": "Renata",
+                    "apellido": "Reyes"
+                },
+                {
+                    "ID": 1000000028,
+                    "nombre": "Joaqu\u00c3\u00adn",
+                    "apellido": "Navarro"
+                },
+                {
+                    "ID": 1000000029,
+                    "nombre": "Antonella",
+                    "apellido": "Molina"
+                },
+                {
+                    "ID": 1000000030,
+                    "nombre": "Maximiliano",
+                    "apellido": "Cruz"
+                },
+                {
+                    "ID": 1000000031,
+                    "nombre": "Regina",
+                    "apellido": "Vega"
+                }
+            ]
         },
         "HorarioB": {
-            "P2": [],
-            "M2": [],
-            "J2": [],
-            "JC2": []
+            "P2": [
+                {
+                    "ID": 1049291388,
+                    "nombre": "Danny",
+                    "apellido": "Guerrero"
+                },
+                {
+                    "ID": 1097099391,
+                    "nombre": "Santiago",
+                    "apellido": "Aguilar"
+                },
+                {
+                    "ID": 1000000001,
+                    "nombre": "Ana",
+                    "apellido": "L\u00c3\u00b3pez"
+                },
+                {
+                    "ID": 1000000002,
+                    "nombre": "Juan",
+                    "apellido": "G\u00c3\u00b3mez"
+                },
+                {
+                    "ID": 1000000003,
+                    "nombre": "Laura",
+                    "apellido": "Mart\u00c3\u00adnez"
+                },
+                {
+                    "ID": 1000000004,
+                    "nombre": "Carlos",
+                    "apellido": "Rodr\u00c3\u00adguez"
+                },
+                {
+                    "ID": 1000000005,
+                    "nombre": "Sof\u00c3\u00ada",
+                    "apellido": "Hern\u00c3\u00a1ndez"
+                },
+                {
+                    "ID": 1000000006,
+                    "nombre": "Diego",
+                    "apellido": "P\u00c3\u00a9rez"
+                },
+                {
+                    "ID": 1000000007,
+                    "nombre": "Valentina",
+                    "apellido": "Garc\u00c3\u00ada"
+                },
+                {
+                    "ID": 1000000008,
+                    "nombre": "Mateo",
+                    "apellido": "Fern\u00c3\u00a1ndez"
+                },
+                {
+                    "ID": 1000000009,
+                    "nombre": "Isabella",
+                    "apellido": "D\u00c3\u00adaz"
+                },
+                {
+                    "ID": 1000000010,
+                    "nombre": "Sebasti\u00c3\u00a1n",
+                    "apellido": "S\u00c3\u00a1nchez"
+                },
+                {
+                    "ID": 1000000011,
+                    "nombre": "Camila",
+                    "apellido": "Ram\u00c3\u00adrez"
+                },
+                {
+                    "ID": 1000000012,
+                    "nombre": "Nicol\u00c3\u00a1s",
+                    "apellido": "Torres"
+                },
+                {
+                    "ID": 1000000013,
+                    "nombre": "Valeria",
+                    "apellido": "Flores"
+                },
+                {
+                    "ID": 1000000014,
+                    "nombre": "Samuel",
+                    "apellido": "Ortega"
+                },
+                {
+                    "ID": 1000000015,
+                    "nombre": "Mariana",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 1000000016,
+                    "nombre": "Daniel",
+                    "apellido": "Castro"
+                },
+                {
+                    "ID": 1000000017,
+                    "nombre": "Alejandra",
+                    "apellido": "Rojas"
+                },
+                {
+                    "ID": 1000000018,
+                    "nombre": "David",
+                    "apellido": "Mendoza"
+                },
+                {
+                    "ID": 1000000019,
+                    "nombre": "Gabriela",
+                    "apellido": "Guerrero"
+                },
+                {
+                    "ID": 1000000020,
+                    "nombre": "Juli\u00c3\u00a1n",
+                    "apellido": "Herrera"
+                },
+                {
+                    "ID": 1000000021,
+                    "nombre": "Luc\u00c3\u00ada",
+                    "apellido": "Morales"
+                },
+                {
+                    "ID": 1000000022,
+                    "nombre": "Emilio",
+                    "apellido": "Ortiz"
+                },
+                {
+                    "ID": 1000000023,
+                    "nombre": "Ximena",
+                    "apellido": "Guti\u00c3\u00a9rrez"
+                },
+                {
+                    "ID": 1000000024,
+                    "nombre": "Andr\u00c3\u00a9s",
+                    "apellido": "Jim\u00c3\u00a9nez"
+                },
+                {
+                    "ID": 1000000025,
+                    "nombre": "Paula",
+                    "apellido": "Ruiz"
+                },
+                {
+                    "ID": 1000000026,
+                    "nombre": "Miguel",
+                    "apellido": "Silva"
+                },
+                {
+                    "ID": 1000000027,
+                    "nombre": "Renata",
+                    "apellido": "Reyes"
+                },
+                {
+                    "ID": 1000000028,
+                    "nombre": "Joaqu\u00c3\u00adn",
+                    "apellido": "Navarro"
+                },
+                {
+                    "ID": 1000000029,
+                    "nombre": "Antonella",
+                    "apellido": "Molina"
+                },
+                {
+                    "ID": 1000000030,
+                    "nombre": "Maximiliano",
+                    "apellido": "Cruz"
+                },
+                {
+                    "ID": 1000000031,
+                    "nombre": "Regina",
+                    "apellido": "Vega"
+                }
+            ],
+            "M2": [
+                {
+                    "ID": 1049291388,
+                    "nombre": "Danny",
+                    "apellido": "Guerrero"
+                },
+                {
+                    "ID": 1097099391,
+                    "nombre": "Santiago",
+                    "apellido": "Aguilar"
+                },
+                {
+                    "ID": 1000000001,
+                    "nombre": "Ana",
+                    "apellido": "L\u00c3\u00b3pez"
+                },
+                {
+                    "ID": 1000000002,
+                    "nombre": "Juan",
+                    "apellido": "G\u00c3\u00b3mez"
+                },
+                {
+                    "ID": 1000000003,
+                    "nombre": "Laura",
+                    "apellido": "Mart\u00c3\u00adnez"
+                },
+                {
+                    "ID": 1000000004,
+                    "nombre": "Carlos",
+                    "apellido": "Rodr\u00c3\u00adguez"
+                },
+                {
+                    "ID": 1000000005,
+                    "nombre": "Sof\u00c3\u00ada",
+                    "apellido": "Hern\u00c3\u00a1ndez"
+                },
+                {
+                    "ID": 1000000006,
+                    "nombre": "Diego",
+                    "apellido": "P\u00c3\u00a9rez"
+                },
+                {
+                    "ID": 1000000007,
+                    "nombre": "Valentina",
+                    "apellido": "Garc\u00c3\u00ada"
+                },
+                {
+                    "ID": 1000000008,
+                    "nombre": "Mateo",
+                    "apellido": "Fern\u00c3\u00a1ndez"
+                },
+                {
+                    "ID": 1000000009,
+                    "nombre": "Isabella",
+                    "apellido": "D\u00c3\u00adaz"
+                },
+                {
+                    "ID": 1000000010,
+                    "nombre": "Sebasti\u00c3\u00a1n",
+                    "apellido": "S\u00c3\u00a1nchez"
+                },
+                {
+                    "ID": 1000000011,
+                    "nombre": "Camila",
+                    "apellido": "Ram\u00c3\u00adrez"
+                },
+                {
+                    "ID": 1000000012,
+                    "nombre": "Nicol\u00c3\u00a1s",
+                    "apellido": "Torres"
+                },
+                {
+                    "ID": 1000000013,
+                    "nombre": "Valeria",
+                    "apellido": "Flores"
+                },
+                {
+                    "ID": 1000000014,
+                    "nombre": "Samuel",
+                    "apellido": "Ortega"
+                },
+                {
+                    "ID": 1000000015,
+                    "nombre": "Mariana",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 1000000016,
+                    "nombre": "Daniel",
+                    "apellido": "Castro"
+                },
+                {
+                    "ID": 1000000017,
+                    "nombre": "Alejandra",
+                    "apellido": "Rojas"
+                },
+                {
+                    "ID": 1000000018,
+                    "nombre": "David",
+                    "apellido": "Mendoza"
+                },
+                {
+                    "ID": 1000000019,
+                    "nombre": "Gabriela",
+                    "apellido": "Guerrero"
+                },
+                {
+                    "ID": 1000000020,
+                    "nombre": "Juli\u00c3\u00a1n",
+                    "apellido": "Herrera"
+                },
+                {
+                    "ID": 1000000021,
+                    "nombre": "Luc\u00c3\u00ada",
+                    "apellido": "Morales"
+                },
+                {
+                    "ID": 1000000022,
+                    "nombre": "Emilio",
+                    "apellido": "Ortiz"
+                },
+                {
+                    "ID": 1000000023,
+                    "nombre": "Ximena",
+                    "apellido": "Guti\u00c3\u00a9rrez"
+                },
+                {
+                    "ID": 1000000024,
+                    "nombre": "Andr\u00c3\u00a9s",
+                    "apellido": "Jim\u00c3\u00a9nez"
+                },
+                {
+                    "ID": 1000000025,
+                    "nombre": "Paula",
+                    "apellido": "Ruiz"
+                },
+                {
+                    "ID": 1000000026,
+                    "nombre": "Miguel",
+                    "apellido": "Silva"
+                },
+                {
+                    "ID": 1000000027,
+                    "nombre": "Renata",
+                    "apellido": "Reyes"
+                },
+                {
+                    "ID": 1000000028,
+                    "nombre": "Joaqu\u00c3\u00adn",
+                    "apellido": "Navarro"
+                },
+                {
+                    "ID": 1000000029,
+                    "nombre": "Antonella",
+                    "apellido": "Molina"
+                },
+                {
+                    "ID": 1000000030,
+                    "nombre": "Maximiliano",
+                    "apellido": "Cruz"
+                },
+                {
+                    "ID": 1000000031,
+                    "nombre": "Regina",
+                    "apellido": "Vega"
+                }
+            ],
+            "J2": [
+                {
+                    "ID": 1000000032,
+                    "nombre": "Thiago",
+                    "apellido": "Campos"
+                },
+                {
+                    "ID": 1000000033,
+                    "nombre": "Florencia",
+                    "apellido": "Fuentes"
+                },
+                {
+                    "ID": 1000000034,
+                    "nombre": "Benjam\u00c3\u00adn",
+                    "apellido": "R\u00c3\u00ados"
+                },
+                {
+                    "ID": 1000000035,
+                    "nombre": "Catalina",
+                    "apellido": "Medina"
+                },
+                {
+                    "ID": 1000000036,
+                    "nombre": "Ignacio",
+                    "apellido": "Soto"
+                },
+                {
+                    "ID": 1000000037,
+                    "nombre": "Constanza",
+                    "apellido": "Lara"
+                },
+                {
+                    "ID": 1000000038,
+                    "nombre": "Mat\u00c3\u00adas",
+                    "apellido": "Miranda"
+                },
+                {
+                    "ID": 1000000039,
+                    "nombre": "Victoria",
+                    "apellido": "Santos"
+                },
+                {
+                    "ID": 1000000040,
+                    "nombre": "Emilia",
+                    "apellido": "Cort\u00c3\u00a9s"
+                },
+                {
+                    "ID": 1000000041,
+                    "nombre": "Leonardo",
+                    "apellido": "N\u00c3\u00ba\u00c3\u00b1ez"
+                },
+                {
+                    "ID": 1000000042,
+                    "nombre": "Martina",
+                    "apellido": "Paredes"
+                },
+                {
+                    "ID": 1000000043,
+                    "nombre": "Bruno",
+                    "apellido": "Cabrera"
+                },
+                {
+                    "ID": 1000000044,
+                    "nombre": "Abril",
+                    "apellido": "Pe\u00c3\u00b1a"
+                },
+                {
+                    "ID": 1000000045,
+                    "nombre": "Dante",
+                    "apellido": "C\u00c3\u00a1rdenas"
+                },
+                {
+                    "ID": 1000000046,
+                    "nombre": "Julieta",
+                    "apellido": "Aguirre"
+                },
+                {
+                    "ID": 1000000047,
+                    "nombre": "Luciano",
+                    "apellido": "Bravo"
+                },
+                {
+                    "ID": 1000000048,
+                    "nombre": "Amelia",
+                    "apellido": "Salazar"
+                },
+                {
+                    "ID": 1000000049,
+                    "nombre": "Carlos",
+                    "apellido": "G\u00c3\u00b3mez"
+                },
+                {
+                    "ID": 1000000050,
+                    "nombre": "Sof\u00c3\u00ada",
+                    "apellido": "L\u00c3\u00b3pez"
+                },
+                {
+                    "ID": 1000000051,
+                    "nombre": "Javier",
+                    "apellido": "Mart\u00c3\u00adnez"
+                },
+                {
+                    "ID": 1000000052,
+                    "nombre": "Valentina",
+                    "apellido": "Garc\u00c3\u00ada"
+                },
+                {
+                    "ID": 1000000053,
+                    "nombre": "Diego",
+                    "apellido": "Rodr\u00c3\u00adguez"
+                },
+                {
+                    "ID": 1000000054,
+                    "nombre": "Camila",
+                    "apellido": "Hern\u00c3\u00a1ndez"
+                },
+                {
+                    "ID": 1000000055,
+                    "nombre": "Andr\u00c3\u00a9s",
+                    "apellido": "D\u00c3\u00adaz"
+                },
+                {
+                    "ID": 1000000056,
+                    "nombre": "Mariana",
+                    "apellido": "P\u00c3\u00a9rez"
+                },
+                {
+                    "ID": 1000000057,
+                    "nombre": "Sebasti\u00c3\u00a1n",
+                    "apellido": "S\u00c3\u00a1nchez"
+                },
+                {
+                    "ID": 1000000058,
+                    "nombre": "Isabella",
+                    "apellido": "Ram\u00c3\u00adrez"
+                },
+                {
+                    "ID": 1000000059,
+                    "nombre": "Mateo",
+                    "apellido": "Flores"
+                },
+                {
+                    "ID": 1000000060,
+                    "nombre": "Valeria",
+                    "apellido": "Torres"
+                },
+                {
+                    "ID": 1000000061,
+                    "nombre": "Nicol\u00c3\u00a1s",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 1000000062,
+                    "nombre": "Luc\u00c3\u00ada",
+                    "apellido": "Guti\u00c3\u00a9rrez"
+                },
+                {
+                    "ID": 1000000063,
+                    "nombre": "Juan",
+                    "apellido": "Castro"
+                },
+                {
+                    "ID": 1000000064,
+                    "nombre": "Gabriela",
+                    "apellido": "Rojas"
+                }
+            ]
         },
         "HorarioC": {
-            "P3": [],
+            "P3": [
+                {
+                    "ID": 1000000032,
+                    "nombre": "Thiago",
+                    "apellido": "Campos"
+                },
+                {
+                    "ID": 1000000033,
+                    "nombre": "Florencia",
+                    "apellido": "Fuentes"
+                },
+                {
+                    "ID": 1000000034,
+                    "nombre": "Benjam\u00c3\u00adn",
+                    "apellido": "R\u00c3\u00ados"
+                },
+                {
+                    "ID": 1000000035,
+                    "nombre": "Catalina",
+                    "apellido": "Medina"
+                },
+                {
+                    "ID": 1000000036,
+                    "nombre": "Ignacio",
+                    "apellido": "Soto"
+                },
+                {
+                    "ID": 1000000037,
+                    "nombre": "Constanza",
+                    "apellido": "Lara"
+                },
+                {
+                    "ID": 1000000038,
+                    "nombre": "Mat\u00c3\u00adas",
+                    "apellido": "Miranda"
+                },
+                {
+                    "ID": 1000000039,
+                    "nombre": "Victoria",
+                    "apellido": "Santos"
+                },
+                {
+                    "ID": 1000000040,
+                    "nombre": "Emilia",
+                    "apellido": "Cort\u00c3\u00a9s"
+                },
+                {
+                    "ID": 1000000041,
+                    "nombre": "Leonardo",
+                    "apellido": "N\u00c3\u00ba\u00c3\u00b1ez"
+                },
+                {
+                    "ID": 1000000042,
+                    "nombre": "Martina",
+                    "apellido": "Paredes"
+                },
+                {
+                    "ID": 1000000043,
+                    "nombre": "Bruno",
+                    "apellido": "Cabrera"
+                },
+                {
+                    "ID": 1000000044,
+                    "nombre": "Abril",
+                    "apellido": "Pe\u00c3\u00b1a"
+                },
+                {
+                    "ID": 1000000045,
+                    "nombre": "Dante",
+                    "apellido": "C\u00c3\u00a1rdenas"
+                },
+                {
+                    "ID": 1000000046,
+                    "nombre": "Julieta",
+                    "apellido": "Aguirre"
+                },
+                {
+                    "ID": 1000000047,
+                    "nombre": "Luciano",
+                    "apellido": "Bravo"
+                },
+                {
+                    "ID": 1000000048,
+                    "nombre": "Amelia",
+                    "apellido": "Salazar"
+                },
+                {
+                    "ID": 1000000049,
+                    "nombre": "Carlos",
+                    "apellido": "G\u00c3\u00b3mez"
+                },
+                {
+                    "ID": 1000000050,
+                    "nombre": "Sof\u00c3\u00ada",
+                    "apellido": "L\u00c3\u00b3pez"
+                },
+                {
+                    "ID": 1000000051,
+                    "nombre": "Javier",
+                    "apellido": "Mart\u00c3\u00adnez"
+                },
+                {
+                    "ID": 1000000052,
+                    "nombre": "Valentina",
+                    "apellido": "Garc\u00c3\u00ada"
+                },
+                {
+                    "ID": 1000000053,
+                    "nombre": "Diego",
+                    "apellido": "Rodr\u00c3\u00adguez"
+                },
+                {
+                    "ID": 1000000054,
+                    "nombre": "Camila",
+                    "apellido": "Hern\u00c3\u00a1ndez"
+                },
+                {
+                    "ID": 1000000055,
+                    "nombre": "Andr\u00c3\u00a9s",
+                    "apellido": "D\u00c3\u00adaz"
+                },
+                {
+                    "ID": 1000000056,
+                    "nombre": "Mariana",
+                    "apellido": "P\u00c3\u00a9rez"
+                },
+                {
+                    "ID": 1000000057,
+                    "nombre": "Sebasti\u00c3\u00a1n",
+                    "apellido": "S\u00c3\u00a1nchez"
+                },
+                {
+                    "ID": 1000000058,
+                    "nombre": "Isabella",
+                    "apellido": "Ram\u00c3\u00adrez"
+                },
+                {
+                    "ID": 1000000059,
+                    "nombre": "Mateo",
+                    "apellido": "Flores"
+                },
+                {
+                    "ID": 1000000060,
+                    "nombre": "Valeria",
+                    "apellido": "Torres"
+                },
+                {
+                    "ID": 1000000061,
+                    "nombre": "Nicol\u00c3\u00a1s",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 1000000062,
+                    "nombre": "Luc\u00c3\u00ada",
+                    "apellido": "Guti\u00c3\u00a9rrez"
+                },
+                {
+                    "ID": 1000000063,
+                    "nombre": "Juan",
+                    "apellido": "Castro"
+                },
+                {
+                    "ID": 1000000064,
+                    "nombre": "Gabriela",
+                    "apellido": "Rojas"
+                }
+            ],
             "M3": [],
-            "J3": [],
-            "C1": []
+            "J3": [
+                {
+                    "ID": 1000000065,
+                    "nombre": "Samuel",
+                    "apellido": "Mendoza"
+                },
+                {
+                    "ID": 1000000066,
+                    "nombre": "Emma",
+                    "apellido": "Guerrero"
+                },
+                {
+                    "ID": 1000000067,
+                    "nombre": "Daniel",
+                    "apellido": "R\u00c3\u00ados"
+                },
+                {
+                    "ID": 1000000068,
+                    "nombre": "Victoria",
+                    "apellido": "Morales"
+                },
+                {
+                    "ID": 1000000069,
+                    "nombre": "David",
+                    "apellido": "Ortiz"
+                },
+                {
+                    "ID": 1000000070,
+                    "nombre": "Mar\u00c3\u00ada",
+                    "apellido": "Cruz"
+                },
+                {
+                    "ID": 1000000071,
+                    "nombre": "Jos\u00c3\u00a9",
+                    "apellido": "Navarro"
+                },
+                {
+                    "ID": 1000000072,
+                    "nombre": "Sara",
+                    "apellido": "Jim\u00c3\u00a9nez"
+                },
+                {
+                    "ID": 1000000073,
+                    "nombre": "Tom\u00c3\u00a1s",
+                    "apellido": "Ruiz"
+                },
+                {
+                    "ID": 1000000074,
+                    "nombre": "Paula",
+                    "apellido": "Serrano"
+                },
+                {
+                    "ID": 1000000075,
+                    "nombre": "Lucas",
+                    "apellido": "Molina"
+                },
+                {
+                    "ID": 1000000076,
+                    "nombre": "Ana",
+                    "apellido": "Su\u00c3\u00a1rez"
+                },
+                {
+                    "ID": 1000000077,
+                    "nombre": "Miguel",
+                    "apellido": "Aguilar"
+                },
+                {
+                    "ID": 1000000078,
+                    "nombre": "Elena",
+                    "apellido": "Romero"
+                },
+                {
+                    "ID": 1000000079,
+                    "nombre": "Adri\u00c3\u00a1n",
+                    "apellido": "Ortega"
+                },
+                {
+                    "ID": 1000000080,
+                    "nombre": "Clara",
+                    "apellido": "Delgado"
+                },
+                {
+                    "ID": 1000000081,
+                    "nombre": "Jorge",
+                    "apellido": "Cort\u00c3\u00a9s"
+                },
+                {
+                    "ID": 1000000082,
+                    "nombre": "Laura",
+                    "apellido": "Guzm\u00c3\u00a1n"
+                },
+                {
+                    "ID": 1000000083,
+                    "nombre": "Pablo",
+                    "apellido": "Vega"
+                },
+                {
+                    "ID": 1000000084,
+                    "nombre": "Carmen",
+                    "apellido": "Santos"
+                },
+                {
+                    "ID": 1000000085,
+                    "nombre": "Alejandro",
+                    "apellido": "Lara"
+                },
+                {
+                    "ID": 1000000086,
+                    "nombre": "Marta",
+                    "apellido": "Campos"
+                },
+                {
+                    "ID": 1000000087,
+                    "nombre": "Ra\u00c3\u00bal",
+                    "apellido": "Fuentes"
+                },
+                {
+                    "ID": 1000000088,
+                    "nombre": "Rosa",
+                    "apellido": "M\u00c3\u00a9ndez"
+                },
+                {
+                    "ID": 1000000089,
+                    "nombre": "Fernando",
+                    "apellido": "Reyes"
+                },
+                {
+                    "ID": 1000000090,
+                    "nombre": "Silvia",
+                    "apellido": "Le\u00c3\u00b3n"
+                },
+                {
+                    "ID": 1000000091,
+                    "nombre": "Hugo",
+                    "apellido": "Miranda"
+                },
+                {
+                    "ID": 1000000092,
+                    "nombre": "Eva",
+                    "apellido": "N\u00c3\u00ba\u00c3\u00b1ez"
+                },
+                {
+                    "ID": 1000000093,
+                    "nombre": "Alberto",
+                    "apellido": "Iglesias"
+                },
+                {
+                    "ID": 1000000094,
+                    "nombre": "Natalia",
+                    "apellido": "Paredes"
+                },
+                {
+                    "ID": 1000000095,
+                    "nombre": "Roberto",
+                    "apellido": "Cabrera"
+                },
+                {
+                    "ID": 109833492423,
+                    "nombre": "Santiago Daniel",
+                    "apellido": "Vargas Pico"
+                },
+                {
+                    "ID": 1821381823,
+                    "nombre": "Santiago Juan",
+                    "apellido": "Vargas Guerrero"
+                }
+            ]
         },
         "HorarioD": {
-            "P4": [],
-            "M4": [],
-            "J4": [],
-            "C2": []
+            "P4": [
+                {
+                    "ID": 1000000065,
+                    "nombre": "Samuel",
+                    "apellido": "Mendoza"
+                },
+                {
+                    "ID": 1000000066,
+                    "nombre": "Emma",
+                    "apellido": "Guerrero"
+                },
+                {
+                    "ID": 1000000067,
+                    "nombre": "Daniel",
+                    "apellido": "R\u00c3\u00ados"
+                },
+                {
+                    "ID": 1000000068,
+                    "nombre": "Victoria",
+                    "apellido": "Morales"
+                },
+                {
+                    "ID": 1000000069,
+                    "nombre": "David",
+                    "apellido": "Ortiz"
+                },
+                {
+                    "ID": 1000000070,
+                    "nombre": "Mar\u00c3\u00ada",
+                    "apellido": "Cruz"
+                },
+                {
+                    "ID": 1000000071,
+                    "nombre": "Jos\u00c3\u00a9",
+                    "apellido": "Navarro"
+                },
+                {
+                    "ID": 1000000072,
+                    "nombre": "Sara",
+                    "apellido": "Jim\u00c3\u00a9nez"
+                },
+                {
+                    "ID": 1000000073,
+                    "nombre": "Tom\u00c3\u00a1s",
+                    "apellido": "Ruiz"
+                },
+                {
+                    "ID": 1000000074,
+                    "nombre": "Paula",
+                    "apellido": "Serrano"
+                },
+                {
+                    "ID": 1000000075,
+                    "nombre": "Lucas",
+                    "apellido": "Molina"
+                },
+                {
+                    "ID": 1000000076,
+                    "nombre": "Ana",
+                    "apellido": "Su\u00c3\u00a1rez"
+                },
+                {
+                    "ID": 1000000077,
+                    "nombre": "Miguel",
+                    "apellido": "Aguilar"
+                },
+                {
+                    "ID": 1000000078,
+                    "nombre": "Elena",
+                    "apellido": "Romero"
+                },
+                {
+                    "ID": 1000000079,
+                    "nombre": "Adri\u00c3\u00a1n",
+                    "apellido": "Ortega"
+                },
+                {
+                    "ID": 1000000080,
+                    "nombre": "Clara",
+                    "apellido": "Delgado"
+                },
+                {
+                    "ID": 1000000081,
+                    "nombre": "Jorge",
+                    "apellido": "Cort\u00c3\u00a9s"
+                },
+                {
+                    "ID": 1000000082,
+                    "nombre": "Laura",
+                    "apellido": "Guzm\u00c3\u00a1n"
+                },
+                {
+                    "ID": 1000000083,
+                    "nombre": "Pablo",
+                    "apellido": "Vega"
+                },
+                {
+                    "ID": 1000000084,
+                    "nombre": "Carmen",
+                    "apellido": "Santos"
+                },
+                {
+                    "ID": 1000000085,
+                    "nombre": "Alejandro",
+                    "apellido": "Lara"
+                },
+                {
+                    "ID": 1000000086,
+                    "nombre": "Marta",
+                    "apellido": "Campos"
+                },
+                {
+                    "ID": 1000000087,
+                    "nombre": "Ra\u00c3\u00bal",
+                    "apellido": "Fuentes"
+                },
+                {
+                    "ID": 1000000088,
+                    "nombre": "Rosa",
+                    "apellido": "M\u00c3\u00a9ndez"
+                },
+                {
+                    "ID": 1000000089,
+                    "nombre": "Fernando",
+                    "apellido": "Reyes"
+                },
+                {
+                    "ID": 1000000090,
+                    "nombre": "Silvia",
+                    "apellido": "Le\u00c3\u00b3n"
+                },
+                {
+                    "ID": 1000000091,
+                    "nombre": "Hugo",
+                    "apellido": "Miranda"
+                },
+                {
+                    "ID": 1000000092,
+                    "nombre": "Eva",
+                    "apellido": "N\u00c3\u00ba\u00c3\u00b1ez"
+                },
+                {
+                    "ID": 1000000093,
+                    "nombre": "Alberto",
+                    "apellido": "Iglesias"
+                },
+                {
+                    "ID": 1000000094,
+                    "nombre": "Natalia",
+                    "apellido": "Paredes"
+                },
+                {
+                    "ID": 1000000095,
+                    "nombre": "Roberto",
+                    "apellido": "Cabrera"
+                },
+                {
+                    "ID": 109833492423,
+                    "nombre": "Santiago Daniel",
+                    "apellido": "Vargas Pico"
+                },
+                {
+                    "ID": 1821381823,
+                    "nombre": "Santiago Juan",
+                    "apellido": "Vargas Guerrero"
+                }
+            ],
+            "M4": [
+                {
+                    "ID": 1049291388,
+                    "nombre": "Danny",
+                    "apellido": "Guerrero"
+                },
+                {
+                    "ID": 1097099391,
+                    "nombre": "Santiago",
+                    "apellido": "Aguilar"
+                },
+                {
+                    "ID": 1000000001,
+                    "nombre": "Ana",
+                    "apellido": "L\u00c3\u00b3pez"
+                },
+                {
+                    "ID": 1000000002,
+                    "nombre": "Juan",
+                    "apellido": "G\u00c3\u00b3mez"
+                },
+                {
+                    "ID": 1000000003,
+                    "nombre": "Laura",
+                    "apellido": "Mart\u00c3\u00adnez"
+                },
+                {
+                    "ID": 1000000004,
+                    "nombre": "Carlos",
+                    "apellido": "Rodr\u00c3\u00adguez"
+                },
+                {
+                    "ID": 1000000005,
+                    "nombre": "Sof\u00c3\u00ada",
+                    "apellido": "Hern\u00c3\u00a1ndez"
+                },
+                {
+                    "ID": 1000000006,
+                    "nombre": "Diego",
+                    "apellido": "P\u00c3\u00a9rez"
+                },
+                {
+                    "ID": 1000000007,
+                    "nombre": "Valentina",
+                    "apellido": "Garc\u00c3\u00ada"
+                },
+                {
+                    "ID": 1000000008,
+                    "nombre": "Mateo",
+                    "apellido": "Fern\u00c3\u00a1ndez"
+                },
+                {
+                    "ID": 1000000009,
+                    "nombre": "Isabella",
+                    "apellido": "D\u00c3\u00adaz"
+                },
+                {
+                    "ID": 1000000010,
+                    "nombre": "Sebasti\u00c3\u00a1n",
+                    "apellido": "S\u00c3\u00a1nchez"
+                },
+                {
+                    "ID": 1000000011,
+                    "nombre": "Camila",
+                    "apellido": "Ram\u00c3\u00adrez"
+                },
+                {
+                    "ID": 1000000012,
+                    "nombre": "Nicol\u00c3\u00a1s",
+                    "apellido": "Torres"
+                },
+                {
+                    "ID": 1000000013,
+                    "nombre": "Valeria",
+                    "apellido": "Flores"
+                },
+                {
+                    "ID": 1000000014,
+                    "nombre": "Samuel",
+                    "apellido": "Ortega"
+                },
+                {
+                    "ID": 1000000015,
+                    "nombre": "Mariana",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 1000000016,
+                    "nombre": "Daniel",
+                    "apellido": "Castro"
+                },
+                {
+                    "ID": 1000000017,
+                    "nombre": "Alejandra",
+                    "apellido": "Rojas"
+                },
+                {
+                    "ID": 1000000018,
+                    "nombre": "David",
+                    "apellido": "Mendoza"
+                },
+                {
+                    "ID": 1000000019,
+                    "nombre": "Gabriela",
+                    "apellido": "Guerrero"
+                },
+                {
+                    "ID": 1000000020,
+                    "nombre": "Juli\u00c3\u00a1n",
+                    "apellido": "Herrera"
+                },
+                {
+                    "ID": 1000000021,
+                    "nombre": "Luc\u00c3\u00ada",
+                    "apellido": "Morales"
+                },
+                {
+                    "ID": 1000000022,
+                    "nombre": "Emilio",
+                    "apellido": "Ortiz"
+                },
+                {
+                    "ID": 1000000023,
+                    "nombre": "Ximena",
+                    "apellido": "Guti\u00c3\u00a9rrez"
+                },
+                {
+                    "ID": 1000000024,
+                    "nombre": "Andr\u00c3\u00a9s",
+                    "apellido": "Jim\u00c3\u00a9nez"
+                },
+                {
+                    "ID": 1000000025,
+                    "nombre": "Paula",
+                    "apellido": "Ruiz"
+                },
+                {
+                    "ID": 1000000026,
+                    "nombre": "Miguel",
+                    "apellido": "Silva"
+                },
+                {
+                    "ID": 1000000027,
+                    "nombre": "Renata",
+                    "apellido": "Reyes"
+                },
+                {
+                    "ID": 1000000028,
+                    "nombre": "Joaqu\u00c3\u00adn",
+                    "apellido": "Navarro"
+                },
+                {
+                    "ID": 1000000029,
+                    "nombre": "Antonella",
+                    "apellido": "Molina"
+                },
+                {
+                    "ID": 1000000030,
+                    "nombre": "Maximiliano",
+                    "apellido": "Cruz"
+                },
+                {
+                    "ID": 1000000031,
+                    "nombre": "Regina",
+                    "apellido": "Vega"
+                }
+            ],
+            "J4": [
+                {
+                    "ID": 19392183822,
+                    "nombre": "Sofia",
+                    "apellido": "Duran"
+                },
+                {
+                    "ID": 5203779532,
+                    "nombre": "Emilio",
+                    "apellido": "Mart\u00ednez"
+                },
+                {
+                    "ID": 2434883346,
+                    "nombre": "Emilio",
+                    "apellido": "L\u00f3pez"
+                },
+                {
+                    "ID": 6641013705,
+                    "nombre": "Pedro",
+                    "apellido": "Garc\u00eda"
+                },
+                {
+                    "ID": 6132081075,
+                    "nombre": "Jorge",
+                    "apellido": "Mart\u00ednez"
+                },
+                {
+                    "ID": 2336809243,
+                    "nombre": "Sof\u00eda",
+                    "apellido": "Garc\u00eda"
+                },
+                {
+                    "ID": 3602321745,
+                    "nombre": "Camila",
+                    "apellido": "Mart\u00ednez"
+                },
+                {
+                    "ID": 5300907882,
+                    "nombre": "Carlos",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 7732818391,
+                    "nombre": "Carlos",
+                    "apellido": "Morales"
+                },
+                {
+                    "ID": 6218519404,
+                    "nombre": "Carlos",
+                    "apellido": "Morales"
+                },
+                {
+                    "ID": 2637447129,
+                    "nombre": "Carlos",
+                    "apellido": "D\u00edaz"
+                },
+                {
+                    "ID": 5389517512,
+                    "nombre": "Gabriela",
+                    "apellido": "Garc\u00eda"
+                },
+                {
+                    "ID": 2429740039,
+                    "nombre": "Gabriela",
+                    "apellido": "Mart\u00ednez"
+                },
+                {
+                    "ID": 3542795317,
+                    "nombre": "Luc\u00eda",
+                    "apellido": "Mart\u00ednez"
+                },
+                {
+                    "ID": 8409634258,
+                    "nombre": "Luis",
+                    "apellido": "Garc\u00eda"
+                },
+                {
+                    "ID": 8836830223,
+                    "nombre": "Carlos",
+                    "apellido": "Torres"
+                },
+                {
+                    "ID": 2877834380,
+                    "nombre": "Luc\u00eda",
+                    "apellido": "S\u00e1nchez"
+                },
+                {
+                    "ID": 7286777162,
+                    "nombre": "Emilio",
+                    "apellido": "G\u00f3mez"
+                },
+                {
+                    "ID": 6332311240,
+                    "nombre": "Pedro",
+                    "apellido": "Morales"
+                },
+                {
+                    "ID": 8632756085,
+                    "nombre": "Luis",
+                    "apellido": "L\u00f3pez"
+                },
+                {
+                    "ID": 4365575823,
+                    "nombre": "Valeria",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 3796858885,
+                    "nombre": "Camila",
+                    "apellido": "Ram\u00edrez"
+                },
+                {
+                    "ID": 2499233058,
+                    "nombre": "Valeria",
+                    "apellido": "G\u00f3mez"
+                },
+                {
+                    "ID": 9168273911,
+                    "nombre": "Pedro",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 7453600291,
+                    "nombre": "Ana",
+                    "apellido": "Ram\u00edrez"
+                },
+                {
+                    "ID": 9421600876,
+                    "nombre": "Luc\u00eda",
+                    "apellido": "Torres"
+                },
+                {
+                    "ID": 8280305078,
+                    "nombre": "Gabriela",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 3475712085,
+                    "nombre": "Luc\u00eda",
+                    "apellido": "Vargas"
+                },
+                {
+                    "ID": 9635954126,
+                    "nombre": "Luis",
+                    "apellido": "Morales"
+                },
+                {
+                    "ID": 9707253050,
+                    "nombre": "David",
+                    "apellido": "S\u00e1nchez"
+                },
+                {
+                    "ID": 9696732838,
+                    "nombre": "Carlos",
+                    "apellido": "Torres"
+                },
+                {
+                    "ID": 8039164904,
+                    "nombre": "Luis",
+                    "apellido": "Garc\u00eda"
+                },
+                {
+                    "ID": 3548694287,
+                    "nombre": "Luc\u00eda",
+                    "apellido": "Garc\u00eda"
+                }
+            ]
         }
     }
 }
