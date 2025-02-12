@@ -5,7 +5,7 @@ from Logic.Camper import *
 from Logic.Trainer import *
 
 cam=abrirJSON
-
+asignarestruta()
 while True:
     try:
         MenuPrincipal()  # Mostrar menú principal
@@ -35,13 +35,13 @@ while True:
                 if x==1:
                     VerNotasJava()
                 elif x==2:
-                    VerNotasNetCore
+                    VerNotasNetCore()
                 elif x==3:
-                    VerNotasNodeJS
+                    VerNotasNodeJS()
                 else:
                     break
             elif opc == 2:
-                EditarnotaJava()
+                VerNotas()
             elif opc == 3:
                 Vercamper()
             elif opc == 4:

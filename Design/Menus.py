@@ -54,6 +54,17 @@ def MenuTrainer():
 =   3. Ver estudiantes   =
 ==========================
           ''')
+
+def MenuTrainerEle():
+    print('''
+    ==========================
+    =   ¿Qué deseas hacer?   =
+    ==========================
+    =   1. Ver notas         =
+    =   2. Editar notas      =
+    =   3. Ver estudiantes   =
+    ==========================
+          ''')
     
 def Menucordinadora():
     print('''

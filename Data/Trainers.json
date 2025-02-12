@@ -10,12 +10,6 @@
 
         {"Nombre":"Miguel",
          "Jornada":"FullTime",
-         "Ruta":".NET"},
-
-        {"Nombre":"Juan Carlos",
-          "Jornada":"MidTime"},
-
-        {"Nombre":"Carlos Rueda",
-         "Jornada":"MidTime"}
+         "Ruta":".NET"}
 ]
 }
