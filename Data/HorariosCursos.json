@@ -1,7 +1,51 @@
 {
     "Horarios": {
         "HorarioA": {
-            "P1": [],
+            "P1": [{
+                "ID": 19392183822,
+                "nombre": "Sofia",
+                "apellido": "Duran"
+            },
+            {
+                "ID": 5203779532,
+                "nombre": "Emilio",
+                "apellido": "Mart\u00ednez"
+            },
+            {
+                "ID": 2434883346,
+                "nombre": "Emilio",
+                "apellido": "L\u00f3pez"
+            },
+            {
+                "ID": 6641013705,
+                "nombre": "Pedro",
+                "apellido": "Garc\u00eda"
+            },
+            {
+                "ID": 6132081075,
+                "nombre": "Jorge",
+                "apellido": "Mart\u00ednez"
+            },
+            {
+                "ID": 2336809243,
+                "nombre": "Sof\u00eda",
+                "apellido": "Garc\u00eda"
+            },
+            {
+                "ID": 3602321745,
+                "nombre": "Camila",
+                "apellido": "Mart\u00ednez"
+            },
+            {
+                "ID": 5300907882,
+                "nombre": "Carlos",
+                "apellido": "Vargas"
+            },
+            {
+                "ID": 7732818391,
+                "nombre": "Carlos",
+                "apellido": "Morales"
+            }],
             "M1": [
                 {
                     "ID": 19392183822,
@@ -1008,7 +1052,36 @@
                     "apellido": "Rojas"
                 }
             ],
-            "M3": [],
+            "M3": [{
+                "ID": 9168273911,
+                "nombre": "Pedro",
+                "apellido": "Vargas"
+            },
+            {
+                "ID": 7453600291,
+                "nombre": "Ana",
+                "apellido": "Ram\u00edrez"
+            },
+            {
+                "ID": 9421600876,
+                "nombre": "Luc\u00eda",
+                "apellido": "Torres"
+            },
+            {
+                "ID": 8280305078,
+                "nombre": "Gabriela",
+                "apellido": "Vargas"
+            },
+            {
+                "ID": 3475712085,
+                "nombre": "Luc\u00eda",
+                "apellido": "Vargas"
+            },
+            {
+                "ID": 9635954126,
+                "nombre": "Luis",
+                "apellido": "Morales"
+            }],
             "J3": [
                 {
                     "ID": 1000000065,
