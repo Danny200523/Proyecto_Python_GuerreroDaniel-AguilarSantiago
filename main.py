@@ -5,7 +5,7 @@ from Logic.Camper import *
 from Logic.Trainer import *
 
 cam=abrirJSON
-asignarestruta()
+
 while True:
     try:
         MenuPrincipal()  # Mostrar menú principal
@@ -33,11 +33,14 @@ while True:
                 print("(3) NetCore")
                 x=int(input(": "))
                 if x==1:
-                    VerNotasJava()
+                    ##VerNotasJava()
+                    pass
                 elif x==2:
-                    VerNotasNetCore()
+                    ##VerNotasNetCore()
+                    pass
                 elif x==3:
-                    VerNotasNodeJS()
+                    ##VerNotasNodeJS()
+                    pass
                 else:
                     break
             elif opc == 2:
@@ -51,6 +54,7 @@ while True:
             opc = int(input("Seleccione una opción: "))
             if opc == 1:
                 Aggcamper()
+                asignarestruta()
             elif opc == 2:
                 Editarcamper()
             elif opc == 3:
