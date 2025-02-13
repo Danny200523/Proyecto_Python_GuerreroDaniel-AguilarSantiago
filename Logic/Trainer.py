@@ -69,7 +69,13 @@ def EstudiantesNotas():
     ##Seleccionar Nota a Editar
     notaSeleccionada = validarOpcion("Seleccione el numero de la nota que va a editar",1, 3)
     # Verificar que ruta se ha seleccionado
-    
+    if notaSeleccionada == 1:
+        rutas["Rutas"][SelRuta][SelecSkill][SelEstudiante-1]["Notas"]["notaProyecto"] = int(input("Ingrese la nueva nota: "))
+    elif notaSeleccionada == 2:
+        rutas["Rutas"][SelRuta][SelecSkill][SelEstudiante-1]["Notas"]["notaFiltro"] = int(input("Ingrese la nueva nota: "))
+    elif notaSeleccionada == 3:
+        rutas["Rutas"][SelRuta][SelecSkill][SelEstudiante-1]["Notas"]["notaTrabajos"] = int(input("Ingrese la nueva nota: "))
+    guardarJSO(rutas)
     ##Falta promediar notas
 
 # Funcion para validar una opcion entre un numero y otro
@@ -86,8 +92,8 @@ def validarOpcion(message, initialValue, finalValue):
             # Si el usuario escoge una opcion incorrecta repetimos el bucle
             print(f"Escoge un numero entre {initialValue} y {finalValue}")
 
-EstudiantesNotas()
-#P
+
+#P  
 def EditarNotas():
     verEstudiantes()
     SelRuta = input("Ingrese qué ruta tiene su grupo: ")
@@ -96,6 +102,18 @@ def EditarNotas():
     NuevaNota = int(input("Ingrese la nueva nota: "))
     rutas["Rutas"][SelRuta][SelecSkill]
     guardarJSO()
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -8,7 +8,8 @@ cam=abrirJSON
 
 while True:
     try:
-        MenuPrincipal()  # Mostrar menú principal
+        MenuPrincipal()
+        asignarriesgo()  # Mostrar menú principal
         opc = int(input("Seleccione una opción: "))
         os.system("clear")
 
@@ -44,7 +45,7 @@ while True:
                 else:
                     break
             elif opc == 2:
-                VerNotas()
+                pass
             elif opc == 3:
                 Vercamper()
             elif opc == 4:
@@ -66,6 +67,19 @@ while True:
             elif opc == 6:
                 agregarnuevaruta()
             elif opc == 7:
+                MenuReportes()
+                opc = int(input("Seleccione una opción: "))
+                if opc == 1:
+                    vercampersinscritos()
+                elif opc == 2:
+                    campersexameninicial()
+                elif opc == 3:
+                    vertrainers()
+                elif opc == 4:
+                    campersriesgoalto()
+                elif opc == 5:
+                    break
+            elif opc == 8:
                 break  # Regresar al menú principal
         elif opc == 4:
             print("GRACIAS POR USAR EL SISTEMA")

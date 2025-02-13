@@ -77,7 +77,19 @@ def Menucordinadora():
 =   (4).Eliminar estudiante             =
 =   (5).Agregar estudiante a curso      =
 =   (6).Agregar nueva ruta de estudio   =
-=   (7). Volver al menu principal       =
+=   (7). Ver menu de reportes           =
+=   (8). Volver al menu principal       =
 =========================================
           ''')
     
+def MenuReportes():
+    print('''
+==============================================
+=             ¿Que desea hacer?              =
+==============================================
+=(1).Ver campers en estado inscrito          =
+=(2).Ver campers que aprobaron examen inicial=
+=(3).Ver trainers                            =
+=(4).Mostrar campers con riesgo alto         =
+==============================================
+            ''')

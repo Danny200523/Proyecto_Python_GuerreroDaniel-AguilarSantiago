@@ -1,53 +1,60 @@
 import json
+import random
+import datetime
 def abrirJSON():
     dicFinal={}
-    with open('Data/campers.json',"r") as openFile:
+    with open('../Data/campers.json',"r") as openFile:
         dicFinal=json.load(openFile)
     return dicFinal
 
 def guardarJSON(dic):
-    with open("Data/campers.json",'w') as outFile:
+    with open("../Data/campers.json",'w') as outFile:
         json.dump(dic,outFile)
 
 def abrirJSO():
     dicFinal={}
-    with open('Data/Rutas.json',"r") as openFile:
+    with open('../Data/Rutas.json',"r") as openFile:
         dicFinal=json.load(openFile)
     return dicFinal
 
 def guardarJSO(dic):
-    with open("Data/Rutas.json",'w') as outFile:
+    with open("../Data/Rutas.json",'w') as outFile:
         json.dump(dic,outFile)
 
 def abrirJS():
     dicFinal={}
-    with open("Data/HorariosCursos.json","r") as openFile:
+    with open("../Data/HorariosCursos.json","r") as openFile:
         dicFinal=json.load(openFile)
     return dicFinal
 
 def guardarJS(dic):
-    with open("Data/HorariosCursos.json",'w') as outFile:
+    with open("../Data/HorariosCursos.json",'w') as outFile:
         json.dump(dic,outFile)
 
+def abrirJ():
+    dicFinal={}
+    with open("../Data/Trainers.json","r") as openFile:
+        dicFinal=json.load(openFile)
+    return dicFinal
+
+def guardarJ(dic):
+    with open("../Data/Trainers.json",'w') as outFile:
+        json.dump(dic,outFile)
+
+train={}
 camp={}
 rut={}
 Hor={}
 camp=abrirJSON()
 rut=abrirJSO()
 Hor=abrirJS()
+train=abrirJ()
 
 #FUNCION TIEMPO (Para llamr después)
-def asignar_fechas(camp):
-    """
-    Asigna una fecha de inicio con la fecha actual y una fecha de finalización 10 meses después.
-    """
-    fecha_inicio = datetime.today()
-    fecha_fin = fecha_inicio + timedelta(days=10 * 30)  # Aproximadamente 10 meses
-
-    camp["Campers"]["fechaInicio"] = fecha_inicio.strftime("%d/%m/%Y")
-    camp["fechaFin"] = fecha_fin.strftime("%d/%m/%Y")
-    
-    return camp
+fecha_inicio = datetime.today()
+fecha_fin = fecha_inicio + datetime.timedelta(days=10 * 30)  # Aproximadamente 10 meses
+camp["Campers"]["fechaInicio"] = fecha_inicio.strftime("%d/%m/%Y")
+camp["fechaFin"] = fecha_fin.strftime("%d/%m/%Y")
 ##FUNCIONES COORDINADORA
 def Aggcamper():
     print("Ingrese el documento de identidad del nuevo Camper")
@@ -78,8 +85,11 @@ def Aggcamper():
                             "acudientes":acu,
                             "#celular":cel,
                             "Estado":estado,
-                            "Curso":""})
-    asignar_fechas()
+                            "Curso":"",
+                            "Riesgo": "",
+                            "notainicial": random.randint(0, 100),
+                            "fechaInicio": fecha_inicio,
+                            "fechaFin": fecha_fin})
     guardarJSON(camp)
     
 def Vercamper():
@@ -415,8 +425,10 @@ def asignacionnotainical():
     print("Ingrese la nueva nota")
     nt=int(input(": "))
     camp["Campers"][x-1]["notainicial"]=nt
-    
+
 def AggcamperCurso():
+
+
     Vercamper() 
     print("A qué estudiante desea agregar al curso?") 
     estudiante = int(input(": ")) 
@@ -450,8 +462,65 @@ def AggcamperCurso():
                                                             "apellido":camp["Campers"][estudiante-1]["apellido"]
                                                             })
             guardarJS(Hor)
-        
 
-    
+def vercampersinscritos():
+    for i in range(len(camp["Campers"])):
+        if camp["Campers"][i]["Estado"]["Inscrito"]:
+            print("ID: ",camp["Campers"][i]["ID"])
+            print("Nombre: ",camp["Campers"][i]["nombre"])
+            print("Apellido: ",camp["Campers"][i]["apellido"])
+            print("Direccion: ",camp["Campers"][i]["direccion"])
+            print("Acudiente: ",camp["Campers"][i]["acudientes"])
+            print("#Celular: ",camp["Campers"][i]["#celular"])
+            print("Estado: ",camp["Campers"][i]["Estado"])
+
+def campersexameninicial():
+    for i in range(len(camp["Campers"])):
+        if camp["Campers"][i]["notainicial"]>=7:
+            print("ID: ",camp["Campers"][i]["ID"])
+            print("Nombre: ",camp["Campers"][i]["nombre"])
+            print("Apellido: ",camp["Campers"][i]["apellido"])
+            print("Direccion: ",camp["Campers"][i]["direccion"])
+            print("Acudiente: ",camp["Campers"][i]["acudientes"])
+            print("#Celular: ",camp["Campers"][i]["#celular"])
+            print("Estado: ",camp["Campers"][i]["Estado"])
+            print("Nota examen inicial: ",camp["Campers"][i]["notainicial"])
+
+def vertrainers():
+    for i in range(len(train["Trainers"])):
+        print("Nombre: ",train["Trainers"][i]["nombre"])
+
+def campersriesgoalto():
+    for i in range(len(camp["Campers"])):
+        if camp["Campers"][i]["Riesgo"] == "Alto":
+            print("ID: ",camp["Campers"][i]["ID"])
+            print("Nombre: ",camp["Campers"][i]["nombre"])
+            print("Apellido: ",camp["Campers"][i]["apellido"])
+            print("Estado: ",camp["Campers"][i]["Estado"])
+            print("Riesgo: ",camp["Campers"][i]["Riesgo"])
+
+def asignarriesgo():
+    for i in range(len(rut["Rutas"]["Java"]["Intro"])):
+        if rut["Rutas"]["Java"]["Intro"][i]["Notas"]["notaFinal"] < 7:
+            camp["Campers"][i]["Riesgo"] = "Alto"
+        elif rut["Rutas"]["Java"]["Intro"][i]["Notas"]["notaFinal"] < 8:
+            camp["Campers"][i]["Riesgo"] = "Medio"
+        else:  
+            camp["Campers"][i]["Riesgo"] = "Bajo"
+    for i in range(len(rut["Rutas"]["NodeJS"]["Intro"])):
+        if rut["Rutas"]["NodeJS"]["Intro"][i]["Notas"]["notaFinal"] < 7:
+            camp["Campers"][i]["Riesgo"] = "Alto"
+        elif rut["Rutas"]["NodeJS"]["Intro"][i]["Notas"]["notaFinal"] < 8:
+            camp["Campers"][i]["Riesgo"] = "Medio"
+        else:
+            camp["Campers"][i]["Riesgo"] = "Bajo"
+    for i in range(len(rut["Rutas"]["NetCore"]["Intro"])):
+        if rut["Rutas"]["NetCore"]["Intro"][i]["Notas"]["notaFinal"] < 7:
+            camp["Campers"][i]["Riesgo"] = "Alto"
+        elif rut["Rutas"]["NetCore"]["Intro"][i]["Notas"]["notaFinal"] < 8:
+            camp["Campers"][i]["Riesgo"] = "Medio"
+        else:
+            camp["Campers"][i]["Riesgo"] = "Bajo"
+    guardarJSON(camp)
 ##Crear una contrasena para el usuario trainner  
 #pero igual solo cree el menu las funciones las implementamos en el main
