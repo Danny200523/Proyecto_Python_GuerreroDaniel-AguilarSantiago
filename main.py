@@ -18,6 +18,7 @@ while True:
             opc = int(input("Seleccione una opción: "))
             if opc == 1:
                 SiInscrito()
+                vernota()
             elif opc == 2:
                 MenuInscripcionCamper()
                 Incripcion()
@@ -34,18 +35,18 @@ while True:
                 print("(3) NetCore")
                 x=int(input(": "))
                 if x==1:
-                    ##VerNotasJava()
+                    VerNotasJava()
                     pass
                 elif x==2:
-                    ##VerNotasNetCore()
+                    VerNotasNetCore()
                     pass
                 elif x==3:
-                    ##VerNotasNodeJS()
+                    VerNotasNodeJS()
                     pass
                 else:
                     break
             elif opc == 2:
-                pass
+                EditarNotas()
             elif opc == 3:
                 Vercamper()
             elif opc == 4:

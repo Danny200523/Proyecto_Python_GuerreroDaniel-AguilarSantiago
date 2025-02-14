@@ -3,37 +3,37 @@ import random
 import datetime
 def abrirJSON():
     dicFinal={}
-    with open('../Data/campers.json',"r") as openFile:
+    with open('./Data/campers.json',"r") as openFile:
         dicFinal=json.load(openFile)
     return dicFinal
 
 def guardarJSON(dic):
-    with open("../Data/campers.json",'w') as outFile:
+    with open("./Data/campers.json",'w') as outFile:
         json.dump(dic,outFile)
 
 def abrirJSO():
     dicFinal={}
-    with open('../Data/Rutas.json',"r") as openFile:
+    with open('./Data/Rutas.json',"r") as openFile:
         dicFinal=json.load(openFile)
     return dicFinal
 
 def guardarJSO(dic):
-    with open("../Data/Rutas.json",'w') as outFile:
+    with open("./Data/Rutas.json",'w') as outFile:
         json.dump(dic,outFile)
 
 def abrirJS():
     dicFinal={}
-    with open("../Data/HorariosCursos.json","r") as openFile:
+    with open("./Data/HorariosCursos.json","r") as openFile:
         dicFinal=json.load(openFile)
     return dicFinal
 
 def guardarJS(dic):
-    with open("../Data/HorariosCursos.json",'w') as outFile:
+    with open("./Data/HorariosCursos.json",'w') as outFile:
         json.dump(dic,outFile)
 
 def abrirJ():
     dicFinal={}
-    with open("../Data/Trainers.json","r") as openFile:
+    with open("./Data/Trainers.json","r") as openFile:
         dicFinal=json.load(openFile)
     return dicFinal
 
@@ -51,10 +51,8 @@ Hor=abrirJS()
 train=abrirJ()
 
 #FUNCION TIEMPO (Para llamr después)
-fecha_inicio = datetime.today()
+fecha_inicio = datetime.date(2025,2,14)
 fecha_fin = fecha_inicio + datetime.timedelta(days=10 * 30)  # Aproximadamente 10 meses
-camp["Campers"]["fechaInicio"] = fecha_inicio.strftime("%d/%m/%Y")
-camp["fechaFin"] = fecha_fin.strftime("%d/%m/%Y")
 ##FUNCIONES COORDINADORA
 def Aggcamper():
     print("Ingrese el documento de identidad del nuevo Camper")
