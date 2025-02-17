@@ -5,12 +5,16 @@ Se elaboró un programa para administrar los registros, clases y demás para los
 ## TABLA DE CONTENIDOS 
 | Módulos | Descripción  |
 | -- | -- |
-| Lógica  | En estos módulos se encuentra la lógica para el programa. Se hace uso de condicionales, bucles y demás herramientas presentes en el lenguaje implementado. |
-| Diseño  | En este módulo se encuentra el apartado de los menús, en los cuáles solamente se imprime para tener la parte frontal del programa.                         |
-| Data    | En este módulo podemos encontrar las bases de datos en .json para hacer uso posteriormente de ellas.                                                       
+| __Lógica__  | En estos módulos se encuentra la lógica para el programa. Se hace uso de condicionales, bucles y demás herramientas presentes en el lenguaje implementado. |
+| __Diseño__  | En este módulo se encuentra el apartado de los menús, en los cuáles solamente se imprime para tener la parte frontal del programa.                         |
+| __Data__    | En este módulo podemos encontrar las bases de datos en .json para hacer uso posteriormente de ellas.                                                       
 
 ## INSTALACIÓN
 Para ejecutar este programa es necesario tener algún intérprete de Python instalado.
 
+## EXPLICACIÓN
+Para ejecutar este programa desde la terminal, se usa el comando `cd ../Ruta/` y una vez dentro del directorio, ejecutar mediante `python3 main`
 
+>[!NOTE]
+> Tener cuidado con la función datetime
 
