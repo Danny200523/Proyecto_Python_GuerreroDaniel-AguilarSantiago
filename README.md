@@ -13,7 +13,7 @@ Se elaboró un programa para administrar los registros, clases y demás para los
 Para ejecutar este programa es necesario tener algún intérprete de Python instalado.
 
 ## EXPLICACIÓN
-Para ejecutar este programa desde la terminal, se usa el comando `cd ../Ruta/` y una vez dentro del directorio, ejecutar mediante `python3 main`
+Para ejecutar este programa desde la terminal, se usa el comando `cd ../Ruta/` y una vez dentro del directorio, ejecutar mediante `python3 main` . Una vez ejecutado el código se presentarán las opciones de usuario, trainer o administrador.
 
 >[!NOTE]
 > Tener cuidado con la función datetime
